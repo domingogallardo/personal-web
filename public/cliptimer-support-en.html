@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ClipTimer Support</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            padding: 40px;
+            max-width: 640px;
+            color: #333;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 22px;
+            margin-top: 30px;
+        }
+        a {
+            color: #007aff;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #888;
+        }
+        .version {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .new-feature {
+            background-color: #f0f8ff;
+            padding: 10px;
+            border-left: 4px solid #007aff;
+            margin: 15px 0;
+        }
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-365VJFEQJT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);} 
+      gtag('js', new Date());
+      gtag('config', 'G-365VJFEQJT');
+    </script>
+</head>
+<body>
+
+<h1>ClipTimer Support</h1>
+<div class="version">Version 1.3.5</div>
+
+<p>Thank you for using <strong>ClipTimer</strong>!</p>
+
+<p>If you have questions, suggestions, or encounter any issues, feel free to reach out directly at:</p>
+
+<p><strong>Email:</strong> <a href="mailto:domingo.gallardo@gmail.com">domingo.gallardo@gmail.com</a></p>
+
+<h2>What's New in Version 1.3.5</h2>
+
+<div class="new-feature">
+    <strong>🧮 New: Time arithmetic in the Task Editor</strong><br>
+    Enter expressions like <code>4:29:32 - 2:09:00 + 45</code> and ClipTimer will calculate the total for you.
+</div>
+<ul>
+    <li><strong>Task Editor window positioning</strong><br>
+        The editor now opens aligned next to the main window for faster side-by-side edits.
+    </li>
+    <li><strong>Timers keep updating in menus</strong><br>
+        Timer updates now run in the common run loop, so menu bar timers keep ticking even while menus are open.
+    </li>
+    <li><strong>Localization improvements</strong><br>
+        Added Simplified Chinese and refined Spanish/localization handling across the app.
+    </li>
+    <li><strong>App Store language metadata</strong><br>
+        English App Store localization added for clearer store presentation.
+    </li>
+</ul>
+
+<h2>What's New in Version 1.3.1</h2>
+
+<div class="new-feature">
+    <strong>✅ New: Finish and Restart tasks</strong><br>
+    You can mark tasks as finished and restart them whenever you need. Finished tasks appear <em>struck through</em> and won't start until you restart them.
+</div>
+<ul>
+    <li><strong>⌘F shortcut</strong><br>
+        Quickly finish the active task.
+    </li>
+    <li><strong>Help & localisation</strong><br>
+        Updated texts and minor fixes.
+    </li>
+</ul>
+
+<h2>What's New in Version 1.2</h2>
+
+<div class="new-feature">
+    <strong>✏️ New: Task Editor Window</strong><br>
+    A dedicated window for writing and editing your tasks using a clean, text-based interface.
+</div>
+<ul>
+    <li><strong>Guided text input</strong><br>
+        Add tasks using the placeholder format <code>- Task Name: 1:30:00</code> with helpful hints.
+    </li>
+    <li><strong>Lightning-fast shortcuts</strong><br>
+        Open the editor with <strong>⌘E</strong>, replace all tasks with <strong>⌘⏎</strong>, or append new ones with <strong>⇧⌘⏎</strong>.
+    </li>
+    <li><strong>Built-in time parsing</strong><br>
+        Automatically recognises time formats (e.g. <code>1:30:00</code>) and assigns them to tasks.
+    </li>
+</ul>
+
+<div class="new-feature">
+    <strong>🚀 Improved: Auto-pause on quit</strong><br>
+    Keeps your active task safe by automatically pausing it and saving progress when you quit the app.
+</div>
+<ul>
+    <li><strong>Real-time data persistence</strong><br>
+        Tasks and times are saved instantly so you never lose work, even if the app closes unexpectedly.
+    </li>
+    <li><strong>Reliable task state management</strong><br>
+        Seamlessly switch, pause, and resume tasks with confidence.
+    </li>
+    <li><strong>Background tracking</strong><br>
+        The timer continues even when you close your laptop lid or minimise the app.
+    </li>
+    <li><strong>Blinking menu bar indicator</strong><br>
+        Immediate visual feedback whenever a task is active.
+    </li>
+</ul>
+
+<h2>Frequently Asked Questions (FAQ)</h2>
+
+<ul>
+    <li><strong>How do I open the Task Editor?</strong><br>
+        Click the <strong>✏️ Editor</strong> button in the header or press <strong>⌘E</strong>.
+    </li>
+    <li><strong>How do I enter tasks in the editor?</strong><br>
+        Type each task on its own line using <code>- Task Name: 1:30:00</code>. Press <strong>⌘⏎</strong> to replace all tasks or <strong>⇧⌘⏎</strong> to append them.
+    </li>
+    <li><strong>How do I paste tasks from the clipboard?</strong><br>
+        Use <strong>⌘V</strong> to replace all tasks or <strong>⇧⌘V</strong> to append them.
+    </li>
+    <li><strong>How do I start, pause, finish, or resume tasks?</strong><br>
+        Click a task or use shortcuts: <strong>⌘P</strong> to pause, <strong>⌘R</strong> to resume the last paused task, and <strong>⌘F</strong> to finish the active task. You can also right‑click a task to <code>Finish</code> or <code>Restart</code>.
+    </li>
+    <li><strong>How can I see if a task is running?</strong><br>
+        The menu bar icon blinks gently while a task is active.
+    </li>
+    <li><strong>How do I copy a summary of my tasks?</strong><br>
+        Press <strong>⌘C</strong> to copy a time summary for all tasks to the clipboard.
+    </li>
+    <li><strong>What happens when I close my MacBook lid?</strong><br>
+        ClipTimer keeps tracking the active task in the background—you won't lose a second.
+    </li>
+    <li><strong>What happens when I quit the app?</strong><br>
+        ClipTimer automatically pauses your active task and saves all progress.
+    </li>
+    <li><strong>Are my tasks saved automatically?</strong><br>
+        Absolutely! All changes are saved instantly—no manual action required.
+    </li>
+</ul>
+
+<h2>Privacy Policy</h2>
+
+<p>ClipTimer does not collect or store any personal data. All tasks and related information are stored locally on your Mac. No data is transmitted or shared externally.</p>
+
+<p>For more details, visit the app's page on the Mac App Store:</p>
+
+<p><a href="https://apps.apple.com/es/app/cliptimer/id6746253223">ClipTimer on the Mac App Store</a></p>
+
+<div class="footer">
+    © 2025 Domingo Gallardo. All rights reserved.
+</div>
+
+</body>
+</html>
