@@ -1,0 +1,24 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ $all := site.Data.publications | default (slice) }}
+<ul class="list">
+  {{ range sort $all "year" "desc" }}
+    <li>
+      {{ with .citation }}
+        {{ . }}
+      {{ else }}
+        {{ .title }}. {{ .authors }}. <em>{{ .venue }}</em>, {{ .year }}.
+      {{ end }}
+      <span class="pub-links">
+        {{ with .links.pdf }}[<a href="{{ . }}">pdf</a>]{{ end }}
+        {{ with .links.doi }}[<a href="{{ . }}">doi</a>]{{ end }}
+        {{ with .links.code }}[<a href="{{ . }}">code</a>]{{ end }}
+        {{ with .links.bib }}[<a href="{{ . }}">bib</a>]{{ end }}
+      </span>
+      {{ with .summary }}
+        <div class="meta">{{ . | markdownify }}</div>
+      {{ end }}
+    </li>
+  {{ end }}
+</ul>
+{{ end }}

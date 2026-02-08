@@ -1,0 +1,12 @@
+- name: "ClipTimer"
+  desc: "App para macOS para seguimiento de tareas y tiempos con integración de portapapeles."
+  github: "https://github.com/domingogallardo/ClipTimer"
+  appstore: "https://apps.apple.com/us/app/cliptimer/id6746253223"
+
+- name: "docflow"
+  desc: "Pipeline personal para procesar, priorizar y publicar documentación."
+  github: "https://github.com/domingogallardo/docflow"
+
+- name: "SwiftWABackupAPI"
+  desc: "API en Swift para explorar backups de WhatsApp en iOS."
+  github: "https://github.com/domingogallardo/SwiftWABackupAPI"

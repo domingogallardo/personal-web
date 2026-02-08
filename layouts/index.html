@@ -1,0 +1,35 @@
+{{ define "main" }}
+<section class="section">
+  <div class="about-grid">
+    <div class="about-text">
+      {{ $parts := split site.Title " " }}
+      {{ $first := index $parts 0 }}
+      {{ $last := index $parts (sub (len $parts) 1) }}
+      {{ $middle := "" }}
+      {{ if gt (len $parts) 2 }}
+        {{ $middle = delimit (first (sub (len $parts) 2) (after 1 $parts)) " " }}
+      {{ end }}
+      <h1>
+        <span class="first">{{ $first }}</span>{{ if $middle }} {{ $middle }}{{ end }}{{ if gt (len $parts) 1 }} <span class="last">{{ $last }}</span>{{ end }}
+      </h1>
+      {{ with site.Params.subtitle }}
+        <p class="subtitle">{{ . }}</p>
+      {{ end }}
+      {{ if site.Params.profile_links }}
+        <p class="inline-links">
+          {{ range $i, $link := site.Params.profile_links }}
+            {{ if $i }} · {{ end }}<a href="{{ $link.url }}" target="_blank" rel="noopener">{{ $link.name }}</a>
+          {{ end }}
+        </p>
+      {{ end }}
+      {{ with site.Params.about }}
+        {{ . | markdownify }}
+      {{ end }}
+    </div>
+    <div class="about-photo">
+      <img src="/{{ site.Params.avatar }}{{ if hugo.IsServer }}?v={{ now.Unix }}{{ end }}" alt="Foto de {{ site.Title }}">
+    </div>
+  </div>
+</section>
+
+{{ end }}

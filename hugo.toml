@@ -1,0 +1,68 @@
+baseURL = "https://domingogallardo.com/"
+title = "Domingo Gallardo"
+languageCode = "es-es"
+defaultContentLanguage = "es"
+
+timeZone = "Europe/Madrid"
+pagination.pagerSize = 10
+enableRobotsTXT = true
+summaryLength = 30
+
+[params]
+  description = "Web personal, publicaciones y proyectos."
+  subtitle = "Computer Science · Alicante, Spain"
+  avatar = "images/yo.jpg"
+  about = """
+ 
+Profesor Titular de la Universidad de Alicante retirado. Formé parte del 
+[Departamento de Ciencia de la Computación e Inteligencia Artificial](https://web.ua.es/es/dccia/), 
+donde impartí docencia en grados y másteres de Informática en asignaturas como 
+*Lenguajes y Paradigmas de Programación*, *Metodologías Ágiles de Desarrollo de Software* 
+y *Servicios de las Plataformas Móviles* (iOS). Mi [tesis doctoral (1999)](/papers/gallardo-tesis.pdf) trató sobre 
+navegación en interiores de un robot móvil usando sensores de ultrasonidos.
+
+Me interesa la inteligencia artificial, con foco en los modelos de lenguaje (LLMs) 
+y su evolución reciente (entrenamiento, post-training, evaluación y uso como 
+componentes de sistemas más complejos). También me interesan el aprendizaje por refuerzo 
+y la robótica.
+
+Además, desarrollo software por interés personal 
+(a menudo en el ecosistema Apple, con Swift) y mantengo proyectos abiertos en 
+[GitHub](https://github.com/domingogallardo) orientados a herramientas pequeñas y reutilizables. 
+En mi [newsletter](https://domingogallardo.substack.com) comento ideas y lecturas sobre IA, 
+tecnología y ciencia, intentando aportar contexto y detalle más allá del titular.
+"""
+
+[[params.profile_links]]
+  name = "GitHub"
+  url = "https://github.com/domingogallardo"
+
+[[params.profile_links]]
+  name = "Scholar"
+  url = "https://scholar.google.com/citations?user=qi7V9nUAAAAJ&hl=en"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/"
+    weight = 5
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Research"
+    url = "/publications/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Software"
+    url = "/software/"
+    weight = 30
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 40

@@ -1,0 +1,49 @@
+- title: "Comportamientos coordinados en formaciones de robots usando percepción visual y comunicación punto a punto"
+  authors: "Antonio Botía, Domingo Gallardo, María I. Alfonso"
+  venue: "Actas del VII Workshop de Agentes Físicos (WAF 2006), Las Palmas de Gran Canaria"
+  year: 2006
+  citation: "Botía, A.; Gallardo, D.; Alfonso, M. I. (2006). Comportamientos coordinados en formaciones de robots usando percepción visual y comunicación punto a punto. En Actas del VII Workshop de Agentes Físicos (WAF’2006), Las Palmas de Gran Canaria (27–28 abr. 2006), pp. 11–18."
+  summary: "Propone comportamientos coordinados en formaciones de robots mediante percepción visual y comunicación punto a punto, integrando el control cooperativo de la formación con intercambio local de información entre agentes, para mantener estructuras de movimiento robustas en escenarios dinámicos."
+  links:
+    pdf: "/papers/botia-gallardo-alfonso-2006-comportamientos-coordinados.pdf"
+
+- title: "Visual homing navigation with two landmarks: The balanced proportional triangulation method"
+  authors: "José F. Bonora, Domingo Gallardo"
+  venue: "2006 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2006), Beijing"
+  year: 2006
+  citation: "Bonora, J. F.; Gallardo, D. (2006). Visual homing navigation with two landmarks: The balanced proportional triangulation method. En 2006 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2006), pp. 2289–2295, Beijing (9–15 oct. 2006)."
+  summary: "Propone un método de visual homing usando solo dos landmarks, sin brújula ni conocimiento previo de su posición o tamaño real, calculando la ruta al punto home mediante triangulación/trilateración a partir de información angular y del tamaño aparente observado, con trayectorias rectilíneas y eficientes."
+  links:
+    pdf: "/papers/bonora-gallardo-2006-visual-homing-two-landmarks.pdf"
+
+- title: "A genetic algorithm for robust motion planning"
+  authors: "Domingo Gallardo, Otto Colomina, Francisco Flórez, Ramón Rizo"
+  venue: "11th International Conference on Industrial and Engineering Applications of Artificial Intelligence and Expert Systems (IEA/AIE 1998)"
+  year: 1998
+  citation: "Gallardo, D.; Colomina, O.; Flórez, F.; Rizo, R. (1998). A genetic algorithm for robust motion planning. En International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems, pp. 115–121, Springer Berlin Heidelberg (jun. 1998)."
+  summary: "Propone un algoritmo genético para planificar trayectorias robustas y subóptimas en el espacio de velocidades de un robot móvil, introduciendo ruido acumulativo en la evaluación de la función de fitness y ajustes en el propio algoritmo para contemplar esa incertidumbre, con resultados experimentales en distintos entornos y niveles de ruido."
+  links:
+    pdf: "/papers/gallardo98b-IEAAIE.pdf"
+
+- title: "Estimación bayesiana de características en robots móviles mediante muestreo de la densidad a posteriori"
+  authors: "Domingo Gallardo, Francisco Escolano, Otto Colomina, Ramón Rizo, Miguel A. Cazorla"
+  venue: "I Congrés Català d'Intel·ligència Artificial, Tarragona"
+  year: 1998
+  citation: "Gallardo, D.; Escolano, F.; Rizo, R.; Colomina, O.; Cazorla, M. A. (1998). Estimación bayesiana de características en robots móviles mediante muestreo de la densidad a posteriori. En Butlletí de l’ACIA, Primavera–Estiu 1998 (núms. 14–15), Actes del 1r CCIA, pp. 326–334, Tarragona (21–23 oct. 1998)."
+  summary: "Seguimiento robusto de pasillos y finales de pasillo con sonar mediante filtrado bayesiano por partículas (CONDENSATION), capaz de representar posteriors no gaussianas y multimodales, en la misma familia de técnicas que la [Localización Monte Carlo (MCL)](https://robots.stanford.edu/papers/fox.aaai99.pdf)."
+  links:
+    pdf: "/papers/CCIA1998_Estimacion_bayesiana_de_caracteristicas.pdf"
+
+- title: "Navegación en interiores de un robot móvil usando sensores de ultrasonidos"
+  authors: "Domingo Gallardo"
+  venue: "Tesis doctoral, Universidad de Alicante"
+  year: 1999
+  summary: "Presenta un enfoque probabilista para estimar la posición y orientación del robot, combina modelos sensoriales de ultrasonidos con representación del entorno interior, y evalúa resultados experimentales de navegación autónoma y robustez ante incertidumbre."
+  links:
+    pdf: "/papers/gallardo-tesis.pdf"
+
+- title: "Navegación del robot móvil Xavier y participación en la AAAI'93 Mobile Robot Competition"
+  authors: "Domingo Gallardo"
+  venue: "Carnegie Mellon University (CMU)"
+  year: 1993
+  summary: "Durante una estancia en CMU participé en el desarrollo de algoritmos de navegación del robot móvil Xavier y en su participación en la AAAI’93 Mobile Robot Competition; ver [Xavier: An Autonomous Mobile Robot on the Web (PDF)](/papers/xavier-autonomous-mobile-robot-web.pdf), [Lessons Learned from Xavier (PDF)](/papers/lessons-learned-from-xavier.pdf) y el [informe de la competición AAAI’93](https://www.cs.cmu.edu/~xavier/aaai93.html)."

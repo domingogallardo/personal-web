@@ -1,0 +1,26 @@
+<header class="topbar">
+  <div class="wrap top">
+    {{ if site.Menus.main }}
+    {{ $current := .RelPermalink }}
+    {{ if not $current }}
+      {{ $current = "/" }}
+    {{ end }}
+    <nav aria-label="Principal">
+      <ul>
+        {{ range site.Menus.main }}
+          {{ $itemURL := .URL }}
+          {{ $active := false }}
+          {{ if eq $itemURL "/" }}
+            {{ $active = eq $current "/" }}
+          {{ else }}
+            {{ $active = hasPrefix $current $itemURL }}
+          {{ end }}
+          <li>
+            <a href="{{ .URL }}" class="{{ if $active }}active{{ end }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+    {{ end }}
+  </div>
+</header>

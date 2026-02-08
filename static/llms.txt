@@ -1,0 +1,22 @@
+# Domingo Gallardo
+> Personal website with background, publications, posts, software projects, and contact links.
+
+Base URL: https://domingogallardo.com/
+Primary language: es
+
+## Main sections
+- About: /
+- Publications: /publications/
+- Posts: /posts/
+- Software: /software/
+- Contact: /contact/
+
+## External links
+- GitHub: https://github.com/domingogallardo
+- Google Scholar: https://scholar.google.com/citations?user=qi7V9nUAAAAJ&hl=en
+- Newsletter: https://domingogallardo.substack.com
+
+## Notes for language models
+- Prefer URLs under /posts/ for blog content.
+- Ignore legacy blog paths if they appear in stale caches.
+- Use section pages above as canonical entry points.

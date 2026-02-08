@@ -1,168 +1,129 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="es-es">
 <head>
-    <meta charset="UTF-8">
-    <title>Domingo Gallardo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Font Awesome para iconos → https://fontawesome.com/ -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-K2jhYl+9JdVqJpkS5HYx3xZgRMGW+NE7qrmKlQzUhMp80rmO6ClLRQxnRQtDqAWZ3bQJF4QzhoGQilzS6iJ3Jw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        :root {
-            --primary: #007aff;
-            --bg: #fafafa;
-            --text: #333;
-        }
-        *, *::before, *::after { box-sizing: border-box; }
-        html, body {
-            margin: 0;
-            padding: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-        }
-        main {
-            max-width: 760px;
-            margin: 0 auto;
-            padding: 80px 24px 56px;
-            text-align: center;
-        }
-        /* ——— Cabecera global ——— */
-        h1 {
-            font-size: 34px;
-            margin: 0 0 32px;
-        }
-        /* ——— Avatar + redes ——— */
-        .profile {
-            display: flex;
-            flex-direction: column;      /* Móvil: apilado */
-            align-items: center;
-            justify-content: center;
-            gap: 24px;
-            margin-bottom: 40px;
-        }
-        @media (min-width: 480px) {
-            .profile {                  /* Tablet-desktop: lado a lado */
-                flex-direction: row;
-            }
-        }
-        .avatar {
-            width: 164px;
-            height: 164px;
-            border-radius: 50%;
-            object-fit: cover;
-            box-shadow: 0 4px 12px rgba(0,0,0,.14);
-        }
-        nav.social ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            flex-direction: column; /* vertical */
-            gap: 14px;
-            align-items: flex-start;
-        }
-        nav.social a {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            text-decoration: none;
-            color: var(--primary);
-            font-size: 18px;
-            font-weight: 500;
-            transition: transform .2s ease;
-        }
-        nav.social a:hover {
-            transform: translateY(-2px);
-        }
-        nav.social i {
-            font-size: 24px;
-        }
-        /* ——— Enlaces extra ——— */
-        .links {
-            margin-top: 40px;
-        }
-        .links a {
-            color: var(--primary);
-            text-decoration: none;
-            font-weight: 500;
-        }
-        .links a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            margin-top: 70px;
-            font-size: 14px;
-            color: #888;
-        }
-    </style>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-365VJFEQJT"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);} 
-      gtag('js', new Date());
-      gtag('config', 'G-365VJFEQJT');
-    </script>
+	<meta name="generator" content="Hugo 0.155.2">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Domingo Gallardo</title>
+  <meta name="description" content="Web personal, publicaciones y proyectos.">
+  <link rel="stylesheet" href="/css/main.css">
+  
 </head>
 <body>
-    <main>
-        <h1>Domingo Gallardo</h1>
-
-        <div class="profile">
-            <img class="avatar" src="images/yo.jpg" alt="Foto de Domingo Gallardo">
-            
-            <!-- Enlaces a redes / sitios -->
-            <nav class="social" aria-label="Redes sociales">
-                <ul>
-                    <li>
-                        <a href="https://x.com/domingogallardo" target="_blank" rel="noopener" aria-label="X / Twitter">
-                            <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
-                            <span>X</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/domingogallardo" target="_blank" rel="noopener" aria-label="GitHub">
-                            <i class="fa-brands fa-github" aria-hidden="true"></i>
-                            <span>GitHub</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://domingogallardo.substack.com" target="_blank" rel="noopener" aria-label="Substack">
-                            <i class="fa-solid fa-newspaper" aria-hidden="true"></i>
-                            <span>Substack</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://domingogallardo.bearblog.dev/blog/" target="_blank" rel="noopener" aria-label="Blog">
-                            <i class="fa-solid fa-newspaper" aria-hidden="true"></i>
-                            <span>Blog</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://scholar.google.com/citations?user=qi7V9nUAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Publicaciones">
-                            <i class="fa-solid fa-newspaper" aria-hidden="true"></i>
-                            <span>Publicaciones</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://web.archive.org/web/20240628092424/https://cvnet.cpd.ua.es/curriculum-breve/es/gallardo-lopez-domingo/9075" target="_blank" rel="noopener" aria-label="CV abreviado (Wayback, 2024)">
-                            <i class="fa-solid fa-newspaper" aria-hidden="true"></i>
-                            <span>CV (2024)</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-
-        <div class="links">
-            <a href="./cliptimer-support-es.html">ClipTimer · página de soporte</a>
-        </div>
-
-        <footer>
-            © 2026 Domingo Gallardo
-        </footer>
-
+  <header class="topbar">
+  <div class="wrap top">
+    
+    
+    
+    <nav aria-label="Principal">
+      <ul>
         
-    </main>
+          
+          
+          
+            
+          
+          <li>
+            <a href="/" class="active" aria-current="page">About</a>
+          </li>
+        
+          
+          
+          
+            
+          
+          <li>
+            <a href="/posts/" class="">Posts</a>
+          </li>
+        
+          
+          
+          
+            
+          
+          <li>
+            <a href="/publications/" class="">Research</a>
+          </li>
+        
+          
+          
+          
+            
+          
+          <li>
+            <a href="/software/" class="">Software</a>
+          </li>
+        
+          
+          
+          
+            
+          
+          <li>
+            <a href="/contact/" class="">Contact</a>
+          </li>
+        
+      </ul>
+    </nav>
+    
+  </div>
+</header>
+
+  <main class="wrap">
+    
+<section class="section">
+  <div class="about-grid">
+    <div class="about-text">
+      
+      
+      
+      
+      
+      <h1>
+        <span class="first">Domingo</span> <span class="last">Gallardo</span>
+      </h1>
+      
+        <p class="subtitle">Computer Science · Alicante, Spain</p>
+      
+      
+        <p class="inline-links">
+          
+            <a href="https://github.com/domingogallardo" target="_blank" rel="noopener">GitHub</a>
+          
+             · <a href="https://scholar.google.com/citations?user=qi7V9nUAAAAJ&amp;hl=en" target="_blank" rel="noopener">Scholar</a>
+          
+        </p>
+      
+      
+        <p>Profesor Titular de la Universidad de Alicante retirado. Formé parte del
+<a href="https://web.ua.es/es/dccia/">Departamento de Ciencia de la Computación e Inteligencia Artificial</a>,
+donde impartí docencia en grados y másteres de Informática en asignaturas como
+<em>Lenguajes y Paradigmas de Programación</em>, <em>Metodologías Ágiles de Desarrollo de Software</em>
+y <em>Servicios de las Plataformas Móviles</em> (iOS). Mi <a href="/papers/gallardo-tesis.pdf">tesis doctoral (1999)</a> trató sobre
+navegación en interiores de un robot móvil usando sensores de ultrasonidos.</p>
+<p>Me interesa la inteligencia artificial, con foco en los modelos de lenguaje (LLMs)
+y su evolución reciente (entrenamiento, post-training, evaluación y uso como
+componentes de sistemas más complejos). También me interesan el aprendizaje por refuerzo
+y la robótica.</p>
+<p>Además, desarrollo software por interés personal
+(a menudo en el ecosistema Apple, con Swift) y mantengo proyectos abiertos en
+<a href="https://github.com/domingogallardo">GitHub</a> orientados a herramientas pequeñas y reutilizables.
+En mi <a href="https://domingogallardo.substack.com">newsletter</a> comento ideas y lecturas sobre IA,
+tecnología y ciencia, intentando aportar contexto y detalle más allá del titular.</p>
+
+      
+    </div>
+    <div class="about-photo">
+      <img src="/images/yo.jpg" alt="Foto de Domingo Gallardo">
+    </div>
+  </div>
+</section>
+
+
+  </main>
+  <footer class="wrap footer">
+  <p>© 2026 Domingo Gallardo</p>
+</footer>
+
 </body>
 </html>

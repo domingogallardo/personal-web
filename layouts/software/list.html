@@ -1,0 +1,13 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ $software := site.Data.software | default (slice) }}
+<ul class="list">
+  {{ range $software }}
+    <li>
+      <strong>{{ .name }}</strong> — {{ .desc }}
+      {{ with .github }} [<a href="{{ . }}" target="_blank" rel="noopener">GitHub</a>]{{ end }}
+      {{ with .appstore }} [<a href="{{ . }}" target="_blank" rel="noopener">App Store</a>]{{ end }}
+    </li>
+  {{ end }}
+</ul>
+{{ end }}
