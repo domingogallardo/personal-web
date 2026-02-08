@@ -29,11 +29,19 @@ El despliegue se hace reutilizando el script de docflow (`web/deploy.sh`).
 Este script combina el sitio generado aquí con el índice `/read` creado por docflow.
 
 1. Asegúrate de tener el repo de docflow disponible (por defecto `../Python/docflow`).
-2. Ejecuta:
-   `REMOTE_USER=root REMOTE_HOST=TU_SERVIDOR scripts/deploy-docflow.sh`
+2. Crea y configura `../Python/docflow/.env.deploy` con al menos:
+   - `REMOTE_USER`
+   - `REMOTE_HOST`
+   - `HTPASSWD_USER`
+   - `HTPASSWD_PSS`
+3. Carga variables y ejecuta el despliegue:
+   `set -a; source ../Python/docflow/.env.deploy; set +a; scripts/deploy-docflow.sh`
 
 Opcionalmente puedes fijar la ruta de docflow:
 `DOCFLOW_DIR=/ruta/a/docflow REMOTE_USER=... REMOTE_HOST=... scripts/deploy-docflow.sh`
+
+También puedes pasar variables inline si no usas `.env.deploy`:
+`REMOTE_USER=root REMOTE_HOST=TU_SERVIDOR scripts/deploy-docflow.sh`
 
 ## Notas
 - `public/` es generado por Hugo y no se versiona.

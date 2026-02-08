@@ -42,6 +42,15 @@
   links:
     pdf: "/papers/gallardo-tesis.pdf"
 
+- title: "A Temporal Blackboard Structure for Process Control"
+  authors: "F. Barber, V. Botti, A. Crespo, Domingo Gallardo, E. Onaindía"
+  venue: "Artificial Intelligence in Real-Time Control 1992 (IFAC Symposia Series, Vol. 6), Pergamon Press"
+  year: 1992
+  citation: "Barber, F.; Botti, V.; Crespo, A.; Gallardo, D.; Onaindía, E. (1993). A Temporal Blackboard Structure for Process Control. En Artificial Intelligence in Real-Time Control 1992 (IFAC Symposia Series, Vol. 6), Pergamon Press, pp. 459–465."
+  summary: "Describe una estructura de blackboard temporal para sistemas expertos en tiempo real aplicada al control de procesos, con un modelo para representar y gestionar información temporal (incluyendo predicción e incertidumbre) y un ejemplo ilustrativo en un proceso industrial."
+  links:
+    pdf: "/papers/barber-botti-crespo-gallardo-onaindia-1993-temporal-blackboard-process-control.pdf"
+
 - title: "Navegación del robot móvil Xavier y participación en la AAAI'93 Mobile Robot Competition"
   authors: "Domingo Gallardo"
   venue: "Carnegie Mellon University (CMU)"
