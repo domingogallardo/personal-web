@@ -17,6 +17,7 @@ Justo unos días después de publicar [el post anterior](https://domingogallardo
 Aunque no me he dado por aludido (ni soy “gurú de la IA”, ni digo que las IAs pueden ser conscientes, todo lo contrario), por si acaso, le he echado un vistazo a [la página de la Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/consciousness/) y me he encontrado un tocho de casi 25.000 palabras que, la verdad, me ha abrumado. Nada más empezar a leerlo se me ha disparado el síndrome del impostor y se me han quitado las ganas de seguir metiéndome en berenjenales escribiendo sobre estos temas.
 
 Pero basta con ver el índice del artículo para comprobar que hay **muchísimas teorías** y que la mayoría se juegan **en el terreno del lenguaje**: definiciones, distinciones y marcos conceptuales más que observaciones medibles y comprobables. Justo por eso —porque el debate es en gran medida **conceptual**— no pasa nada por añadir aquí mi opinión: una forma sencilla de ordenar el terreno que me ayuda, y que quizá a alguien más le sirva.
+
 ## Tres tipos de conciencia
 
 La palabra “conciencia” es una palabra complicada. Empezamos porque, en español, tiene múltiples significados. La RAE le da [seis acepciones](https://dle.rae.es/conciencia?m=form), de las que nos interesan las dos últimas:
@@ -41,6 +42,7 @@ Aunque puede haber muchas posibles divisiones y categorías, he elaborado una ti
 * Por último, la **conciencia T3** es la **combinación de T1 y T2**: cuando la experiencia y el módulo lingüístico **se acoplan** y aparece la **comunicación consciente**, con uno mismo o con otros. Lo sentido se conecta con lo dicho o pensado y, en un acoplamiento bidireccional, lenguaje y sensaciones se refuerzan mutuamente.
 
 Vamos a profundizar en el primer tipo y dejaremos los dos siguientes para próximos artículos.
+
 ## Conciencia T1 o conciencia-p
 
 Lo que llamo conciencia de tipo 1 o **conciencia T1** es el fenómeno subjetivo de **percibir una experiencia**. Lo que sentimos al tocar la mesa, ver una manzana, escuchar un ruido. Lo que experimentamos al tener miedo, o sentir dolor o placer, o al llorar o reír.
