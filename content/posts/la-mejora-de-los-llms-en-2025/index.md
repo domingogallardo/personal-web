@@ -6,7 +6,7 @@ tags:
   - "newsletter"
 ---
 
-Hace un año publiqué una [lista de 7 preguntas para 2025](https://domingogallardo.substack.com/p/7-preguntas-para-2025) sobre LLMs. La idea era apartarme un poco del ciclo de anuncios de los laboratorios y de la inmediatez de las redes sociales y obligarme a evaluar el progreso con un criterio más estable y objetivo, alejado de sensaciones. 
+Hace un año publiqué una [lista de 7 preguntas para 2025](/posts/7-preguntas-para-2025/) sobre LLMs. La idea era apartarme un poco del ciclo de anuncios de los laboratorios y de la inmediatez de las redes sociales y obligarme a evaluar el progreso con un criterio más estable y objetivo, alejado de sensaciones. 
 
 Me pareció también una buena forma de mostrar los aspectos que me parecían más relevantes en ese momento, los que podían dar alguna indicación sobre la posible evolución futura de estas tecnologías. 
 

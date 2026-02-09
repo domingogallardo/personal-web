@@ -10,7 +10,7 @@ tags:
 
 [_Reptiles_](https://escherinhetpaleis.nl/en/about-escher/masterpieces/reptiles), litografía de Escher de marzo de 1943.
 
-Justo unos días después de publicar [el post anterior](https://domingogallardo.substack.com/p/hofstadter-penrose-y-el-sentimiento) en el que hablaba del debate entre **Roger Penrose** y **Douglas Hofstadter**, el divulgador de filosofía **[Santiago Sánchez-Migallón](https://vonneumannmachine.wordpress.com/sobre-el-blog/)** escribía en X [un tuit](https://x.com/VNMachine/status/1970188491024740747) muy acertado en el que critica a los “gurús de la IA que dicen que la consciencia artificial ya está aquí” sin haber leído lo básico sobre el tema de la conciencia.
+Justo unos días después de publicar [el post anterior](/posts/hofstadter-penrose-y-el-sentimiento-de-conciencia-consciente/) en el que hablaba del debate entre **Roger Penrose** y **Douglas Hofstadter**, el divulgador de filosofía **[Santiago Sánchez-Migallón](https://vonneumannmachine.wordpress.com/sobre-el-blog/)** escribía en X [un tuit](https://x.com/VNMachine/status/1970188491024740747) muy acertado en el que critica a los “gurús de la IA que dicen que la consciencia artificial ya está aquí” sin haber leído lo básico sobre el tema de la conciencia.
 
 ![](pasted-image-20250925170619.webp)
 

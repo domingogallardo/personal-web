@@ -6,7 +6,7 @@ tags:
   - "newsletter"
 ---
 
-[Substack](https://open.substack.com/pub/domingogallardo/p/hofstadter-penrose-y-el-sentimiento)
+[Post en esta web](/posts/hofstadter-penrose-y-el-sentimiento-de-conciencia-consciente/)
 
 ![](image-2.webp)
 
