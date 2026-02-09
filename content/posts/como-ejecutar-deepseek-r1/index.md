@@ -6,7 +6,7 @@ tags:
   - "newsletter"
 ---
 
-Tal y como prometimos en el [artículo anterior](https://domingogallardo.bearblog.dev/exploramos-el-razonamiento-de-deepseek-r1/), vamos con la explicación de cómo podemos usar el modelo abierto DeepSeek-r1, sin usar la web oficial de la empresa china, sino nuestro ordenador, o un proveedor que ejecute el modelo.
+Tal y como prometimos en el [artículo anterior](/posts/exploramos-el-razonamiento-de-deepseek-r1/), vamos con la explicación de cómo podemos usar el modelo abierto DeepSeek-r1, sin usar la web oficial de la empresa china, sino nuestro ordenador, o un proveedor que ejecute el modelo.
 
 Ya vimos que el modelo chino es un modelo enorme, de 671B parámetros (671 mil millones de números en punto flotante = 1.342 GB de RAM) y que no es posible ejecutar un modelo de ese tamaño en nuestro ordenador[^1]. Lo que podemos descargarnos son versiones destiladas de modelos pequeños open source, que la propia empresa ha lazando. Por ejemplo, DeepSeek-R1-Distill-Qwen-7B es un modelo que se a creado a partir de Qwen-7B, que ocupa unos 4.7 GB en disco y puede ejecutarse en un MacBook Air con 16 GB de RAM. Existen modelos similares creados con distintos modelos abiertos base, como el DeepSeek-R1-Distill-Qwen-32B o el más potente DeepSeek-R1-Distill-Llama-70B, basado en el modelo Llama de 70 mil millones de parámetros.
 

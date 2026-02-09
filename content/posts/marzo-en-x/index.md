@@ -853,9 +853,9 @@ arrasó en el concurso Imagenet y mostró el nuevo camino de la IA: avance con m
 ----
 🐦 1:58 PM · Mar 25, 2025 **Domingo Gallardo @domingogallardo**
 
-Seguimos actualizado el blog del oso:
+Seguimos actualizando el blog:
 
-[domingogallardo.bearblog.dev](https://domingogallardo.bearblog.dev/exploramos-el-razonamiento-de-deepseek-r1/)
+[domingogallardo.com](https://domingogallardo.com/posts/exploramos-el-razonamiento-de-deepseek-r1/)
 
 ----
 🔁 RT 6:45 PM · Mar 25, 2025 **OpenAI @OpenAI**
@@ -1072,9 +1072,9 @@ Sobre el sectarismo que se encontró en Podemos: “Antes creía que los activis
 
 "Cómo ejecutar DeepSeek-R1" un post un poco desfasado (ahora que ya está rumoreando R2), pero con  consejos sobre cómo usar el terminal, instalar modelos locales y ejecutar scripts de Python que lancen el modelo en un proveedor.
 
-El enlace al bearblog:
+El enlace al post:
 
-[domingogallardo.bearblog.dev](https://domingogallardo.bearblog.dev/como-ejecutar-deepseek-r1/)
+[domingogallardo.com](https://domingogallardo.com/posts/como-ejecutar-deepseek-r1/)
 
 ----
 🔁 RT 2:22 PM · Mar 31, **2025 Francisco Gallego @FranGallegoBR**

@@ -10,7 +10,7 @@ tags:
 
 > He añadido un [_addendum_ al final](#addendum-abril-2025-que-ha-pasado-en-swift-en-estos-tres-anos), generado por GPT o3, en el que se comentan los cambios introducidos en Swift en los últimos tres años que afectan a lo comentando en el artículo.
 
-En el [post anterior](https://domingogallardo.bearblog.dev/result-builders-en-swift-1/) de la serie sobre _result builders_ vimos cómo éstos permiten utilizar un DSL para definir una clausura o un bloque de código que construye un componente a partir de componentes elementales.
+En el [post anterior](/posts/result-builders-en-swift-1/) de la serie sobre _result builders_ vimos cómo éstos permiten utilizar un DSL para definir una clausura o un bloque de código que construye un componente a partir de componentes elementales.
 
 Vimos el ejemplo sencillo de un constructor de cadenas:
 

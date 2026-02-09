@@ -6,7 +6,7 @@ tags:
   - "programación"
 ---
 
-> Rescato un post antiguo, que publiqué hace tres años, en julio de 2022. He añadido otros dos, [la segunda parte de este](https://domingogallardo.bearblog.dev/result-builders-en-swift-2/) y la explicación de [cómo se pueden definir arrays con distintos tipos de datos en Swift](https://domingogallardo.bearblog.dev/arrays-con-distintos-tipos-de-datos-en-swift/).
+> Rescato un post antiguo, que publiqué hace tres años, en julio de 2022. He añadido otros dos, [la segunda parte de este](/posts/result-builders-en-swift-2/) y la explicación de [cómo se pueden definir arrays con distintos tipos de datos en Swift](/posts/arrays-con-distintos-tipos-de-datos-en-swift/).
 
 > He añadido un [_addendum_ al final](#addendum-abril-2025-que-ha-pasado-en-swift-en-estos-tres-anos), generado por GPT o3, en el que se comentan los cambios introducidos en Swift en los últimos tres años que afectan a lo comentando en el artículo.
 
