@@ -8,6 +8,11 @@ pagination.pagerSize = 10
 enableRobotsTXT = true
 summaryLength = 30
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   description = "Web personal, publicaciones y proyectos."
   subtitle = "Computer Science · Alicante, Spain"

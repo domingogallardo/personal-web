@@ -22,5 +22,6 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
+  <script defer src="/js/external-links.js{{ if hugo.IsServer }}?v={{ now.Unix }}{{ end }}"></script>
 </body>
 </html>
