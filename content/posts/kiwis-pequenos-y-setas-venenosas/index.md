@@ -1,7 +1,7 @@
 ---
 title: "Kiwis pequeños y setas venenosas (#18 de 2024)"
 date: 2024-11-01
-draft: true
+draft: false
 tags:
   - "newsletter"
 ---

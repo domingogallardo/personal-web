@@ -1,7 +1,7 @@
 ---
 title: "¿Cómo funciona o1? (#15 de 2024)"
 date: 2024-09-27
-draft: true
+draft: false
 tags:
   - "newsletter"
 ---

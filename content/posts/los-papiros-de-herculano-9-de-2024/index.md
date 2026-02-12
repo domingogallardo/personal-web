@@ -1,7 +1,7 @@
 ---
 title: "Los papiros de Herculano (#9 de 2024)"
 date: 2024-05-24
-draft: true
+draft: false
 tags:
   - "newsletter"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Del 16 al 30 de junio (#12 de 2024)"
 date: 2024-07-05
-draft: true
+draft: false
 tags:
   - "newsletter"
 ---

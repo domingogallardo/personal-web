@@ -1,7 +1,7 @@
 ---
 title: "El dogma del deep learning"
 date: 2024-12-18
-draft: true
+draft: false
 tags:
   - "newsletter"
 ---

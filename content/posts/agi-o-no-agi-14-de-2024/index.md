@@ -1,7 +1,7 @@
 ---
 title: "¿AGI o no AGI? (#14 de 2024)"
 date: 2024-09-13
-draft: true
+draft: false
 tags:
   - "newsletter"
 ---

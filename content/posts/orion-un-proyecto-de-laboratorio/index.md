@@ -1,7 +1,7 @@
 ---
 title: "Orion: un proyecto de laboratorio que prepara el terreno para las futuras gafas inteligentes de Meta (#16 de 2024)"
 date: 2024-10-11
-draft: true
+draft: false
 tags:
   - "newsletter"
 ---

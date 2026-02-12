@@ -1,7 +1,7 @@
 ---
 title: "Del 1 al 15 de febrero (#3 de 2024)"
 date: 2024-02-16
-draft: true
+draft: false
 tags:
   - "newsletter"
 ---

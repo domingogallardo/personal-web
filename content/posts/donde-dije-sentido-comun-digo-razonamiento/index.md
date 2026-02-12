@@ -1,7 +1,7 @@
 ---
 title: "Donde dije \"sentido común\" digo \"razonamiento\" (#17 de 2024)"
 date: 2024-10-25
-draft: true
+draft: false
 tags:
   - "newsletter"
 ---

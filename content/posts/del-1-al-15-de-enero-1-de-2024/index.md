@@ -1,7 +1,7 @@
 ---
 title: "Del 1 al 14 de enero (#1 de 2024)"
 date: 2024-01-16
-draft: true
+draft: false
 tags:
   - "newsletter"
 ---

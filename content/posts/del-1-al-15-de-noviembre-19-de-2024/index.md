@@ -1,7 +1,7 @@
 ---
 title: "Del 1 al 15 de noviembre (#19 de 2024)"
 date: 2024-11-19
-draft: true
+draft: false
 tags:
   - "newsletter"
 ---

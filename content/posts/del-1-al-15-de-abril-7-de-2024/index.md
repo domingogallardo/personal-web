@@ -1,7 +1,7 @@
 ---
 title: "Del 1 al 15 de abril (#7 de 2024)"
 date: 2024-04-16
-draft: true
+draft: false
 tags:
   - "newsletter"
 ---

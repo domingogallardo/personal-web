@@ -1,7 +1,7 @@
 ---
 title: "Del 16 de abril al 15 de mayo (#8 de 2024)"
 date: 2024-05-17
-draft: true
+draft: false
 tags:
   - "newsletter"
 ---

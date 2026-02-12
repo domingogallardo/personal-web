@@ -1,7 +1,7 @@
 ---
 title: "o3 resuelve ARC-AGI"
 date: 2024-12-22
-draft: true
+draft: false
 tags:
   - "newsletter"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "François Chollet (#20 de 2024)"
 date: 2024-12-01
-draft: true
+draft: false
 tags:
   - "newsletter"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Del 1 al 15 de julio (#13 de 2024)"
 date: 2024-07-26
-draft: true
+draft: false
 tags:
   - "newsletter"
 ---
