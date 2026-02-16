@@ -24,24 +24,23 @@ Hugo genera el sitio estático en `public/`.
 - Generar estático:
   `scripts/build.sh`
 
-## Integración con docflow (despliegue)
-El despliegue se hace reutilizando el script de docflow (`web/deploy.sh`).
-Este script combina el sitio generado aquí con el índice `/read` creado por docflow.
+## Despliegue remoto (DigitalOcean)
+El repo incluye todo lo necesario para desplegar sin depender de `docflow`.
 
-1. Asegúrate de tener el repo de docflow disponible (por defecto `../Python/docflow`).
-2. Crea y configura `../Python/docflow/.env.deploy` con al menos:
+1. Crea tu entorno local de despliegue:
+   `cp .env.deploy.example .env.deploy`
+2. Edita `.env.deploy` y define al menos:
    - `REMOTE_USER`
    - `REMOTE_HOST`
-   - `HTPASSWD_USER`
-   - `HTPASSWD_PSS`
-3. Carga variables y ejecuta el despliegue:
-   `set -a; source ../Python/docflow/.env.deploy; set +a; scripts/deploy-docflow.sh`
+3. Carga variables y ejecuta:
+   `set -a; source .env.deploy; set +a; scripts/deploy-remote.sh`
 
-Opcionalmente puedes fijar la ruta de docflow:
-`DOCFLOW_DIR=/ruta/a/docflow REMOTE_USER=... REMOTE_HOST=... scripts/deploy-docflow.sh`
-
-También puedes pasar variables inline si no usas `.env.deploy`:
-`REMOTE_USER=root REMOTE_HOST=TU_SERVIDOR scripts/deploy-docflow.sh`
+Notas:
+- `scripts/deploy-remote.sh` genera `public/` con Hugo, empaqueta `deploy/Dockerfile` + `deploy/nginx.conf` + estáticos y despliega por `ssh/scp`.
+- El script crea/actualiza en remoto `/opt/web-domingo` por defecto (se puede cambiar con `REMOTE_PATH`).
+- Si defines `HTPASSWD_USER` y `HTPASSWD_PSS`, el script actualiza `/opt/web-domingo/nginx/.htpasswd`.
+- `scripts/deploy-docflow.sh` se mantiene como alias para compatibilidad y llama al mismo deploy.
+- Si quieres inyectar un `/read` externo durante el deploy, usa `READ_SOURCE_DIR=/ruta/al/read`.
 
 ## Notas
 - `public/` es generado por Hugo y no se versiona.
