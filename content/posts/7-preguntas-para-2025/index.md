@@ -1,6 +1,6 @@
 ---
 title: "7 preguntas para 2025"
-date: 2025-03-20
+date: 2025-01-06
 draft: false
 tags:
   - "newsletter"

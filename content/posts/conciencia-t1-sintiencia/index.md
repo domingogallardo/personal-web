@@ -1,6 +1,6 @@
 ---
 title: "Conciencia T1: sintiencia"
-date: 2025-10-08
+date: 2025-10-07
 draft: false
 tags:
   - "newsletter"
