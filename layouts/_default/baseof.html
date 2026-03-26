@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
   <meta name="description" content="{{ site.Params.description }}">
+  {{ with site.GetPage "/posts" }}
+    {{ with .OutputFormats.Get "rss" }}
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" title="{{ printf "%s · RSS" site.Title }}" href="{{ .Permalink }}">
+    {{ end }}
+  {{ end }}
   <link rel="stylesheet" href="/css/main.css{{ if hugo.IsServer }}?v={{ now.Unix }}{{ end }}">
   {{ with site.Params.ga_measurement_id }}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
