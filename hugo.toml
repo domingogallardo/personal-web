@@ -8,6 +8,12 @@ pagination.pagerSize = 10
 enableRobotsTXT = true
 summaryLength = 30
 
+[outputs]
+  home = ["html"]
+  section = ["html"]
+  taxonomy = ["html"]
+  term = ["html"]
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
