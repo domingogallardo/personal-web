@@ -1,10 +1,5 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-{{ with .OutputFormats.Get "rss" }}
-  <p class="section-tools">
-    <a class="feed-link" href="{{ .RelPermalink }}" type="{{ .MediaType.Type }}">Suscribirse por RSS</a>
-  </p>
-{{ end }}
 {{ $pages := .Pages.ByDate.Reverse }}
 {{ $groups := $pages.GroupByDate "2006" "desc" }}
 {{ range $group := $groups }}

@@ -164,26 +164,6 @@ main h4 a[href^="https://"]:not([href*="domingogallardo.site"]):not([href*="loca
   margin: 8px 0;
 }
 
-.section-tools {
-  margin: -6px 0 18px;
-}
-
-.feed-link {
-  display: inline-block;
-  color: var(--muted);
-  font-size: 14px;
-  text-decoration: none;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 4px 10px;
-}
-
-.feed-link:hover {
-  color: var(--ink);
-  border-color: #d6d6d6;
-  text-decoration: none;
-}
-
 .posts-year-group + .posts-year-group {
   margin-top: 22px;
   padding-top: 14px;
