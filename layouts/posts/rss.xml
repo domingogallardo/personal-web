@@ -57,7 +57,7 @@
       {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
       <description>{{ $content | transform.XMLEscape | safeHTML }}</description>
-      <content:encoded><![CDATA[{{ $content | replaceRE `]]>` `]]]]><![CDATA[>` | safeHTML }}]]></content:encoded>
+      {{ printf "<content:encoded><![CDATA[%s]]></content:encoded>" ($content | replaceRE `]]>` `]]]]><![CDATA[>`) | safeHTML }}
     </item>
     {{- end }}
   </channel>
