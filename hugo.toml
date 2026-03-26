@@ -14,6 +14,15 @@ summaryLength = 30
   taxonomy = ["html"]
   term = ["html"]
 
+[outputFormats.fullrss]
+  mediaType = "application/rss+xml"
+  baseName = "full"
+  isHTML = false
+  isPlainText = false
+  noUgly = false
+  rel = "alternate"
+  permalinkable = false
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
