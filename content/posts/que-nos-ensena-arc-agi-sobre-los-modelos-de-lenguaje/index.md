@@ -79,7 +79,7 @@ Es difícil no relacionar estas fechas con otro cambio cualitativo que sacudió 
   <figcaption><a href="https://x.com/LandJohan/status/2008197725263716589?s=20">Post en X de Johan Land</a> explicando la arquitectura de su solución de ARC-AGI-2.</figcaption>
 </figure>
 
-Es posible las estrategias de GPT-5.4 Pro para resolver ARC-AGI-2 sean similares a las usadas por el _harness_ de Johan Land. Pero en lugar de usar un andamiaje externo, el modelo de OpenAI está usando sus propias trazas de pensamiento y sus capacidades nativas de sistema 1. Como explica [Mike Knoop en X](https://x.com/mikeknoop/status/2036323325912424885?s=20) todo indica que los harnesses suelen adelantarse a capacidades que después aparecen de forma nativa en los sistemas LLM.
+Es posible que las estrategias de GPT-5.4 Pro para resolver ARC-AGI-2 sean similares a las usadas por el _harness_ de Johan Land. Pero en lugar de usar un andamiaje externo, el modelo de OpenAI está usando sus propias trazas de pensamiento y sus capacidades nativas de sistema 1. Como explica [Mike Knoop en X](https://x.com/mikeknoop/status/2036323325912424885?s=20) todo indica que los harnesses suelen adelantarse a capacidades que después aparecen de forma nativa en los sistemas LLM.
 
 ARC-AGI-2 muestra, por tanto, algo más que una mejora de puntuaciones. **Muestra el salto a sistemas razonadores y agénticos.** Su conquista indica que han empezado a ser capaces de sostener durante horas una búsqueda deliberada, usar herramientas de forma consistente, generar y verificar código y coordinar distintos procesos orientados a un objetivo.
 
