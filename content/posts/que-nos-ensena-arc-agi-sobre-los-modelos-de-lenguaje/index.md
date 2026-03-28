@@ -4,6 +4,7 @@ date: 2026-03-24
 draft: false
 tags:
   - "newsletter"
+  - "ARC-AGI"
 ---
 
 > ARC-AGI ha funcionado como un instrumento de diagnóstico de la evolución real de los LLMs.

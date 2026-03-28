@@ -4,6 +4,7 @@ date: 2025-04-07
 draft: false
 tags:
   - "personal"
+  - "ARC-AGI"
 ---
 
 ![](image-1.webp)

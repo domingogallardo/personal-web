@@ -4,6 +4,7 @@ date: 2024-06-21
 draft: false
 tags:
   - "newsletter"
+  - "ARC-AGI"
 ---
 <p>Vamos con lo sucedido en la quincena pasada, del 1 al 15 de junio. Tenemos esta quincena un número muy centrado en Apple y en su conferencia de desarrolladores.</p>
 
