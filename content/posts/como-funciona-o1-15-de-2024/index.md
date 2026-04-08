@@ -5,12 +5,6 @@ draft: false
 tags:
   - "newsletter"
 ---
-<p>Muy mal. Parece que no consigo recuperar el formato tradicional de la <em>newsletter</em> de comentar lo sucedido en la quincena. Empiezo a escribir sobre un tema y termino liándome y haciendo un artículo largo. </p>
-
-<p>Pues nada, a lo que salga. Siempre podremos decir que lo de “quince días” viene por la periodicidad (estimada) de estos artículos 😄.</p>
-
-<p>¡Gracias por leerme!</p>
-
 <p>
 <img src="58b74b31-b041-4ed4-a167-f9b081984d7a_2842x1422.png" alt="">
 </p>
@@ -264,13 +258,4 @@ tags:
 
 <p>
 <img src="40bf7854-e9d9-4405-819e-396d9c042150_1578x148.png" alt="">
-</p>
-
-<div>
-<hr>
-
-</div>
-<p>¡Hasta la próxima quincena, nos leemos! 👋👋</p>
-
-<p>
 </p>

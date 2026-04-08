@@ -6,12 +6,6 @@ tags:
   - "newsletter"
 ---
 
-Not great. It seems I am unable to get back to the traditional newsletter format of commenting on what happened over the fortnight. I start writing about one topic and end up getting carried away and turning it into a long article.
-
-Well then, let's see what comes out. We can always say that the "fifteen days" part refers to the estimated periodicity of these pieces.
-
-Thank you very much for reading.
-
 ![](58b74b31-b041-4ed4-a167-f9b081984d7a_2842x1422.png)
 
 Strawberry Team: some of the OpenAI researchers responsible for o1.
@@ -197,7 +191,3 @@ I asked GPT-4o and o1 to summarize the article in one paragraph. This was the re
 o1's summary is much better and more detailed, although it did not like the mention of NVIDIA:
 
 ![](40bf7854-e9d9-4405-819e-396d9c042150_1578x148.png)
-
----
-
-Until the next fortnight.
