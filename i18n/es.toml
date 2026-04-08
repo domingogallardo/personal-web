@@ -1,0 +1,11 @@
+[main_navigation]
+other = "Navegación principal"
+
+[language_switch]
+other = "Idioma"
+
+[photo_of]
+other = "Foto de {{ .Title }}"
+
+[rss_recent_content]
+other = "Contenido reciente en {{ .Title }} de {{ .SiteTitle }}"

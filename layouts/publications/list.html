@@ -1,13 +1,38 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ $all := site.Data.publications | default (slice) }}
+{{ $lang := site.Language.Lang }}
 <ul class="list">
   {{ range sort $all "year" "desc" }}
+    {{ $title := .title }}
+    {{ if and (eq $lang "en") .title_en }}
+      {{ $title = .title_en }}
+    {{ end }}
+    {{ $authors := .authors }}
+    {{ if and (eq $lang "en") .authors_en }}
+      {{ $authors = .authors_en }}
+    {{ end }}
+    {{ $venue := .venue }}
+    {{ if and (eq $lang "en") .venue_en }}
+      {{ $venue = .venue_en }}
+    {{ end }}
+    {{ $citation := .citation }}
+    {{ if eq $lang "en" }}
+      {{ if .citation_en }}
+        {{ $citation = .citation_en }}
+      {{ else }}
+        {{ $citation = "" }}
+      {{ end }}
+    {{ end }}
+    {{ $summary := .summary }}
+    {{ if and (eq $lang "en") .summary_en }}
+      {{ $summary = .summary_en }}
+    {{ end }}
     <li>
-      {{ with .citation }}
+      {{ with $citation }}
         {{ . }}
       {{ else }}
-        {{ .title }}. {{ .authors }}. <em>{{ .venue }}</em>, {{ .year }}.
+        {{ $title }}. {{ $authors }}. <em>{{ $venue }}</em>, {{ .year }}.
       {{ end }}
       <span class="pub-links">
         {{ with .links.pdf }}[<a href="{{ . }}">pdf</a>]{{ end }}
@@ -15,7 +40,7 @@
         {{ with .links.code }}[<a href="{{ . }}">code</a>]{{ end }}
         {{ with .links.bib }}[<a href="{{ . }}">bib</a>]{{ end }}
       </span>
-      {{ with .summary }}
+      {{ with $summary }}
         <div class="meta">{{ . | markdownify }}</div>
       {{ end }}
     </li>

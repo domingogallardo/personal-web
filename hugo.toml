@@ -1,7 +1,7 @@
 baseURL = "https://domingogallardo.com/"
 title = "Domingo Gallardo"
-languageCode = "es-es"
 defaultContentLanguage = "es"
+defaultContentLanguageInSubdir = false
 
 timeZone = "Europe/Madrid"
 pagination.pagerSize = 10
@@ -20,65 +20,140 @@ summaryLength = 30
       unsafe = true
 
 [params]
-  description = "Web personal, publicaciones y proyectos."
-  subtitle = "Computer Science · Alicante, Spain"
   avatar = "images/yo.jpg"
-  about = """
- 
-Profesor Titular de la Universidad de Alicante retirado. Formé parte del 
-[Departamento de Ciencia de la Computación e Inteligencia Artificial](https://web.ua.es/es/dccia/), 
-donde impartí docencia en grados y másteres de Informática en asignaturas como 
-*Lenguajes y Paradigmas de Programación*, *Metodologías Ágiles de Desarrollo de Software* 
-y *Servicios de las Plataformas Móviles* (iOS). Mi [tesis doctoral (1999)](/papers/gallardo-tesis.pdf) trató sobre 
+
+[languages.es]
+  languageCode = "es-ES"
+  languageName = "Español"
+  title = "Domingo Gallardo"
+  weight = 1
+
+  [languages.es.params]
+    description = "Web personal, publicaciones y proyectos."
+    subtitle = "Computer Science · Alicante, Spain"
+    about = """
+
+Profesor Titular de la Universidad de Alicante retirado. Formé parte del
+[Departamento de Ciencia de la Computación e Inteligencia Artificial](https://web.ua.es/es/dccia/),
+donde impartí docencia en grados y másteres de Informática en asignaturas como
+*Lenguajes y Paradigmas de Programación*, *Metodologías Ágiles de Desarrollo de Software*
+y *Servicios de las Plataformas Móviles* (iOS). Mi [tesis doctoral (1999)](/papers/gallardo-tesis.pdf) trató sobre
 navegación en interiores de un robot móvil usando sensores de ultrasonidos.
 
-Me interesa la inteligencia artificial, con foco en los modelos de lenguaje (LLMs) 
-y su evolución reciente (entrenamiento, post-training, evaluación y uso como 
-componentes de sistemas más complejos). También me interesan el aprendizaje por refuerzo 
+Me interesa la inteligencia artificial, con foco en los modelos de lenguaje (LLMs)
+y su evolución reciente (entrenamiento, post-training, evaluación y uso como
+componentes de sistemas más complejos). También me interesan el aprendizaje por refuerzo
 y la robótica.
 
-Además, desarrollo software por interés personal 
-(a menudo en el ecosistema Apple, con Swift) y mantengo proyectos abiertos en 
-[GitHub](https://github.com/domingogallardo) orientados a herramientas pequeñas y reutilizables. 
-En mi [newsletter](https://domingogallardo.substack.com) comento ideas y lecturas sobre IA, 
+Además, desarrollo software por interés personal
+(a menudo en el ecosistema Apple, con Swift) y mantengo proyectos abiertos en
+[GitHub](https://github.com/domingogallardo) orientados a herramientas pequeñas y reutilizables.
+En mi [newsletter](https://domingogallardo.substack.com) comento ideas y lecturas sobre IA,
 tecnología y ciencia, intentando aportar contexto y detalle más allá del titular.
 """
 
-[[params.profile_links]]
-  name = "GitHub"
-  url = "https://github.com/domingogallardo"
+  [[languages.es.params.profile_links]]
+    name = "GitHub"
+    url = "https://github.com/domingogallardo"
 
-[[params.profile_links]]
-  name = "Scholar"
-  url = "https://scholar.google.com/citations?user=qi7V9nUAAAAJ&hl=en"
+  [[languages.es.params.profile_links]]
+    name = "Scholar"
+    url = "https://scholar.google.com/citations?user=qi7V9nUAAAAJ&hl=en"
 
-[menu]
-  [[menu.main]]
+  [[languages.es.menu.main]]
     name = "About"
-    url = "/"
+    pageRef = "/"
     weight = 5
 
-  [[menu.main]]
+  [[languages.es.menu.main]]
     name = "Posts"
-    url = "/posts/"
+    pageRef = "/posts"
     weight = 10
 
-  [[menu.main]]
+  [[languages.es.menu.main]]
     name = "Research"
-    url = "/publications/"
+    pageRef = "/publications"
     weight = 20
 
-  [[menu.main]]
+  [[languages.es.menu.main]]
     name = "Software"
-    url = "/software/"
+    pageRef = "/software"
     weight = 30
 
-  [[menu.main]]
+  [[languages.es.menu.main]]
     name = "RSS"
     url = "/posts/index.xml"
     weight = 35
 
-  [[menu.main]]
+  [[languages.es.menu.main]]
     name = "Contact"
-    url = "/contact/"
+    pageRef = "/contact"
+    weight = 40
+
+[languages.en]
+  languageCode = "en-US"
+  languageName = "English"
+  title = "Domingo Gallardo"
+  weight = 2
+
+  [languages.en.params]
+    description = "Personal website, writing, publications, and software projects."
+    subtitle = "Computer Science · Alicante, Spain"
+    about = """
+
+Retired Associate Professor at the University of Alicante. I was part of the
+[Department of Computer Science and Artificial Intelligence](https://web.ua.es/es/dccia/),
+where I taught undergraduate and master's courses in Computer Science such as
+*Programming Languages and Paradigms*, *Agile Software Development Methodologies*,
+and *Mobile Platform Services* (iOS). My [doctoral thesis (1999)](/papers/gallardo-tesis.pdf) focused on
+indoor navigation for a mobile robot using ultrasonic sensors.
+
+I am interested in artificial intelligence, especially large language models (LLMs)
+and their recent evolution (training, post-training, evaluation, and their use as
+components in more complex systems). I am also interested in reinforcement learning
+and robotics.
+
+I also develop software as a personal interest
+(often in the Apple ecosystem, using Swift) and maintain open projects on
+[GitHub](https://github.com/domingogallardo) focused on small, reusable tools.
+In my [newsletter](https://domingogallardo.substack.com) I write about ideas and readings on AI,
+technology, and science, trying to add context and detail beyond the headline.
+"""
+
+  [[languages.en.params.profile_links]]
+    name = "GitHub"
+    url = "https://github.com/domingogallardo"
+
+  [[languages.en.params.profile_links]]
+    name = "Google Scholar"
+    url = "https://scholar.google.com/citations?user=qi7V9nUAAAAJ&hl=en"
+
+  [[languages.en.menu.main]]
+    name = "About"
+    pageRef = "/"
+    weight = 5
+
+  [[languages.en.menu.main]]
+    name = "Posts"
+    pageRef = "/posts"
+    weight = 10
+
+  [[languages.en.menu.main]]
+    name = "Research"
+    pageRef = "/publications"
+    weight = 20
+
+  [[languages.en.menu.main]]
+    name = "Software"
+    pageRef = "/software"
+    weight = 30
+
+  [[languages.en.menu.main]]
+    name = "RSS"
+    url = "/en/posts/index.xml"
+    weight = 35
+
+  [[languages.en.menu.main]]
+    name = "Contact"
+    pageRef = "/contact"
     weight = 40

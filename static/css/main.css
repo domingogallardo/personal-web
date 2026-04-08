@@ -215,6 +215,37 @@ main h4 a[href^="https://"]:not([href*="domingogallardo.site"]):not([href*="loca
   text-decoration: underline;
 }
 
+.lang-switch {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.lang-switch a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+
+.lang-switch a:hover {
+  color: var(--ink);
+  text-decoration: none;
+  border-color: #d6d6d6;
+}
+
+.lang-switch a.active {
+  color: var(--ink);
+  background: #f7f7f7;
+  border-color: #d6d6d6;
+}
+
 .pub-links a {
   color: #0b57d0;
   text-decoration: underline;
@@ -269,6 +300,10 @@ h1 .last { font-weight: 250; }
   .top nav ul {
     justify-content: flex-end;
     padding-right: 8px;
+  }
+
+  .lang-switch {
+    justify-content: flex-end;
   }
 }
 

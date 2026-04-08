@@ -5,12 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
   <meta name="description" content="{{ site.Params.description }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ with .AllTranslations }}
+    {{ range . }}
+  <link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+    {{ end }}
+  {{ end }}
   {{ with site.GetPage "/posts" }}
     {{ with .OutputFormats.Get "rss" }}
   <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" title="{{ printf "%s · RSS" site.Title }}" href="{{ .Permalink }}">
     {{ end }}
   {{ end }}
-  <link rel="stylesheet" href="/css/main.css{{ if hugo.IsServer }}?v={{ now.Unix }}{{ end }}">
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}{{ if hugo.IsServer }}?v={{ now.Unix }}{{ end }}">
   {{ with site.Params.ga_measurement_id }}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
   <script>
@@ -27,6 +33,6 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
-  <script defer src="/js/external-links.js{{ if hugo.IsServer }}?v={{ now.Unix }}{{ end }}"></script>
+  <script defer src="{{ "js/external-links.js" | relURL }}{{ if hugo.IsServer }}?v={{ now.Unix }}{{ end }}"></script>
 </body>
 </html>

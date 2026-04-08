@@ -27,7 +27,7 @@
       {{ end }}
     </div>
     <div class="about-photo">
-      <img src="/{{ site.Params.avatar }}{{ if hugo.IsServer }}?v={{ now.Unix }}{{ end }}" alt="Foto de {{ site.Title }}">
+      <img src="{{ site.Params.avatar | relURL }}{{ if hugo.IsServer }}?v={{ now.Unix }}{{ end }}" alt="{{ i18n "photo_of" (dict "Title" site.Title) }}">
     </div>
   </div>
 </section>

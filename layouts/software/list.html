@@ -3,8 +3,12 @@
 {{ $software := site.Data.software | default (slice) }}
 <ul class="list">
   {{ range $software }}
+    {{ $desc := .desc }}
+    {{ if and (eq site.Language.Lang "en") .desc_en }}
+      {{ $desc = .desc_en }}
+    {{ end }}
     <li>
-      <strong>{{ .name }}</strong> — {{ .desc }}
+      <strong>{{ .name }}</strong> — {{ $desc }}
       {{ with .github }} [<a href="{{ . }}" target="_blank" rel="noopener">GitHub</a>]{{ end }}
       {{ with .appstore }} [<a href="{{ . }}" target="_blank" rel="noopener">App Store</a>]{{ end }}
     </li>

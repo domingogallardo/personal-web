@@ -38,7 +38,7 @@
   <channel>
     <title>{{ .Site.Title }}</title>
     <link>{{ .Permalink }}</link>
-    <description>Recent content in {{ .Title }} on {{ .Site.Title }}</description>
+    <description>{{ i18n "rss_recent_content" (dict "Title" .Title "SiteTitle" .Site.Title) }}</description>
     <generator>Hugo</generator>
     <language>{{ site.Language.LanguageCode }}</language>{{ with $authorEmail }}
     <managingEditor>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</managingEditor>{{ end }}{{ with $authorEmail }}
