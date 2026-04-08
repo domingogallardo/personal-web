@@ -16,7 +16,7 @@ tags:
 <p>1. In the <a href="/en/posts/del-16-al-31-de-mayo-10-de-2024/">previous issue</a> of the <em>newsletter</em>, I mentioned that Apple's <strong>WWDC24</strong> was about to begin.</p>
 
 <p>
-<img src="0b017c27-bd17-4485-be65-83d32dde0d53_1318x924.png" alt="">
+<img src="/posts/del-1-al-15-de-junio-11-de-2024/0b017c27-bd17-4485-be65-83d32dde0d53_1318x924.png" alt="">
 </p>
 
 <p>WWDC24 arrived.</p>
@@ -112,11 +112,11 @@ tags:
 <p>When Apple uses the phrase "<strong>AI for the rest of us</strong>" on its site and in its ads, it is reviving the original campaign from forty years ago that introduced the Macintosh.</p>
 
 <p>
-<img src="fe81ad46-2739-4e29-8063-e283b72d28e5_2220x1336.png" alt="">
+<img src="/posts/del-1-al-15-de-junio-11-de-2024/fe81ad46-2739-4e29-8063-e283b72d28e5_2220x1336.png" alt="">
 </p>
 
 <p>
-<img src="11a8a536-8b3e-4198-b9bc-5e3eda7f084a_896x1276.png" alt="">
+<img src="/posts/del-1-al-15-de-junio-11-de-2024/11a8a536-8b3e-4198-b9bc-5e3eda7f084a_896x1276.png" alt="">
 </p>
 
 <p>"The rest of us" are the people who do not want complications, people who want to use AI for specific things without configuring anything or writing advanced prompts. All the features are based on generative models, but the whole job of crafting the prompt and communicating with the model is hidden away or reduced to a minimum. We only have to choose a few options in an intuitive way, just as we do when using any app that is not explicitly an AI app. And in those cases where a prompt is needed, such as to generate an image, it is kept to the bare minimum.</p>
@@ -154,7 +154,7 @@ tags:
 <p>The following illustration shows an example of the figures used in the test. They are drawn on a grid, and there is a pattern that relates the input figure to the output figure. The task is to identify that pattern so that we can determine what the output should be.</p>
 
 <p>
-<img src="9a4b2f4c-be66-4736-b28b-f33e642c28a2_1484x636.png" alt="">
+<img src="/posts/del-1-al-15-de-junio-11-de-2024/9a4b2f4c-be66-4736-b28b-f33e642c28a2_1484x636.png" alt="">
 </p>
 
 <p>Example figures from the ARC test. Can you identify the pattern and guess what the next figure should be?</p>
@@ -214,7 +214,7 @@ tags:
 <p>As soon as it premiered on Netflix, we watched <strong>Godzilla Minus One</strong> (<a href="https://letterboxd.com/film/godzilla-minus-one/">letterboxd</a>) on our Friday film night.</p>
 
 <p>
-<img src="f38ccf03-93af-4e9c-98aa-a1d8db7d32de_800x1174.jpeg" alt="">
+<img src="/posts/del-1-al-15-de-junio-11-de-2024/f38ccf03-93af-4e9c-98aa-a1d8db7d32de_800x1174.jpeg" alt="">
 </p>
 
 <p>Great poster for <em>Godzilla Minus One</em>.</p>
@@ -230,7 +230,7 @@ tags:
 <p>I must be one of the few Spaniards who had never watched anything by the <strong>Caballero brothers</strong>. I had not seen <strong>Aqui no hay quien viva</strong>, <strong>La que se avecina</strong>, or <strong>Machos alfa</strong>. But we tried this one and had a great time. They go a bit too far with black humor now and then, but most of the time it made us laugh out loud.</p>
 
 <p>
-<img src="1ae6f8cc-cafc-42a9-9a25-8daca05a594e_826x1200.jpeg" alt="">
+<img src="/posts/del-1-al-15-de-junio-11-de-2024/1ae6f8cc-cafc-42a9-9a25-8daca05a594e_826x1200.jpeg" alt="">
 </p>
 
 <p>Excellent cast, with hilarious characters you recognize instantly. Everyone is great, and together with very entertaining scripts they make it the comedy that has made me laugh the most lately.</p>
@@ -238,7 +238,7 @@ tags:
 <p>I also really liked the latest season, season 3, of <strong>The Morning Show</strong>. I thought it was the best season so far, and it keeps getting better episode by episode until the final fireworks.</p>
 
 <p>
-<img src="f2123d03-3cf5-4224-a110-8acd5dce2df4_799x1200.jpeg" alt="">
+<img src="/posts/del-1-al-15-de-junio-11-de-2024/f2123d03-3cf5-4224-a110-8acd5dce2df4_799x1200.jpeg" alt="">
 </p>
 
 <p>The acting is excellent across the board. I love <strong>Billy Crudup</strong>, who takes Cory Ellison to remarkable places, and also <strong>Greta Lee</strong>, who brings great nuance to Stella Bak.</p>
@@ -248,7 +248,7 @@ tags:
 <p>I finished <em><strong>The Dark Forest</strong></em>, from Liu Cixin's trilogy. I had already read it a few years ago and reread it because of the Netflix series. I liked it a lot again, especially its scientific ideas and speculations. That said, the characters and their relationships are stereotyped and dated; it feels like a book written in the 1950s. But the scientific side and the suspense make up for that. It has extremely original ideas and scenes that will be amazing to see on television. I cannot wait to see "the droplet".</p>
 
 <p>
-<img src="e656e980-0e65-4c3b-9646-48780332afa3_1792x1024.png" alt="">
+<img src="/posts/del-1-al-15-de-junio-11-de-2024/e656e980-0e65-4c3b-9646-48780332afa3_1792x1024.png" alt="">
 </p>
 
 <p>DALL-E drawing of "the droplet" from <em>The Dark Forest</em>.</p>
@@ -258,7 +258,7 @@ tags:
 <p>The book I have just started is the continuation of <em>Dune</em>, <em><strong>Dune Messiah</strong></em>, by Frank Herbert. Twelve years have passed since the end of <em>Dune</em> and Paul Atreides has consolidated his power as Emperor and spread his jihad across the galaxy.</p>
 
 <p>
-<img src="8479567d-8274-4768-a531-d0ea067b9b3a_324x500.jpeg" alt="">
+<img src="/posts/del-1-al-15-de-junio-11-de-2024/8479567d-8274-4768-a531-d0ea067b9b3a_324x500.jpeg" alt="">
 </p>
 
 <p>I am only a couple of chapters in and it is going very well. Let's see if by the next issue I have finished it.</p>

@@ -24,7 +24,7 @@ In other words, not how much a system knows, but to what extent it can infer a n
 For example, the following tasks are part of ARC-AGI-1. Try to find the rule that transforms each input grid into its output grid. You can see the solution in footnote [^1].
 
 <figure>
-  <img src="arc-agi-1-sample-tasks.png" alt="Three sample ARC-AGI-1 tasks">
+  <img src="/posts/que-nos-ensena-arc-agi-sobre-los-modelos-de-lenguaje/arc-agi-1-sample-tasks.png" alt="Three sample ARC-AGI-1 tasks">
   <figcaption>Examples of ARC-AGI-1 tasks. You have to find the rule that transforms each input grid into its output grid.</figcaption>
 </figure>
 
@@ -37,12 +37,12 @@ As soon as the prize launched, we all wondered **how frontier LLMs** of that mom
 What is most striking is that, even as models have become larger and more capable, the results of **non-reasoning LLMs** have not improved very much. Not even in today's models. For example, [task 2072aba6](https://arcprize.org/tasks/2072aba6/) could only be solved by non-reasoning models starting in December 2025 (`gpt-5-2-2025-12-11-thinking-none` was the first). By contrast, [task 3391f8c0](https://arcprize.org/tasks/3391f8c0/), which looks very simple, still cannot be solved today by any non-reasoning model.
 
 <figure>
-  <img src="arc-agi-1-task-2072aba6.png" alt="Result for task 2072aba6">
+  <img src="/posts/que-nos-ensena-arc-agi-sobre-los-modelos-de-lenguaje/arc-agi-1-task-2072aba6.png" alt="Result for task 2072aba6">
   <figcaption>ARC-AGI-1 task 2072aba6 could only be solved by non-reasoning models starting in December 2025.</figcaption>
 </figure>
 
 <figure>
-  <img src="arc-agi-1-task-3391f8c0.png" alt="Result for task 3391f8c0">
+  <img src="/posts/que-nos-ensena-arc-agi-sobre-los-modelos-de-lenguaje/arc-agi-1-task-3391f8c0.png" alt="Result for task 3391f8c0">
   <figcaption>ARC-AGI-1 task 3391f8c0 still cannot be solved today by any non-reasoning model.</figcaption>
 </figure>
 
@@ -63,7 +63,7 @@ While ARC Prize 2024 was still underway, Chollet's team was already designing th
 A good example is [task 1ae2feb7](https://arcprize.org/tasks/1ae2feb7/). It took me more than 10 minutes and seems to me an excellent example of rule composition. How long does it take you? [^2]
 
 <figure>
-  <img src="arc-agi-2-task-1ae2feb7.png" alt="Task 1ae2feb7 from ARC-AGI-2">
+  <img src="/posts/que-nos-ensena-arc-agi-sobre-los-modelos-de-lenguaje/arc-agi-2-task-1ae2feb7.png" alt="Task 1ae2feb7 from ARC-AGI-2">
   <figcaption>ARC-AGI-2 task 1ae2feb7 is an example of rule composition. How long does it take you to solve it?</figcaption>
 </figure>
 
@@ -76,7 +76,7 @@ But at the end of 2025 the landscape changed quickly. One after another, new mod
 It is hard not to connect these dates with another qualitative shift that shook the programming world starting in December 2025. Tools such as Claude Code or Codex CLI, guided by new LLMs, began for the first time to show a sustained ability to **reason for tens of minutes and manage projects with thousands of lines of code**. The temporal coincidence does not seem accidental. A particularly interesting clue is Johan Land's [beetree/ARC-AGI project](https://github.com/beetree/ARC-AGI), which on January 5, 2026 reached 76.11% on ARC-AGI-2 using what he calls *Multi-Model Reflective Reasoning*: a combination of several frontier models, long-horizon reasoning (around 6 hours per problem), agentic code generation, visual reasoning, and a kind of "council of judges" that evaluates solutions.
 
 <figure>
-  <img src="johan-land-arc-agi-2.png" alt="Screenshot of the result shared by Johan Land">
+  <img src="/posts/que-nos-ensena-arc-agi-sobre-los-modelos-de-lenguaje/johan-land-arc-agi-2.png" alt="Screenshot of the result shared by Johan Land">
   <figcaption><a href="https://x.com/LandJohan/status/2008197725263716589?s=20">Post on X by Johan Land</a> explaining the architecture of his ARC-AGI-2 solution.</figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ In this new version, the system must do more than infer a rule from a few static
 We can see some examples of what these interactive games will look like on [the project website](https://three.arcprize.org). For example, in the game shown in the following animation, the goal is to move the orange-and-blue square to the symbol in the lower-right corner, but first you have to change the orientation and color of the symbol in the lower-left corner so that it matches it. In earlier levels we learned that passing over the white cross lets us rotate the pattern, and that yellow squares are used to recover energy. In this level we also learn that the colored square changes the pattern's color and that white bars push our block to the next wall. All of that learning will be needed in later levels, where those rules must be combined with new ones.
 
 <figure>
-  <img src="arc-agi-3-curated.gif" alt="Example animation from ARC-AGI-3">
+  <img src="/posts/que-nos-ensena-arc-agi-sobre-los-modelos-de-lenguaje/arc-agi-3-curated.gif" alt="Example animation from ARC-AGI-3">
   <figcaption>Level 3 (out of 7) of one of ARC-AGI-3's interactive games.</figcaption>
 </figure>
 

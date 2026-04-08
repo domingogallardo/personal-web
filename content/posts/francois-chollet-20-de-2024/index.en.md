@@ -8,7 +8,7 @@ tags:
 ---
 
 <p>
-<img src="3b65861f-2a0a-4dfa-8317-157eea55d952_1540x590.png" alt="">
+<img src="/posts/francois-chollet-20-de-2024/3b65861f-2a0a-4dfa-8317-157eea55d952_1540x590.png" alt="">
 </p>
 
 ## François Chollet on MLST
@@ -37,7 +37,7 @@ If you want more technical detail on the topics discussed here, you can also che
 ### System 1 and System 2 intelligence
 
 <p>
-<img src="system 1 - system 2.jpg" alt="">
+<img src="/posts/francois-chollet-20-de-2024/system 1 - system 2.jpg" alt="">
 </p>
 
 ChatGPT-generated image.
@@ -65,7 +65,7 @@ How the mind works when operating in System 2 mode is similar to the **step-by-s
 ### The limits of deep learning
 
 <p>
-<img src="Captura de pantalla 2024-12-01 a las 7.26.56.png" alt="">
+<img src="/posts/francois-chollet-20-de-2024/Captura de pantalla 2024-12-01 a las 7.26.56.png" alt="">
 </p>
 
 Slide from the ARC Prize 2024 University Tour.
@@ -93,7 +93,7 @@ Pattern recognition was not enough to perform automatic deductions. **Chollet** 
 **Chollet's** ideas about the need for System 2 reasoning and the limits of System 1 are shared by almost the entire community. Even so, one question occurs to me: what are the limits of pattern recognition? Could we build an intuitive system that generates mathematical theorems? We do have one case that seems to suggest so: the Indian mathematician **Srinivasa Ramanujan**.
 
 <p>
-<img src="Srinivasa_Ramanujan_-_OPC_-_2_(cleaned).jpg" alt="">
+<img src="/posts/francois-chollet-20-de-2024/Srinivasa_Ramanujan_-_OPC_-_2_(cleaned).jpg" alt="">
 </p>
 
 The brilliant Indian mathematician Srinivasa Ramanujan.
@@ -111,7 +111,7 @@ Perhaps this goddess was nothing more than the enormous **pattern-recognition** 
 ### Combining System 1 and System 2
 
 <p>
-<img src="combinacion-s1-s2.png" alt="">
+<img src="/posts/francois-chollet-20-de-2024/combinacion-s1-s2.png" alt="">
 </p>
 
 ChatGPT-generated image.
@@ -137,7 +137,7 @@ For example, this is basically how **DeepMind** built [AlphaGo](https://storage.
 ### Interpolation with value-centric abstractions
 
 <p>
-<img src="Captura de pantalla 2024-11-30 a las 17.19.29.png" alt="">
+<img src="/posts/francois-chollet-20-de-2024/Captura de pantalla 2024-11-30 a las 17.19.29.png" alt="">
 </p>
 
 Illustration of a mixture of three Gaussians in a two-dimensional space, taken from Christopher M. Bishop's book *Deep Learning - Foundations and Concepts*.
@@ -167,7 +167,7 @@ Recent papers, such as [*Arithmetic Without Algorithms: Language Models Solve Ma
 ### ARC, novelty, and the ability of intelligence to handle new situations
 
 <p>
-<img src="9a4b2f4c-be66-4736-b28b-f33e642c28a2_1484x636.webp" alt="">
+<img src="/posts/francois-chollet-20-de-2024/9a4b2f4c-be66-4736-b28b-f33e642c28a2_1484x636.webp" alt="">
 </p>
 
 Example of ARC tasks.
@@ -203,7 +203,7 @@ The week of December 10 to 15, at **NeurIPS 2024**, the winners of this year's c
 ### AGI
 
 <p>
-<img src="agi.png" alt="">
+<img src="/posts/francois-chollet-20-de-2024/agi.png" alt="">
 </p>
 
 ChatGPT-generated image.
@@ -231,7 +231,7 @@ But AGI will not arrive abruptly, and there should be time to think about those 
 We end the article with this optimistic view of the future. A future that Chollet himself now wants to help build more directly than before: on November 14 he [announced on X](https://x.com/fchollet/status/1857012265024696494) that he was leaving Google to start a company with a friend.
 
 <p>
-<img src="04585b46-2ea2-4219-81f9-bd49fedda502_1110x256.png" alt="">
+<img src="/posts/francois-chollet-20-de-2024/04585b46-2ea2-4219-81f9-bd49fedda502_1110x256.png" alt="">
 </p>
 
 Good luck, François.

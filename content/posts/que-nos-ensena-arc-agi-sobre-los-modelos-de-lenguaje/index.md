@@ -24,7 +24,7 @@ Dicho de otro modo: no cuánto sabe un sistema, sino hasta qué punto puede infe
 Por ejemplo, las siguientes tareas forman parte de ARC-AGI-1. Te propongo que intentes encontrar la regla que transforma cada rejilla de entrada en su rejilla de salida. Puedes ver la solución en la nota al pie [^1].
 
 <figure>
-  <img src="arc-agi-1-sample-tasks.png" alt="Tres tareas de ejemplo de ARC-AGI-1">
+  <img src="/posts/que-nos-ensena-arc-agi-sobre-los-modelos-de-lenguaje/arc-agi-1-sample-tasks.png" alt="Tres tareas de ejemplo de ARC-AGI-1">
   <figcaption>Ejemplos de tareas de ARC-AGI-1. Debes encontrar la regla que transforma cada rejilla de entrada en su rejilla de salida.</figcaption>
 </figure>
 
@@ -37,12 +37,12 @@ En cuanto se lanzó el premio, todos nos preguntamos **cuál sería el rendimien
 Y lo más llamativo es que, incluso cuando los modelos se han ido haciendo más grandes y más potentes, los resultados de los **LLMs no razonadores** no han mejorado demasiado. Ni siquiera en los LLMs actuales. Por ejemplo, la [tarea 2072aba6](https://arcprize.org/tasks/2072aba6/) solo ha podido ser resuelta modelos no razonadores a partir de diciembre de 2025 (`gpt-5-2-2025-12-11-thinking-none` fue el primero en hacerlo). En cambio, la [tarea 3391f8c0](https://arcprize.org/tasks/3391f8c0/), que en apariencia es muy sencilla, no puede ser resuelta hoy por ningún modelo no razonador.
 
 <figure>
-  <img src="arc-agi-1-task-2072aba6.png" alt="Resultado de la tarea 2072aba6">
+  <img src="/posts/que-nos-ensena-arc-agi-sobre-los-modelos-de-lenguaje/arc-agi-1-task-2072aba6.png" alt="Resultado de la tarea 2072aba6">
   <figcaption>La tarea 2072aba6 de ARC-AGI-1 solo ha podido ser resuelta por modelos no razonadores a partir de diciembre de 2025.</figcaption>
 </figure>
 
 <figure>
-  <img src="arc-agi-1-task-3391f8c0.png" alt="Resultado de la tarea 3391f8c0">
+  <img src="/posts/que-nos-ensena-arc-agi-sobre-los-modelos-de-lenguaje/arc-agi-1-task-3391f8c0.png" alt="Resultado de la tarea 3391f8c0">
   <figcaption>La tarea 3391f8c0 no puede ser resuelta hoy por ningún modelo no razonador.</figcaption>
 </figure>
 
@@ -63,7 +63,7 @@ Mientras estaba en marcha el ARC Prize 2024, el equipo de Chollet ya estaba dise
 Un buen ejemplo es la [tarea 1ae2feb7](https://arcprize.org/tasks/1ae2feb7/). A mí me ha costado más de 10 minutos y me parece un excelente ejemplo de combinación de reglas. ¿Cuánto tiempo tardas tú? [^2]
 
 <figure>
-  <img src="arc-agi-2-task-1ae2feb7.png" alt="Tarea 1ae2feb7 de ARC-AGI-2">
+  <img src="/posts/que-nos-ensena-arc-agi-sobre-los-modelos-de-lenguaje/arc-agi-2-task-1ae2feb7.png" alt="Tarea 1ae2feb7 de ARC-AGI-2">
   <figcaption>La tarea 1ae2feb7 de ARC-AGI-2 es un ejemplo de combinación de reglas. ¿Cuánto tiempo tardas en resolverla?</figcaption>
 </figure>
 
@@ -76,7 +76,7 @@ Pero a finales de 2025 el panorama cambió deprisa. Uno tras otro, los nuevos mo
 Es difícil no relacionar estas fechas con otro cambio cualitativo que sacudió el mundo de la programación a partir de diciembre de 2025. Herramientas como Claude Code o Codex CLI, guiadas por los nuevos LLMs, empezaron a mostrar por primera vez una capacidad sostenida para **razonar durante decenas de minutos y gestionar proyectos de miles de líneas de código**. La coincidencia temporal no parece casual. Una pista especialmente interesante está en el [proyecto beetree/ARC-AGI](https://github.com/beetree/ARC-AGI) de Johan Land, que el 5 de enero de 2026 llegó al 76.11% en ARC-AGI-2 usando un enfoque que él llama _Multi-Model Reflective Reasoning_: combinación de varios modelos frontera, razonamiento de largo horizonte (≈6 horas por problema), generación agéntica de código, razonamiento visual y una especie de “consejo de jueces” para evaluar soluciones. 
 
 <figure>
-  <img src="johan-land-arc-agi-2.png" alt="Captura del resultado compartido por Johan Land">
+  <img src="/posts/que-nos-ensena-arc-agi-sobre-los-modelos-de-lenguaje/johan-land-arc-agi-2.png" alt="Captura del resultado compartido por Johan Land">
   <figcaption><a href="https://x.com/LandJohan/status/2008197725263716589?s=20">Post en X de Johan Land</a> explicando la arquitectura de su solución de ARC-AGI-2.</figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ En esta nueva versión no solo se debe inferir una regla a partir de unos pocos 
 Podemos ver algunos ejemplos de cómo van a ser los juegos interactivos en la [la web del proyecto](https://three.arcprize.org). Por ejemplo, en el juego que se muestra en la siguiente animación el objetivo es mover el cuadrado naranja y azul hasta el símbolo de la esquina inferior derecha, pero antes hay que transformar la orientación y el color del símbolo situado en la esquina inferior izquierda para que coincida con él. En niveles anteriores hemos aprendido que, al pasar por encima de la cruz blanca, podemos girar el patrón, y que los cuadrados amarillos sirven para recuperar energía. En este nivel aprendemos además que el cuadrado de colores permite cambiar el color del patrón y que las barras blancas empujan nuestro bloque hasta la siguiente pared. Y todo ese aprendizaje será necesario en niveles posteriores, en los que habrá que combinar esas reglas con otras nuevas.
 
 <figure>
-  <img src="arc-agi-3-curated.gif" alt="Animación de ejemplo de ARC-AGI-3">
+  <img src="/posts/que-nos-ensena-arc-agi-sobre-los-modelos-de-lenguaje/arc-agi-3-curated.gif" alt="Animación de ejemplo de ARC-AGI-3">
   <figcaption>Nivel 3 (de 7) de uno de los juegos interactivos de ARC-AGI-3.</figcaption>
 </figure>
 
