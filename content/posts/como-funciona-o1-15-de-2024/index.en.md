@@ -118,14 +118,6 @@ So my conclusion at that point was simple: it still looked far too early to call
 
 My closing advice, in three words, Altman-style, was: **don't sell NVIDIA**.
 
-## Addendum
-
-At the end of the original article, I asked GPT-4o and o1 to summarize the piece in a single paragraph. Predictably, **o1's summary was better**: more detailed, more nuanced, and more faithful to the argument.
-
-![](40bf7854-e9d9-4405-819e-396d9c042150_1578x148.png)
-
-It did not, however, like my mention of NVIDIA very much.
-
 ---
 
 See you next time.
