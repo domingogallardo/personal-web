@@ -155,8 +155,16 @@ rm -f deploy.tar.gz
 chown -R 100:101 "$REMOTE_PATH/dynamic-data" || true
 chmod -R 755 "$REMOTE_PATH/dynamic-data" || true
 
+OLD_IMAGE_ID="$(docker image inspect "$IMAGE_NAME" --format '{{.Id}}' 2>/dev/null || true)"
+
 docker rm -f "$CONTAINER_NAME" >/dev/null 2>&1 || true
 docker build -t "$IMAGE_NAME" .
+
+NEW_IMAGE_ID="$(docker image inspect "$IMAGE_NAME" --format '{{.Id}}' 2>/dev/null || true)"
+
+if [[ -n "$OLD_IMAGE_ID" && "$OLD_IMAGE_ID" != "$NEW_IMAGE_ID" ]]; then
+  docker image rm -f "$OLD_IMAGE_ID" >/dev/null 2>&1 || true
+fi
 
 RUN_ARGS=(
   -d
@@ -172,6 +180,10 @@ else
 fi
 
 docker run "${RUN_ARGS[@]}" "$IMAGE_NAME"
+
+# Keep disk usage stable on the remote host after each deploy.
+docker image prune -f >/dev/null 2>&1 || true
+docker builder prune -af >/dev/null 2>&1 || true
 EOSSH
 
 echo "✅ Despliegue completado."
