@@ -18,6 +18,8 @@ summaryLength = 30
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+    style = "github"
 
 [params]
   avatar = "images/yo.jpg"
