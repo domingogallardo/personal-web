@@ -39,7 +39,54 @@ Reasoning models, **o1** from **OpenAI** or **DeepSeek-R1**, do something very s
 Below we can see an English version in which I have inserted the `<think>` tags that DeepSeek-R1 uses to delimit its reasoning:
 
 ```
-<think>Okay, I need to figure out how to combine the numbers 2, 3, 6, and 120 using mathematical operations in order to get 84. Let me start by writing the numbers down: 2, 3, 6, 120. Hmm, 84 is less than 120, so maybe I need to subtract something from 120. Let me see: 120 minus 36 is 84. Wait, do I have the numbers needed to make 36? Let's check. The numbers I have are 2, 3, and 6. If I multiply 6 by 6, I get 36, but I do not have another 6. Wait, but I do have 2, 3, and 6. Maybe 6 times (3 times 2) gives me 6*6=36. Then 120 - 36 = 84. Let me verify that. 3 times 2 is 6, then 6 times 6 is 36. So 120 minus 36 really is 84. But wait, have I used all the numbers? Let's review: 2, 3, 6, 120. Yes, I used 2, 3, and 6 to obtain 36 and then subtracted it from 120. So the expression would be 120 - (6 × (3 × 2)) = 84. Alternatively, is there another way? Let me see whether I can use division or addition. If I add 2 and 3, I get 5, then 6 times 5 is 30, but 120 minus 30 is 90, not 84. And what if I divide 120 by something? Maybe 120 divided by (6 - (3 - 2))... Let me calculate it: 3 - 2 is 1, 6 - 1 is 5, 120 divided by 5 is 24. That is not 84. Let us try multiplying some numbers first. 6 times 2 is 12, 3 times 12 is 36, and 120 - 36 = 84. That is the same as before. Alternatively, 3 times 6 is 18, 18 times 2 is 36. Yes, same result. So maybe 120 - 2 × 3 × 6. Let me calculate it: 2 × 3 = 6, 6 × 6 = 36, 120 - 36 = 84. Yes, it works. So the operations would be 120 - (2 × 3 × 6) = 84. And all the numbers are used once: 2, 3, 6, 120. That seems correct. I think that is the solution.
+<think>
+Okay, I need to figure out how to combine the numbers 2, 3, 6, and 120
+using mathematical operations in order to get 84.
+
+Let me start by writing the numbers down: 2, 3, 6, 120.
+Hmm, 84 is less than 120, so maybe I need to subtract something from 120.
+Let me see: 120 minus 36 is 84.
+
+Wait, do I have the numbers needed to make 36?
+Let's check. The numbers I have are 2, 3, and 6.
+If I multiply 6 by 6, I get 36, but I do not have another 6.
+
+Wait, but I do have 2, 3, and 6.
+Maybe 6 times (3 times 2) gives me 6*6=36.
+Then 120 - 36 = 84.
+
+Let me verify that.
+3 times 2 is 6, then 6 times 6 is 36.
+So 120 minus 36 really is 84.
+
+But wait, have I used all the numbers?
+Let's review: 2, 3, 6, 120.
+Yes, I used 2, 3, and 6 to obtain 36 and then subtracted it from 120.
+So the expression would be 120 - (6 × (3 × 2)) = 84.
+
+Alternatively, is there another way?
+Let me see whether I can use division or addition.
+If I add 2 and 3, I get 5, then 6 times 5 is 30,
+but 120 minus 30 is 90, not 84.
+
+And what if I divide 120 by something?
+Maybe 120 divided by (6 - (3 - 2))...
+Let me calculate it: 3 - 2 is 1, 6 - 1 is 5, 120 divided by 5 is 24.
+That is not 84.
+
+Let us try multiplying some numbers first.
+6 times 2 is 12, 3 times 12 is 36, and 120 - 36 = 84.
+That is the same as before.
+
+Alternatively, 3 times 6 is 18, 18 times 2 is 36.
+Yes, same result.
+So maybe 120 - 2 × 3 × 6.
+Let me calculate it: 2 × 3 = 6, 6 × 6 = 36, 120 - 36 = 84.
+Yes, it works.
+
+So the operations would be 120 - (2 × 3 × 6) = 84.
+And all the numbers are used once: 2, 3, 6, 120.
+That seems correct. I think that is the solution.
 </think>
 ```
 

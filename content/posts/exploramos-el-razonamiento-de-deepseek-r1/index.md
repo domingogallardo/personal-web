@@ -40,7 +40,54 @@ Los modelos razonadores (o1 de OpenAI o DeepSeek-R1) hacen algo muy parecido
 En la siguiente figura podemos ver la versión en español, en la que he introducido las etiquetas `<think>` con las que DeepSeek-R1 delimita su razonamiento:
 
 ```
-<think>Bien, necesito averiguar cómo combinar los números 2, 3, 6 y 120 utilizando operaciones matemáticas para obtener 84. Empezaré escribiendo los números: 2, 3, 6, 120. Hmm, 84 es menor que 120, así que quizá necesite restar algo de 120. Veamos: 120 menos 36 es 84. Espera, ¿tengo los números para formar 36? Vamos a ver. Los números que tengo son 2, 3 y 6. Si multiplico 6 por 6, obtengo 36, pero no tengo otro 6. Espera, pero tengo 2, 3 y 6. Tal vez 6 por (3 por 2) sea 6*6=36. Luego, 120 - 36 = 84. Déjame verificarlo. 3 por 2 es 6, luego 6 por 6 es 36. Así que 120 menos 36 es efectivamente 84. Pero espera, ¿he usado todos los números? Revisemos: 2, 3, 6, 120. Sí, usé 2, 3 y 6 para obtener 36 y luego lo resté de 120. Entonces, la expresión sería 120 - (6 × (3 × 2)) = 84. Alternativamente, ¿hay otra forma? Veamos si puedo usar división o suma. Si sumo 2 y 3, obtengo 5, luego 6 por 5 es 30, pero 120 menos 30 es 90, no 84. ¿Y si divido 120 entre algo? Tal vez 120 dividido por (6 - (3 - 2))… Vamos a calcularlo: 3 - 2 es 1, 6 - 1 es 5, 120 dividido por 5 es 24. No es 84. Probemos multiplicando algunos números primero. 6 por 2 es 12, 3 por 12 es 36, y 120 - 36 = 84. Es lo mismo que antes. Alternativamente, 3 por 6 es 18, 18 por 2 es 36. Sí, mismo resultado. Así que quizás 120 - 2 × 3 × 6. Calculemos: 2 × 3 = 6, 6 × 6 = 36, 120 - 36 = 84. Sí, funciona. Entonces, las operaciones serían 120 - (2 × 3 × 6) = 84. Y todos los números se usan una vez: 2, 3, 6, 120. Parece correcto. Creo que esa es la solución.
+<think>
+Bien, necesito averiguar cómo combinar los números 2, 3, 6 y 120
+utilizando operaciones matemáticas para obtener 84.
+
+Empezaré escribiendo los números: 2, 3, 6, 120.
+Hmm, 84 es menor que 120, así que quizá necesite restar algo de 120.
+Veamos: 120 menos 36 es 84.
+
+Espera, ¿tengo los números para formar 36?
+Vamos a ver. Los números que tengo son 2, 3 y 6.
+Si multiplico 6 por 6, obtengo 36, pero no tengo otro 6.
+
+Espera, pero tengo 2, 3 y 6.
+Tal vez 6 por (3 por 2) sea 6*6=36.
+Luego, 120 - 36 = 84.
+
+Déjame verificarlo.
+3 por 2 es 6, luego 6 por 6 es 36.
+Así que 120 menos 36 es efectivamente 84.
+
+Pero espera, ¿he usado todos los números?
+Revisemos: 2, 3, 6, 120.
+Sí, usé 2, 3 y 6 para obtener 36 y luego lo resté de 120.
+Entonces, la expresión sería 120 - (6 × (3 × 2)) = 84.
+
+Alternativamente, ¿hay otra forma?
+Veamos si puedo usar división o suma.
+Si sumo 2 y 3, obtengo 5, luego 6 por 5 es 30,
+pero 120 menos 30 es 90, no 84.
+
+¿Y si divido 120 entre algo?
+Tal vez 120 dividido por (6 - (3 - 2))…
+Vamos a calcularlo: 3 - 2 es 1, 6 - 1 es 5, 120 dividido por 5 es 24.
+No es 84.
+
+Probemos multiplicando algunos números primero.
+6 por 2 es 12, 3 por 12 es 36, y 120 - 36 = 84.
+Es lo mismo que antes.
+
+Alternativamente, 3 por 6 es 18, 18 por 2 es 36.
+Sí, mismo resultado.
+Así que quizás 120 - 2 × 3 × 6.
+Calculemos: 2 × 3 = 6, 6 × 6 = 36, 120 - 36 = 84.
+Sí, funciona.
+
+Entonces, las operaciones serían 120 - (2 × 3 × 6) = 84.
+Y todos los números se usan una vez: 2, 3, 6, 120.
+Parece correcto. Creo que esa es la solución.
 </think>
 ```
 
