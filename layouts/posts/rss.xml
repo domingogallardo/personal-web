@@ -49,7 +49,11 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end }}
     {{- range $pages }}
-    {{- $content := .Content }}
+    {{- $content := .Content
+      | replaceRE `(?s)<blockquote class="twitter-tweet">.*?</blockquote>` ``
+      | replaceRE `(?s)<script\b[^>]*src=["']https://platform\.twitter\.com/widgets\.js["'][^>]*>.*?</script>` ``
+      | replaceRE `\n{3,}` "\n\n"
+    }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>

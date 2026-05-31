@@ -33,6 +33,9 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
+  {{ if .Store.Get "hasTwitterEmbed" }}
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  {{ end }}
   <script defer src="{{ "js/external-links.js" | relURL }}{{ if hugo.IsServer }}?v={{ now.Unix }}{{ end }}"></script>
 </body>
 </html>

@@ -1,0 +1,7 @@
+{{- $url := .Get "url" -}}
+{{- if $url -}}
+{{- .Page.Store.Set "hasTwitterEmbed" true -}}
+<blockquote class="twitter-tweet">
+  <a href="{{ $url }}"></a>
+</blockquote>
+{{- end -}}
