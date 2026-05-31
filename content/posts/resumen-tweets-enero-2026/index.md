@@ -13,6 +13,12 @@ tags:
 > ¿The spirit is now dead?
 >
 > ¿Consecuencia del "code red"? Sam Altman is missing por ahora.
+>
+> <https://fidjisimo.substack.com/p/closing-the-capability-gap>
+>
+> <https://x.com/MillionInt/status/2008237251751534622>
+>
+> <https://x.com/apples_jimmy/status/2008381885022621867>
 
 {{< tweet url="https://x.com/domingogallardo/status/2008483978911567882" >}}
 
@@ -47,6 +53,8 @@ tags:
 > Esto que enlazas en el artículo y que escribiste en 2022 es muy bueno.
 >
 > Me lo tengo que leer todos los meses para quitarme esa nostalgia de boomer de la internet que no llegó a ser lo que nos prometieron.
+>
+> <https://error500.net/p/como-con-el-creador-de-contenidos>
 
 {{< tweet url="https://x.com/domingogallardo/status/2009294182246973847" >}}
 
@@ -55,6 +63,8 @@ tags:
 > Muy chulo el vídeo de explicación de Claude Code para los que están menos iniciados en la programación.
 >
 > Por cierto, si ya tenéis la suscripción a ChatGPT, la herramienta Codex de OpenAI funciona de una forma similar, no hace falta pagar lo de Antrhopic.
+>
+> <https://openai.com/codex/>
 
 {{< tweet url="https://x.com/domingogallardo/status/2010275014323458270" >}}
 
@@ -87,5 +97,7 @@ tags:
 ## 31 de enero de 2026
 
 > Nueva entrega de la newsletter: “La mejora de los LLMs en 2025: no hubo muro”
+>
+> <https://open.substack.com/pub/domingogallardo/p/la-mejora-de-los-llms-en-2025-no?r=hbwh&utm_medium=ios&shareImageVariant=card>
 
 {{< tweet url="https://x.com/domingogallardo/status/2017175408387428690" >}}

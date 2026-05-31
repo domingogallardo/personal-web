@@ -16,12 +16,6 @@ tags:
 
 {{< tweet url="https://x.com/domingogallardo/status/2019371617965556184" >}}
 
-## 12 de febrero de 2026
-
-> Un ejemplo del tipo de cosas que se puede hacer con Codex App: analizar tus analíticas.
-
-{{< tweet url="https://x.com/domingogallardo/status/2021841640810287559" >}}
-
 ## 24 de febrero de 2026
 
 > Argument against Jevons: complexity of the system grows exponentially and people doesn’t want/need more features (same argument you did for slow diffusion of AI).

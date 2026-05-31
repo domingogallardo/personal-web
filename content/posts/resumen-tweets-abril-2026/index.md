@@ -15,6 +15,8 @@ tags:
 <p>❄ ❄ ❄ ❄ ❄</p>
 
 > Una pasada lo que es capaz de hacer la nueva versión del modelo de imágenes de OpenAI. Le he pasado a ChatGPT la descripción de mi repo docflow y me ha generado esto.
+>
+> <https://github.com/domingogallardo/docflow>
 
 {{< tweet url="https://x.com/domingogallardo/status/2046656889623138488" >}}
 
@@ -23,6 +25,8 @@ tags:
 > En 13 minutos Codex ha cambiado más de 800 líneas de código y 13 ficheros.
 >
 > Ha ampliado una funcionalidad existente, generalizándola y adaptándola: antes Docflow solo descargaba mis tweets favoritos. Ahora además descarga mis tweets posteados.
+>
+> <https://github.com/domingogallardo/docflow/commit/0a62a8a37bf55c77d3c7c8a26a7e15079460178d>
 
 {{< tweet url="https://x.com/domingogallardo/status/2046849227133710605" >}}
 
@@ -75,6 +79,10 @@ tags:
 > Las instrucciones del CLI (Command Line Interface):
 >
 > <https://github.com/domingogallardo/calculadora-salarios-irpf-cli-demo/blob/main/CLI.md>
+>
+> Y el añadido original a su repo está aquí:
+>
+> <https://github.com/jongonzlz/Calculadora-de-Salarios-y-Progresividad-en-Fr-o/pull/4>
 
 {{< tweet url="https://x.com/domingogallardo/status/2048806569937138086" >}}
 
@@ -89,6 +97,8 @@ tags:
 <p>❄ ❄ ❄ ❄ ❄</p>
 
 > "Las representaciones de internas [de los LLMs] son moldeadas por datos lingüísticos que reflejan patrones o estructuras de la realidad [...]. Podría decirse que han cruzado el umbral del significado. [...] Eso no quiere decir que tengan mente o, mucho menos, consciencia."
+>
+> <https://vonneumannmachine.wordpress.com/2026/04/28/the-vector-grounding-problem-comprenden-algo-los-llms/>
 
 {{< tweet url="https://x.com/domingogallardo/status/2049056161849024930" >}}
 
