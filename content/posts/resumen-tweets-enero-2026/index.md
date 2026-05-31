@@ -15,10 +15,6 @@ tags:
 > ¿Consecuencia del "code red"? Sam Altman is missing por ahora.
 >
 > <https://fidjisimo.substack.com/p/closing-the-capability-gap>
->
-> <https://x.com/MillionInt/status/2008237251751534622>
->
-> <https://x.com/apples_jimmy/status/2008381885022621867>
 
 {{< tweet url="https://x.com/domingogallardo/status/2008483978911567882" >}}
 
