@@ -45,3 +45,11 @@ Notas:
 ## Notas
 - `public/` es generado por Hugo y no se versiona.
 - `public_legacy/` contiene la versión estática anterior como referencia.
+
+## Criterio para resúmenes mensuales de tweets
+- Fuente base de selección: Markdown de `docflow` en `/Users/domingo/⭐️ Documentación/Tweets/Tweets 2026/` (ajustando el año cuando toque).
+- Incluir solo tweets cuyo front matter cumpla:
+  - `source: tweet`
+  - `tweet_author: "@domingogallardo"`
+  - `tweet_posted_kind != repost`
+- A partir de esa base, el post mensual no tiene por qué ser exhaustivo: se pueden descartar tweets con poco texto, muy contextuales o que aporten poco por sí solos.
