@@ -4,19 +4,48 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
-  <meta name="description" content="{{ site.Params.description }}">
+  {{ $description := site.Params.description }}
+  {{ with .Description }}
+    {{ $description = . }}
+  {{ else }}
+    {{ with .Summary }}
+      {{ $description = . | plainify | htmlUnescape }}
+    {{ end }}
+  {{ end }}
+  {{ $description = $description | plainify | htmlUnescape | truncate 160 }}
+  <meta name="description" content="{{ $description }}">
+  <meta name="author" content="Domingo Gallardo">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <link rel="canonical" href="{{ .Permalink }}">
   {{ with .AllTranslations }}
     {{ range . }}
   <link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
     {{ end }}
+    {{ with index . 0 }}
+  <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+    {{ end }}
   {{ end }}
+  <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}">
+  <meta property="og:description" content="{{ $description }}">
+  <meta property="og:type" content="{{ if and .IsPage (eq .Section "posts") }}article{{ else }}website{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
   {{ with site.GetPage "/posts" }}
     {{ with .OutputFormats.Get "rss" }}
   <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" title="{{ printf "%s · RSS" site.Title }}" href="{{ .Permalink }}">
     {{ end }}
   {{ end }}
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}{{ if hugo.IsServer }}?v={{ now.Unix }}{{ end }}">
+  {{ if .IsHome }}
+    {{ $sameAs := slice }}
+    {{ range site.Params.profile_links }}
+      {{ $sameAs = $sameAs | append .url }}
+    {{ end }}
+    {{ $person := dict "@context" "https://schema.org" "@type" "Person" "name" site.Title "url" site.BaseURL "sameAs" $sameAs "jobTitle" "Retired Associate Professor" "affiliation" (dict "@type" "CollegeOrUniversity" "name" "University of Alicante") "knowsAbout" (slice "Artificial intelligence" "Large language models" "Reinforcement learning" "Robotics" "Swift") }}
+  <script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+  {{ else if and .IsPage (eq .Section "posts") }}
+    {{ $post := dict "@context" "https://schema.org" "@type" "BlogPosting" "headline" .Title "description" $description "url" .Permalink "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05-07:00") "author" (dict "@type" "Person" "name" site.Title "url" site.BaseURL) "inLanguage" site.Language.LanguageCode }}
+  <script type="application/ld+json">{{ $post | jsonify | safeJS }}</script>
+  {{ end }}
   {{ with site.Params.ga_measurement_id }}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
   <script>

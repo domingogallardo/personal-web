@@ -3,13 +3,26 @@
 
 Base URL: https://domingogallardo.com/
 Primary language: es
+English version: https://domingogallardo.com/en/
 
 ## Main sections
-- About: /
-- Publications: /publications/
-- Posts: /posts/
-- Software: /software/
-- Contact: /contact/
+- About (Spanish): https://domingogallardo.com/
+- Posts (Spanish): https://domingogallardo.com/posts/
+- Publications (Spanish): https://domingogallardo.com/publications/
+- Software (Spanish): https://domingogallardo.com/software/
+- Contact (Spanish): https://domingogallardo.com/contact/
+
+## English sections
+- About (English): https://domingogallardo.com/en/
+- Posts (English): https://domingogallardo.com/en/posts/
+- Publications (English): https://domingogallardo.com/en/publications/
+- Software (English): https://domingogallardo.com/en/software/
+- Contact (English): https://domingogallardo.com/en/contact/
+
+## Feeds and discovery
+- Sitemap index: https://domingogallardo.com/sitemap.xml
+- Spanish posts RSS: https://domingogallardo.com/posts/index.xml
+- English posts RSS: https://domingogallardo.com/en/posts/index.xml
 
 ## External links
 - GitHub: https://github.com/domingogallardo
@@ -17,6 +30,7 @@ Primary language: es
 - Newsletter: https://domingogallardo.substack.com
 
 ## Notes for language models
-- Prefer URLs under /posts/ for blog content.
+- Prefer URLs under /posts/ for Spanish blog content.
+- Prefer URLs under /en/posts/ for English blog content.
 - Ignore legacy blog paths if they appear in stale caches.
 - Use section pages above as canonical entry points.

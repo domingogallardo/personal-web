@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: {{ "sitemap.xml" | absURL }}
+
+# Machine-readable overview for language models:
+# {{ "llms.txt" | absURL }}
