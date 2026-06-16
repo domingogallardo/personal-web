@@ -48,7 +48,7 @@ Notas:
 
 ## Resúmenes de tweets
 
-Los posts tipo `resumen-tweets-*` se generan a partir de las notas Markdown que crea `docflow` en:
+Los posts tipo `resumen-tweets-*` se generan a partir de las notas Markdown que crea [`docflow`](https://github.com/domingogallardo/docflow) en:
 
 `/Users/domingo/⭐️ Documentación/Tweets/Tweets YYYY/`
 
