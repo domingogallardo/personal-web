@@ -46,10 +46,93 @@ Notas:
 - `public/` es generado por Hugo y no se versiona.
 - `public_legacy/` contiene la versión estática anterior como referencia.
 
-## Criterio para resúmenes mensuales de tweets
-- Fuente base de selección: Markdown de `docflow` en `/Users/domingo/⭐️ Documentación/Tweets/Tweets 2026/` (ajustando el año cuando toque).
-- Incluir solo tweets cuyo front matter cumpla:
+## Resúmenes de tweets
+
+Los posts tipo `resumen-tweets-*` se generan a partir de las notas Markdown que crea `docflow` en:
+
+`/Users/domingo/⭐️ Documentación/Tweets/Tweets YYYY/`
+
+El script principal es:
+
+`python3 scripts/list-tweet-summary-candidates.py YYYY-MM`
+
+### Qué incluye el script
+- Lee las notas individuales de tweets de `docflow`.
+- Incluye solo tweets cuyo front matter cumpla:
   - `source: tweet`
   - `tweet_author: "@domingogallardo"`
   - `tweet_posted_kind != repost`
-- A partir de esa base, el post mensual no tiene por qué ser exhaustivo: se pueden descartar tweets con poco texto, muy contextuales o que aporten poco por sí solos.
+- Calcula la fecha real con `tweet_id`, a partir del snowflake de X/Twitter.
+- Extrae el texto propio del tweet y corta antes de bloques externos de `docflow`: tweets citados, tweets favoritos, contexto de respuesta, imágenes y metadatos.
+- En replies, cuando existe `#### Mi respuesta`, usa solo tu respuesta.
+- Agrupa por día y añade el shortcode de embed:
+  `{{< tweet url="https://x.com/domingogallardo/status/..." >}}`
+- Entre varios tweets del mismo día añade:
+  `<p>❄ ❄ ❄ ❄ ❄</p>`
+
+El post no tiene por qué ser exhaustivo. Después de generar la base se pueden descartar tweets demasiado contextuales, repetidos, con poco texto o que no aporten bien fuera de X.
+
+### Comandos habituales
+
+Generar todo un mes:
+
+`python3 scripts/list-tweet-summary-candidates.py 2026-05 > /tmp/tweets-mayo-2026.md`
+
+Generar la primera quincena:
+
+`python3 scripts/list-tweet-summary-candidates.py 2026-06 --start-day 1 --end-day 15 > /tmp/tweets-junio-2026-q1.md`
+
+Generar la segunda quincena:
+
+`python3 scripts/list-tweet-summary-candidates.py 2026-06 --start-day 16 > /tmp/tweets-junio-2026-q2.md`
+
+Cambiar la carpeta fuente, si hace falta:
+
+`python3 scripts/list-tweet-summary-candidates.py 2026-06 --tweets-root "/ruta/a/Tweets" > /tmp/tweets-junio-2026.md`
+
+### Crear un post nuevo
+
+1. Genera la salida base en `/tmp`.
+2. Revisa el archivo y elimina manualmente tweets poco útiles, demasiado contextuales o repetidos.
+3. Crea el bundle Hugo:
+   `content/posts/resumen-tweets-mes-YYYY/index.md`
+4. Añade este front matter, ajustando título y fecha:
+   ```yaml
+   ---
+   title: "Mis tweets de mayo de 2026"
+   date: 2026-05-31
+   draft: false
+   tags:
+     - "tweets"
+   ---
+   ```
+5. Pega debajo los tweets seleccionados, tal como salen del script.
+6. Si hay versión inglesa, crea `index.en.md` con el mismo slug y fecha, `title` en inglés y el contenido traducido.
+7. Comprueba que compila:
+   `scripts/build.sh`
+
+### Checks rápidos
+
+Comprobar que el rango de fechas es el esperado:
+
+```bash
+rg -n '^## ' /tmp/tweets-junio-2026-q1.md
+```
+
+Contar embeds:
+
+```bash
+rg -c '\{\{< tweet' /tmp/tweets-junio-2026-q1.md
+```
+
+Compilar el sitio:
+
+```bash
+scripts/build.sh
+```
+
+### Notas de mantenimiento
+- La selección de autor y tipo se hace con campos del front matter; no hace falta buscar el autor en el cuerpo del Markdown.
+- Si cambia el formato de las notas de `docflow` y se cuela texto externo, revisar `is_tweet_boundary()` en `scripts/list-tweet-summary-candidates.py`.
+- El shortcode `tweet` activa `platform.twitter.com/widgets.js` solo en las páginas que lo usan.
+- El RSS de posts elimina los embeds de Twitter para que el feed no arrastre el bloque HTML externo.

@@ -1,7 +1,11 @@
 {{- $url := .Get "url" -}}
 {{- if $url -}}
 {{- .Page.Store.Set "hasTwitterEmbed" true -}}
+{{- $label := cond (eq .Page.Language.Lang "en") "View tweet on X" "Ver tweet en X" -}}
+<p class="tweet-source-link">
+  <a href="{{ $url }}" rel="noopener" target="_blank">{{ $label }}</a>
+</p>
 <blockquote class="twitter-tweet">
-  <a href="{{ $url }}"></a>
+  <a href="{{ $url }}">{{ $label }}</a>
 </blockquote>
 {{- end -}}
