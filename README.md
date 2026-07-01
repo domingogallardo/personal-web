@@ -63,6 +63,7 @@ El script principal es:
   - `tweet_author: "@domingogallardo"`
   - `tweet_posted_kind != repost`
 - Calcula la fecha real con `tweet_id`, a partir del snowflake de X/Twitter.
+- Evita duplicados cuando `docflow` contiene más de una nota para el mismo `tweet_id`.
 - Extrae el texto propio del tweet y corta antes de bloques externos de `docflow`: tweets citados, tweets favoritos, contexto de respuesta, imágenes y metadatos.
 - En replies, cuando existe `#### Mi respuesta`, usa solo tu respuesta.
 - Agrupa por día y añade el shortcode de embed:

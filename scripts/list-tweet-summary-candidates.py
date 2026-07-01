@@ -217,6 +217,7 @@ def main() -> int:
         raise SystemExit(f"Tweets directory not found: {source_dir}")
 
     candidates: list[tuple[dt.date, int, str, str]] = []
+    seen_tweet_ids: set[str] = set()
     for path in sorted(source_dir.glob("*.md")):
         text = path.read_text(encoding="utf-8")
         front_matter, body = parse_front_matter(text)
@@ -232,11 +233,14 @@ def main() -> int:
         date = tweet_date(tweet_id)
         if date is None or not (first_day <= date < range_end):
             continue
+        if tweet_id in seen_tweet_ids:
+            continue
 
         tweet_text = extract_tweet_text(body, url)
         if not url or not tweet_text:
             continue
 
+        seen_tweet_ids.add(tweet_id)
         candidates.append((date, int(tweet_id), tweet_text, url))
 
     last_date: dt.date | None = None

@@ -1,9 +1,11 @@
 ---
-title: "My tweets from the first half of June 2026"
-date: 2026-06-15
+title: "My tweets from June 2026"
+date: 2026-06-30
 draft: false
 tags:
   - "tweets"
+aliases:
+  - "/posts/resumen-tweets-primera-quincena-junio-2026/"
 ---
 
 ## June 1, 2026
@@ -207,3 +209,125 @@ tags:
 > Ethan Mollick has repeatedly warned that AI detectors are easy to bypass, produce false positives, and can penalize non-native English writers or formal technical writing.
 
 {{< tweet url="https://x.com/domingogallardo/status/2066265231957897290" >}}
+
+## June 16, 2026
+
+> Maybe the “risk” is that OTHERS can fix the security holes that they are using
+
+{{< tweet url="https://x.com/domingogallardo/status/2066759967596487070" >}}
+
+<p>❄ ❄ ❄ ❄ ❄</p>
+
+> Satya Nadella has rewritten the Pope's encyclical in LinkedIn form. Where the Pope talks about “humanity”, Nadella talks about “enterprise”. But in the end they are talking about something common: preserving agency versus handing it over to AI.
+
+{{< tweet url="https://x.com/domingogallardo/status/2066770325077987654" >}}
+
+<p>❄ ❄ ❄ ❄ ❄</p>
+
+> Or, more cynically, preserving market share.
+
+{{< tweet url="https://x.com/domingogallardo/status/2066778057570979969" >}}
+
+<p>❄ ❄ ❄ ❄ ❄</p>
+
+> New post on my website: my tweets from the first half of June, grouped on a single page.
+>
+> So anyone, and LLMs, can read my comments without having to go through X.
+
+{{< tweet url="https://x.com/domingogallardo/status/2066956349372617184" >}}
+
+<p>❄ ❄ ❄ ❄ ❄</p>
+
+> The page is generated automatically from the tweets I collect with my Docflow tool:
+
+{{< tweet url="https://x.com/domingogallardo/status/2066957479938756684" >}}
+
+<p>❄ ❄ ❄ ❄ ❄</p>
+
+> The “jailbreak” that got Fable shut down is asking it to “fix this code”. What if what they want is for the NSA to keep being able to get into non-American systems? It is conspiratorial nonsense, but...
+
+{{< tweet url="https://x.com/domingogallardo/status/2066983832021020708" >}}
+
+## June 18, 2026
+
+> I read someone, I do not remember whether it was Gwern or Roon, saying that we would know the singularity was approaching when exceptional things started happening.
+>
+> We already have two so far this month: the US government banning a model, and AI leaders meeting with G7 leaders.
+
+{{< tweet url="https://x.com/domingogallardo/status/2067560258952683563" >}}
+
+<p>❄ ❄ ❄ ❄ ❄</p>
+
+> 18/06 - Kevin Roose leaves the NYTimes and, together with Casey Newton, is taking Hard Fork out of the Times and making it independent.
+
+{{< tweet url="https://x.com/domingogallardo/status/2067651187612979214" >}}
+
+## June 19, 2026
+
+> You show Codex how you do a task on the computer, it records it, understands it as it goes, and at the end generalizes the steps you took so you can save them as a skill. Then you can use that skill so Codex performs the task when you ask it to.
+>
+> Incredible, astonishing. Another of those things that two years ago we thought were science fiction. I am sure there will be times when it does not quite work, but I am also sure it will keep getting better. Thinking about how this feature can evolve, and what it might be like in another two years, makes your head explode.
+>
+> For now we have to wait to try it; it is not available in the EU.
+
+{{< tweet url="https://x.com/domingogallardo/status/2067852685018042702" >}}
+
+<p>❄ ❄ ❄ ❄ ❄</p>
+
+> Hahaha, exactly. I have always seen Hard Fork as the bad English-language copy of Monos. They have even tried to imitate the “puerta grande” sometimes, but they cannot pull it off.
+
+{{< tweet url="https://x.com/domingogallardo/status/2067880879205019870" >}}
+
+<p>❄ ❄ ❄ ❄ ❄</p>
+
+> Excellent. And if you have not read it, I recommend Greg Egan's Permutation City. Incredible, amazing. Written in 1994, and it fits the consciousness topic perfectly. I have just read it in English, but there is a Nova translation by Pedro Jorge.
+
+{{< tweet url="https://x.com/domingogallardo/status/2068100038165725294" >}}
+
+## June 20, 2026
+
+> Oooooh
+
+{{< tweet url="https://x.com/domingogallardo/status/2068230850060198068" >}}
+
+## June 22, 2026
+
+> After the Jot Down case and the Leire Diez, Abalos, Zapatero, etc. affair, I am amazed by the lack of critical and ethical capacity among those who are supposed to be society's “reference points”. We urgently need a generational handover.
+
+{{< tweet url="https://x.com/domingogallardo/status/2069013005589709134" >}}
+
+## June 23, 2026
+
+> Codex tasks run by default on the lighter 5.4 model, and that can sometimes cause problems.
+> A tip: review whether there has been any friction and ask the better model, 5.5 High, to fix the issues so the next run is more correct.
+
+{{< tweet url="https://x.com/domingogallardo/status/2069391219965169903" >}}
+
+## June 25, 2026
+
+> Encouragement to the neighbors, and let us hope that
+> @oscar_puente_
+> gives more explanations than he did on June 23 in the Senate, where he did not mention anything about the tracks around Casa Mediterraneo.
+>
+> Remove the tracks and give us access to Parque del Mar now!
+
+{{< tweet url="https://x.com/domingogallardo/status/2070166832753913968" >}}
+
+## June 30, 2026
+
+> We will hold you to your word, minister.
+>
+> @oscar_puente_
+> said in the interview:
+>
+> "These are tracks that have been abandoned for a long time, with a protected area that is Casa Mediterraneo. And what can be developed there is a large park. I think there are few homes planned; I do not know if there are 100 homes there. I do not think this is something we should drag out too much, and let us see if by the end of this year we reach an agreement and can get started."
+>
+> At the end of the year we will see whether ADIF and the City Council reach an agreement on the 100 homes, and whether the neighbors and Casa Mediterraneo finally get what we have been fighting for for years.
+
+{{< tweet url="https://x.com/domingogallardo/status/2071836433736712448" >}}
+
+<p>❄ ❄ ❄ ❄ ❄</p>
+
+> 30/06 Apple raises prices on many products, and a widespread memory shortage is looming in 2027.
+
+{{< tweet url="https://x.com/domingogallardo/status/2071986907605852232" >}}
