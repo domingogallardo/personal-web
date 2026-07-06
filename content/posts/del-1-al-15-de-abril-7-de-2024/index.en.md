@@ -192,13 +192,13 @@ tags:
 
 <p>5️⃣ We finish with a curious story about a <strong>problem that is hard for LLMs to solve</strong>, the so-called A::B problem.</p>
 
-<p>On April 6, <a href="https://github.com/VictorTaelin">Victor Taelin</a>, a Brazilian programmer and entrepreneur, <a href="https://x.com/VictorTaelin/status/1776677635491344744">posted a challenge on X</a> that got more than 1 million views: he would give $10,000 to anyone who found a prompt that could get some model to solve a logic problem that he believed current models were incapable of solving.</p>
+<p>On April 6, <a href="https://github.com/VictorTaelin">Victor Taelin</a>, a Brazilian programmer and entrepreneur, <a href="https://x.com/VictorTaelin/status/1776677635491344744">posted a challenge on X</a> that got more than 1 million views: he would give USD 10,000 to anyone who found a prompt that could get some model to solve a logic problem that he believed current models were incapable of solving.</p>
 
 <p>
 <img src="/posts/del-1-al-15-de-abril-7-de-2024/7e246f6b-7677-4ed5-8492-59e87679c237_1192x968.png" alt="">
 </p>
 
-<p>Victor Taelin's X profile. He has lost $10,000 on a bet about LLMs.</p>
+<p>Victor Taelin's X profile. He has lost USD 10,000 on a bet about LLMs.</p>
 
 <p>Let us quickly look at the problem, it is not very complicated. Taelin posed it in <a href="https://x.com/VictorTaelin/status/1776096481704804789">this X post</a> from April 5 and explains it in more detail in <a href="https://gist.github.com/VictorTaelin/8ec1d8a0a3c87af31c25224a1f7e31ec">this Gist</a>. It consists of processing a string formed by the symbols <em>A#</em>, <em>#A</em>, <em>B#</em>, and <em>#B</em>. For example, the string:</p>
 
@@ -232,7 +232,7 @@ tags:
 <code>B#</code>
 </pre>
 
-<p>A lot of people attempted the challenge. The goal was to find a prompt that would allow an LLM to process strings of 12 symbols with a 90% success rate. In just a few days, someone managed it using Claude Opus, with an <a href="https://github.com/VictorTaelin/ab_challenge_eval/blob/main/users/futuristfrog/prompt.txt">extremely complicated prompt</a> of 700 lines, containing many explanations and many examples. A little later, someone else provided <a href="https://gist.github.com/choltha/ea3ac9ba4de95aa75b58071547bb5684">another, shorter solution</a> of 400 lines, with which they won $2,500.</p>
+<p>A lot of people attempted the challenge. The goal was to find a prompt that would allow an LLM to process strings of 12 symbols with a 90% success rate. In just a few days, someone managed it using Claude Opus, with an <a href="https://github.com/VictorTaelin/ab_challenge_eval/blob/main/users/futuristfrog/prompt.txt">extremely complicated prompt</a> of 700 lines, containing many explanations and many examples. A little later, someone else provided <a href="https://gist.github.com/choltha/ea3ac9ba4de95aa75b58071547bb5684">another, shorter solution</a> of 400 lines, with which they won USD 2,500.</p>
 
 <p>In the end Taelin had to <a href="https://x.com/VictorTaelin/status/1777049193489572064">admit defeat</a>. And interestingly, the winning LLM was not GPT-4, but Claude. Good for Anthropic.</p>
 

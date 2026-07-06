@@ -24,7 +24,7 @@ tags:
 
 <p>1️⃣ Comenzamos con el vuelo de <a href="https://www.spacex.com/launches/mission/?missionId=starship-flight-3">prueba de la Starship</a> de hace dos días, el 14 de marzo. En esta tercera prueba Space X ha conseguido con éxito <strong>poner en órbita la Starship</strong>. </p>
 
-<p>La Starship es el vehículo de lanzamiento reutilizable de próxima generación de SpaceX, diseñado para transportar humanos y cargas útiles a la órbita terrestre, la Luna y Marte. La Starship promete revolucionar el acceso al espacio, rebajando el coste por kilogramo para órbita terrestre de unos $3,000 a unos $100 o incluso $10. La Starship puede llevar una carga útil de 100 a 150 toneladas, multiplicando por más de 5 la carga útil de los Falcon 9, la nave que usa SpaceX en la actualidad.</p>
+<p>La Starship es el vehículo de lanzamiento reutilizable de próxima generación de SpaceX, diseñado para transportar humanos y cargas útiles a la órbita terrestre, la Luna y Marte. La Starship promete revolucionar el acceso al espacio, rebajando el coste por kilogramo para órbita terrestre de unos USD 3,000 a unos USD 100 o incluso USD 10. La Starship puede llevar una carga útil de 100 a 150 toneladas, multiplicando por más de 5 la carga útil de los Falcon 9, la nave que usa SpaceX en la actualidad.</p>
 
 <p>
 <img src="6701fe6f-5def-4d7a-ace3-851da4254ca6_3121x2160.jpeg" alt="">

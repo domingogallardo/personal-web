@@ -288,7 +288,7 @@ tags:
 
 </blockquote>
 
-<p>La próxima semana del 10 al 15 de diciembre, en el <strong>NeurIPS 2024</strong>, se presentarán oficialmente los ganadores de la competición de este año y se darán los premios de $50k a los mejores 5 equipos y de $75k a los 3 mejores papers conceptuales. También se publicará un paper resumiendo los mejores avances y el código fuente de los avances más importantes. La competición ya se ha cerrado y no se ha conseguido el premio de $600k al que consiga resolver un 85% de los tests, pero ha habido grandes avances y <strong>los dos mejores equipos han conseguido el 55,5% y el 53,5%</strong>. Comentaremos más detalles por aquí.</p>
+<p>La próxima semana del 10 al 15 de diciembre, en el <strong>NeurIPS 2024</strong>, se presentarán oficialmente los ganadores de la competición de este año y se darán los premios de USD 50k a los mejores 5 equipos y de USD 75k a los 3 mejores papers conceptuales. También se publicará un paper resumiendo los mejores avances y el código fuente de los avances más importantes. La competición ya se ha cerrado y no se ha conseguido el premio de USD 600k al que consiga resolver un 85% de los tests, pero ha habido grandes avances y <strong>los dos mejores equipos han conseguido el 55,5% y el 53,5%</strong>. Comentaremos más detalles por aquí.</p>
 
 <h3>AGI</h3>
 

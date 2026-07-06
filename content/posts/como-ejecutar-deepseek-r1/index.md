@@ -204,9 +204,9 @@ O sea que, aunque podemos descargarnos modelos pequeños que han sido enseñados
 
 De todos los proveedores he escogido [Fireworks](https://fireworks.ai). Por ninguna razón especial. He visto su web y todo me ha parecido correcto. Todo está bastante bien documentado y tiene disponible los últimos modelos.
 
-Hay que darse de alta, registrar tu tarjeta y comprar algunos créditos. La cantidad mínima es de $5. Con esta cantidad tienes para bastantes consultas. En la 
-[página de precios](https://fireworks.ai/pricing) se puede comprobar que un millon de tokens cuesta $3. Realmente, tampoco es tan barato como se decía. Por ejemplo, comparado con el precio de los 
-[modelos de OpenAI](https://platform.openai.com/docs/pricing), 1M de tokens de o1 cuestan $15 y de o3-mini cuestan $1.10.
+Hay que darse de alta, registrar tu tarjeta y comprar algunos créditos. La cantidad mínima es de USD 5. Con esta cantidad tienes para bastantes consultas. En la 
+[página de precios](https://fireworks.ai/pricing) se puede comprobar que un millon de tokens cuesta USD 3. Realmente, tampoco es tan barato como se decía. Por ejemplo, comparado con el precio de los 
+[modelos de OpenAI](https://platform.openai.com/docs/pricing), 1M de tokens de o1 cuestan USD 15 y de o3-mini cuestan USD 1.10.
 
 Una vez que registrado, hay que crear un API key para poder realizar peticiones y usarla en la API con la que hagamos las llamadas. Tenemos que guardar el valor de la API key porque, una vez creada, no se nos va a mostrar otra vez. No debemos compartir esa cadena de caracteres, porque es la que nos va a identificar para cargar el precio de las peticiones que hagamos al API en nuestro crédito.
 
@@ -309,4 +309,4 @@ So the first solution seems best.\n</think>\n\nPara obtener 84 utilizando los n�
 
 ¡Bravo por DeepSeek-R1 👏!
 
-[^1]: A no ser que nos hayamos comprado el último modelo de Mac Studio, con un M3 Ultra y 512 GB de RAM, que cuesta alrededor de $10.000, como [ha hecho el youtuber Dave Lee](https://www.macrumors.com/2025/03/17/apples-m3-ultra-runs-deepseek-r1-efficiently/).
+[^1]: A no ser que nos hayamos comprado el último modelo de Mac Studio, con un M3 Ultra y 512 GB de RAM, que cuesta alrededor de USD 10.000, como [ha hecho el youtuber Dave Lee](https://www.macrumors.com/2025/03/17/apples-m3-ultra-runs-deepseek-r1-efficiently/).

@@ -151,7 +151,7 @@ tags:
 </li>
 </ol>
 
-<p>The success of the project led to the publication of several scientific articles [<a href="https://www.science.org/doi/full/10.1126/sciadv.1601247?width=921.6&amp;height=921.6&amp;TB_iframe=true">From damage to discovery via virtual unwrapping: Reading the scroll from En-Gedi - science.org</a>] and to a $14 million grant from the National Science Foundation [<a href="http://uknow.uky.edu/campus-news/uk-awarded-14-million-nsf-grant-launch-world-class-cultural-heritage-lab">UK Awarded $14 Million NSF Grant to Launch World-Class Cultural Heritage Lab - uky.edu</a>] to create the <a href="https://www2.cs.uky.edu/dri/">EduceLab</a> center, led by Seales himself, with the fundamental goal of reconstructing and preserving texts from antiquity and, specifically, the Herculaneum papyri.</p>
+<p>The success of the project led to the publication of several scientific articles [<a href="https://www.science.org/doi/full/10.1126/sciadv.1601247?width=921.6&amp;height=921.6&amp;TB_iframe=true">From damage to discovery via virtual unwrapping: Reading the scroll from En-Gedi - science.org</a>] and to a USD 14 million grant from the National Science Foundation [<a href="http://uknow.uky.edu/campus-news/uk-awarded-14-million-nsf-grant-launch-world-class-cultural-heritage-lab">UK Awarded USD 14 Million NSF Grant to Launch World-Class Cultural Heritage Lab - uky.edu</a>] to create the <a href="https://www2.cs.uky.edu/dri/">EduceLab</a> center, led by Seales himself, with the fundamental goal of reconstructing and preserving texts from antiquity and, specifically, the Herculaneum papyri.</p>
 
 <h3>Detecting ink in a papyrus fragment</h3>
 
@@ -225,7 +225,7 @@ tags:
 
 <p>The idea of organizing a competition to obtain or improve an AI model is a common one in the field. For example, the website <a href="https://www.kaggle.com">Kaggle</a>, founded in 2010 [<a href="https://en.wikipedia.org/wiki/Kaggle">Kaggle - wikipedia.org</a>], has organized hundreds of competitions in which tens of thousands of enthusiasts and specialists have participated.</p>
 
-<p>Friedman, who had led major software projects and companies such as Ximian, Xamarin, and GitHub, knew that the competition needed to be organized very carefully, monitoring its development and structuring it in such a way that collaboration among participants and the sharing of results would be encouraged. Offering an attractive prize was not enough, it was initially $500,000, $250,000 from him and $250,000 from entrepreneur <strong>Daniel Gross</strong> [<a href="https://dcgross.com">dcgross.com</a>], it also had to be managed meticulously and every detail supervised closely.</p>
+<p>Friedman, who had led major software projects and companies such as Ximian, Xamarin, and GitHub, knew that the competition needed to be organized very carefully, monitoring its development and structuring it in such a way that collaboration among participants and the sharing of results would be encouraged. Offering an attractive prize was not enough, it was initially USD 500,000, USD 250,000 from him and USD 250,000 from entrepreneur <strong>Daniel Gross</strong> [<a href="https://dcgross.com">dcgross.com</a>], it also had to be managed meticulously and every detail supervised closely.</p>
 
 <p>In November, Friedman published a call looking for a technical lead for the project [<a href="https://nat.org/puzzle">Hiring tech lead to help solve major archaeological puzzle - nat.org</a>] and ended up hiring <strong>JP Posma</strong> [<a href="https://x.com/JanPaul123/status/1604555746489663490">I can announce it now - x.com</a>], who organized the competition website and set up its presence across the different social networks where it would be launched.</p>
 
@@ -241,11 +241,11 @@ tags:
 
 <p>In a very short time the competition became highly popular, donations rose to more than a million dollars, and many participants were drawn to work with the tools and data made available.</p>
 
-<p>To win the final prize of $700,000, competitors had to decipher, before December 31, 2023, four separate passages of text, each containing at least 140 characters of continuous text. But, in order to foster cooperation, “progress prizes” of between $1,000 and $10,000 were also proposed every two months. To win these prizes, participants had to publish their code or research openly, thereby benefiting the progress of the whole community.</p>
+<p>To win the final prize of USD 700,000, competitors had to decipher, before December 31, 2023, four separate passages of text, each containing at least 140 characters of continuous text. But, in order to foster cooperation, “progress prizes” of between USD 1,000 and USD 10,000 were also proposed every two months. To win these prizes, participants had to publish their code or research openly, thereby benefiting the progress of the whole community.</p>
 
 <ul>
 <li>
-<p>On April 15 the first <a href="https://scrollprize.substack.com/p/first-prizes-awarded-open-source">four open-source prizes</a> were awarded, $2,500 each, for the creation and improvement of tools and contributions to the community.</p>
+<p>On April 15 the first <a href="https://scrollprize.substack.com/p/first-prizes-awarded-open-source">four open-source prizes</a> were awarded, USD 2,500 each, for the creation and improvement of tools and contributions to the community.</p>
 
 </li>
 <li>
@@ -281,7 +281,7 @@ tags:
 
 </li>
 <li>
-<p>On February 5, 2024, the winners of the $700,000 grand prize were announced: a super-team formed by the previous winners, Youseff and Luke, together with the young Swiss participant <strong>Julian Schilliger</strong>, managed to obtain 15 columns, 11 more than were required, and more than 2,000 characters in total. This represents only about 5% of the total content that must be present in the papyrus.</p>
+<p>On February 5, 2024, the winners of the USD 700,000 grand prize were announced: a super-team formed by the previous winners, Youseff and Luke, together with the young Swiss participant <strong>Julian Schilliger</strong>, managed to obtain 15 columns, 11 more than were required, and more than 2,000 characters in total. This represents only about 5% of the total content that must be present in the papyrus.</p>
 
 </li>
 </ul>
@@ -304,7 +304,7 @@ tags:
 
 <p>Column from the reconstructed image, with the text highlighted after processing, and its Greek transcription on the right.</p>
 
-<p>The three winners of the challenge received the main prize, but there were also many additional prizes, not only the “open source” and “progress” awards, but also prizes for three other finalist teams, who each received $50,000.</p>
+<p>The three winners of the challenge received the main prize, but there were also many additional prizes, not only the “open source” and “progress” awards, but also prizes for three other finalist teams, who each received USD 50,000.</p>
 
 <p>
 <img src="/posts/los-papiros-de-herculano-9-de-2024/e6de3ed8-14a9-4680-8339-9347529e7701_1834x664.png" alt="">
@@ -312,7 +312,7 @@ tags:
 
 <p>Winning team of the final 2023 prize in the competition.</p>
 
-<p>The complete list of prizes awarded so far, up to April 2024, amounts to $1,236,500. On the <a href="https://scrollprize.org/winners">competition website</a> you can find the full list, with links to the GitHub pages corresponding to each award.</p>
+<p>The complete list of prizes awarded so far, up to April 2024, amounts to USD 1,236,500. On the <a href="https://scrollprize.org/winners">competition website</a> you can find the full list, with links to the GitHub pages corresponding to each award.</p>
 
 <h3>Celebration and future</h3>
 
@@ -345,7 +345,7 @@ tags:
 </div>
 </div>
 
-<p>They continue awarding progress prizes every two months and have set a major challenge for 2024: $100,000 for the first team capable of reading 90% of the scrolls. There are also, as in 2023, $30,000 prizes for the first letters of scrolls 2, 3, and 4.</p>
+<p>They continue awarding progress prizes every two months and have set a major challenge for 2024: USD 100,000 for the first team capable of reading 90% of the scrolls. There are also, as in 2023, USD 30,000 prizes for the first letters of scrolls 2, 3, and 4.</p>
 
 <p>The deadline for submissions is December 31, 2024. Just like last year, the results seem to be taking time and nobody has yet managed to win any of these prizes. A certain sense of pessimism is beginning to be noticeable, but there is still plenty of time left before the end of the year. If the grand prize is achieved, it will be a historic success and a giant step toward the broader plan of scanning the remaining 300 papyri, most of them in Naples.</p>
 

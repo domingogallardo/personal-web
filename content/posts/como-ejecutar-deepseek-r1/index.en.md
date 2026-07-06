@@ -203,7 +203,7 @@ So even though we can download small models that have been taught using DeepSeek
 
 Of all the providers I chose [Fireworks](https://fireworks.ai). Not for any special reason. I looked at its website and everything seemed fine to me. It is all fairly well documented and it has the latest models available.
 
-You need to sign up, register your card, and buy some credits. The minimum amount is $5. With that amount you can do quite a few queries. On the [pricing page](https://fireworks.ai/pricing) you can see that one million tokens cost $3. In truth, it is not quite as cheap as people said. For example, compared with the price of [OpenAI's models](https://platform.openai.com/docs/pricing), 1M tokens of o1 cost $15 and 1M tokens of o3-mini cost $1.10.
+You need to sign up, register your card, and buy some credits. The minimum amount is USD 5. With that amount you can do quite a few queries. On the [pricing page](https://fireworks.ai/pricing) you can see that one million tokens cost USD 3. In truth, it is not quite as cheap as people said. For example, compared with the price of [OpenAI's models](https://platform.openai.com/docs/pricing), 1M tokens of o1 cost USD 15 and 1M tokens of o3-mini cost USD 1.10.
 
 Once registered, you need to create an API key so that you can send requests and use it with whatever API client you choose. We have to save the value of the API key because, once created, it will not be shown again. We must not share that string of characters, because it is what identifies us when the price of the API requests is charged against our credits.
 
@@ -299,4 +299,4 @@ Not helpful.\n</think>\n\nTo obtain 84 using the numbers 2, 3, 6, and 120, follo
 
 Bravo for DeepSeek-R1.
 
-[^1]: Unless we have bought the latest Mac Studio model, with an M3 Ultra and 512 GB of RAM, which costs around $10,000, as [YouTuber Dave Lee has done](https://www.macrumors.com/2025/03/17/apples-m3-ultra-runs-deepseek-r1-efficiently/).
+[^1]: Unless we have bought the latest Mac Studio model, with an M3 Ultra and 512 GB of RAM, which costs around USD 10,000, as [YouTuber Dave Lee has done](https://www.macrumors.com/2025/03/17/apples-m3-ultra-runs-deepseek-r1-efficiently/).

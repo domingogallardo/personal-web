@@ -152,7 +152,7 @@ tags:
 </li>
 </ol>
 
-<p>El éxito del proyecto desembocó en la publicación de varios artículos científicos [<a href="https://www.science.org/doi/full/10.1126/sciadv.1601247?width=921.6&amp;height=921.6&amp;TB_iframe=true">From damage to discovery via virtual unwrapping: Reading the scroll from En-Gedi - science.org</a>] y en la obtención de una ayuda de 14 millones de dólares de la National Science Foundation [<a href="http://uknow.uky.edu/campus-news/uk-awarded-14-million-nsf-grant-launch-world-class-cultural-heritage-lab">UK Awarded $14 Million NSF Grant to Launch World-Class Cultural Heritage Lab - uky.edu</a>] para la formación del centro <a href="https://www2.cs.uky.edu/dri/">EduceLab</a>, dirigido por el propio Seales, con el objetivo fundamental de reconstruir y preservar textos de la antigüedad y, en concreto, los papiros de Herculano.</p>
+<p>El éxito del proyecto desembocó en la publicación de varios artículos científicos [<a href="https://www.science.org/doi/full/10.1126/sciadv.1601247?width=921.6&amp;height=921.6&amp;TB_iframe=true">From damage to discovery via virtual unwrapping: Reading the scroll from En-Gedi - science.org</a>] y en la obtención de una ayuda de 14 millones de dólares de la National Science Foundation [<a href="http://uknow.uky.edu/campus-news/uk-awarded-14-million-nsf-grant-launch-world-class-cultural-heritage-lab">UK Awarded USD 14 Million NSF Grant to Launch World-Class Cultural Heritage Lab - uky.edu</a>] para la formación del centro <a href="https://www2.cs.uky.edu/dri/">EduceLab</a>, dirigido por el propio Seales, con el objetivo fundamental de reconstruir y preservar textos de la antigüedad y, en concreto, los papiros de Herculano.</p>
 
 <h3>Detección de la tinta en un fragmento de papiro</h3>
 
@@ -226,7 +226,7 @@ tags:
 
 <p>La idea de organizar una competición para obtener o mejorar un modelo de IA es algo habitual en el campo. Por ejemplo, la web <a href="https://www.kaggle.com">Kaggle</a>, fundada en 2010 [<a href="https://en.wikipedia.org/wiki/Kaggle">Kaggle - wikipedia.org</a>], ha organizado cientos de competiciones en las que han participado decenas de miles de aficionados y especialistas.</p>
 
-<p>Friedman, que había liderado grandes proyectos y empresas de software como Ximian, Xamarin y GitHub, sabía que era necesario organizar la competición de forma muy cuidadosa, vigilando su desarrollo y estructurándola de forma que se favoreciera la colaboración entre los participantes y la compartición de resultados. No era suficiente proporcionar un premio jugoso (inicialmente $500.000: $250.000 suyos y $250.000 del emprendedor <strong>Daniel Gross</strong> [<a href="https://dcgross.com">dcgross.com</a>]), sino que había que gestionarla meticulosamente y supervisar cada detalle de cerca.</p>
+<p>Friedman, que había liderado grandes proyectos y empresas de software como Ximian, Xamarin y GitHub, sabía que era necesario organizar la competición de forma muy cuidadosa, vigilando su desarrollo y estructurándola de forma que se favoreciera la colaboración entre los participantes y la compartición de resultados. No era suficiente proporcionar un premio jugoso (inicialmente USD 500.000: USD 250.000 suyos y USD 250.000 del emprendedor <strong>Daniel Gross</strong> [<a href="https://dcgross.com">dcgross.com</a>]), sino que había que gestionarla meticulosamente y supervisar cada detalle de cerca.</p>
 
 <p>En noviembre, Fridman lanzó una convocatoria buscando un líder técnico para el proyecto [<a href="https://nat.org/puzzle">Hiring tech lead to help solve major archaeological puzzle - nat.org</a>] y terminó contratando a <strong>JP Posma</strong> [<a href="https://x.com/JanPaul123/status/1604555746489663490">I can announce it now - x.com</a>], quien organizó la web de la competición y preparó su funcionamiento en las distintas redes sociales en las que se va a presentar.</p>
 
@@ -242,11 +242,11 @@ tags:
 
 <p>En muy poco tiempo, la competición se hace muy popular, aumentan los donativos hasta superar el millón de dólares y atrayendo a muchos participantes que se lanzan a trabajar con las herramientas y los datos facilitados. </p>
 
-<p>Para conseguir el premio final de $700.000, se debía descifrar, antes del 31 de diciembre de 2023, cuatro pasajes separados de texto, cada uno de ellos conteniendo al menos 140 caracteres de texto continuo. Pero, para fomentar la cooperación, también se proponían “premios de progreso” (entre $1.000-10.000) cada dos meses. Para ganar estos premios, los participantes debían publicar en abierto su código o investigación, beneficiando así el progreso de toda la comunidad.</p>
+<p>Para conseguir el premio final de USD 700.000, se debía descifrar, antes del 31 de diciembre de 2023, cuatro pasajes separados de texto, cada uno de ellos conteniendo al menos 140 caracteres de texto continuo. Pero, para fomentar la cooperación, también se proponían “premios de progreso” (entre USD 1.000-10.000) cada dos meses. Para ganar estos premios, los participantes debían publicar en abierto su código o investigación, beneficiando así el progreso de toda la comunidad.</p>
 
 <ul>
 <li>
-<p>El 15 de abril se otorgan los primeros <a href="https://scrollprize.substack.com/p/first-prizes-awarded-open-source">cuatro premios open source</a>, de $2.500 cada uno, por la creación y mejora de herramientas y la aportación a la comunidad.</p>
+<p>El 15 de abril se otorgan los primeros <a href="https://scrollprize.substack.com/p/first-prizes-awarded-open-source">cuatro premios open source</a>, de USD 2.500 cada uno, por la creación y mejora de herramientas y la aportación a la comunidad.</p>
 
 </li>
 <li>
@@ -283,7 +283,7 @@ tags:
 
 </li>
 <li>
-<p>El 5 de febrero de 2024 se anuncian los ganadores de los $700.000 del premio principal: un súper equipo formado por los anteriores ganadores Youseff y Luke, junto con el joven suizo <strong>Julian Schilliger</strong>, logró obtener 15 columnas (¡11 más de las requeridas!) y más de 2.000 caracteres en total. Esto representa solo un 5% del contenido total que debe haber en el papiro.</p>
+<p>El 5 de febrero de 2024 se anuncian los ganadores de los USD 700.000 del premio principal: un súper equipo formado por los anteriores ganadores Youseff y Luke, junto con el joven suizo <strong>Julian Schilliger</strong>, logró obtener 15 columnas (¡11 más de las requeridas!) y más de 2.000 caracteres en total. Esto representa solo un 5% del contenido total que debe haber en el papiro.</p>
 
 </li>
 </ul>
@@ -306,7 +306,7 @@ tags:
 
 <p>Columna de la imagen reconstruida, con el texto resaltado después de un procesado, con su transcripción al griego a la derecha.</p>
 
-<p>Los tres ganadores del reto son los que han recibido el premio mayor, pero ha habido muchos premios adicionales, tanto para los premios “open source” y “de progreso” como para otros tres equipos finalistas, que recibieron $50.000 cada uno.</p>
+<p>Los tres ganadores del reto son los que han recibido el premio mayor, pero ha habido muchos premios adicionales, tanto para los premios “open source” y “de progreso” como para otros tres equipos finalistas, que recibieron USD 50.000 cada uno.</p>
 
 <p>
 <img src="e6de3ed8-14a9-4680-8339-9347529e7701_1834x664.png" alt="">
@@ -314,7 +314,7 @@ tags:
 
 <p>Equipo ganador del premio final de 2023 de la competición.</p>
 
-<p>El listado completo de premios concedidos hasta ahora (abril de 2024) asciende a $1,236,500. En la <a href="https://scrollprize.org/winners">página web </a>de la competición se puede encontrar un listado completo, con enlaces a las páginas en GitHub correspondientes a cada premio.</p>
+<p>El listado completo de premios concedidos hasta ahora (abril de 2024) asciende a USD 1,236,500. En la <a href="https://scrollprize.org/winners">página web </a>de la competición se puede encontrar un listado completo, con enlaces a las páginas en GitHub correspondientes a cada premio.</p>
 
 <h3>Celebración y futuro</h3>
 
@@ -343,7 +343,7 @@ tags:
 <input type="hidden" name="autoSubmit" value="true">
 <input type="email" class="email-input" name="email" placeholder="Type your email...">
 <input type="submit" class="button primary" value="Subscribe">
-<p>Siguen otorgando premios de progreso cada dos meses y han definido un gran reto para el 2024: $100.000 para el primer equipo que sea capaz de leer el 90% de los rollos. También hay, como en 2023, $30.000 para las primeras letras de los rollos 2, 3 y 4. </p>
+<p>Siguen otorgando premios de progreso cada dos meses y han definido un gran reto para el 2024: USD 100.000 para el primer equipo que sea capaz de leer el 90% de los rollos. También hay, como en 2023, USD 30.000 para las primeras letras de los rollos 2, 3 y 4. </p>
 
 <p>La fecha tope para el envío es el 31 de diciembre de 2024. Igual que el año pasado, parece que los resultados están tardando y todavía nadie ha conseguido ninguno de estos premios. Empieza a notarse una cierta sensación de pesimismo, pero todavía queda mucho tiempo hasta final de año. Si se consigue el gran premio, será un éxito histórico y un paso de gigante para el gran plan de escanear los 300 papiros restantes, la mayoría en Nápoles.</p>
 

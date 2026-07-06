@@ -5,7 +5,7 @@ draft: false
 tags:
   - "newsletter"
 ---
-<p>Vamos esta quincena con otro artículo monotemático. Esta vez sobre el proyecto Orion de Meta, las gafas de realidad aumentada que proyectan hologramas sobre el mundo real, que cuestan más de $10.000, que han cautivado a parte de la prensa tecnológica y que probablemente nunca veremos en el mercado.</p>
+<p>Vamos esta quincena con otro artículo monotemático. Esta vez sobre el proyecto Orion de Meta, las gafas de realidad aumentada que proyectan hologramas sobre el mundo real, que cuestan más de USD 10.000, que han cautivado a parte de la prensa tecnológica y que probablemente nunca veremos en el mercado.</p>
 
 <p>¡Gracias por leerme!</p>
 
@@ -31,7 +31,7 @@ tags:
 
 </blockquote>
 
-<p>De hecho, el prototipo tiene muchas carencias y, si fuera un producto de verdad, costaría alrededor de $10.000. Tiene muchas cosas por pulir y el propio <strong>Zuckerberg</strong>, en la <a href="https://www.theverge.com/24253908/meta-orion-ar-glasses-demo-mark-zuckerberg-interview"><strong>entrevista con Alex Heath de The Verge</strong></a> dice que:</p>
+<p>De hecho, el prototipo tiene muchas carencias y, si fuera un producto de verdad, costaría alrededor de USD 10.000. Tiene muchas cosas por pulir y el propio <strong>Zuckerberg</strong>, en la <a href="https://www.theverge.com/24253908/meta-orion-ar-glasses-demo-mark-zuckerberg-interview"><strong>entrevista con Alex Heath de The Verge</strong></a> dice que:</p>
 
 <blockquote>
 <p>Todavía queremos que sea un poco más pequeño, un poco más brillante, un poco de mayor resolución, y mucho más asequible antes de lanzarlo como producto.</p>

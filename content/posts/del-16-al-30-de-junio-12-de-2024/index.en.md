@@ -35,7 +35,7 @@ Could it be that [El Nino](https://www.climate.gov/enso) is already over? That t
 <div class="native-video-embed" data-component-name="VideoPlaceholder" data-attrs="{&quot;mediaUploadId&quot;:&quot;2c8b03a1-d573-4582-bcb4-ac5cd5e93ca2&quot;,&quot;duration&quot;:null}">
 </div>
 
-Unlike OpenAI, Runway has already [opened access](https://app.runwayml.com/signup) to the tool. To generate videos with this latest model you have to subscribe to the paid plan, at $12 a month. I already spend enough paying OpenAI, and this month I had already exhausted my budget for little indulgences on Sonnet 3.5. But on X you can see many examples from people trying it out. For example, Javi Lopez's [dancing spaghetti](https://x.com/javilopen/status/1808140481232359736).
+Unlike OpenAI, Runway has already [opened access](https://app.runwayml.com/signup) to the tool. To generate videos with this latest model you have to subscribe to the paid plan, at USD 12 a month. I already spend enough paying OpenAI, and this month I had already exhausted my budget for little indulgences on Sonnet 3.5. But on X you can see many examples from people trying it out. For example, Javi Lopez's [dancing spaghetti](https://x.com/javilopen/status/1808140481232359736).
 
 <div class="native-video-embed" data-component-name="VideoPlaceholder" data-attrs="{&quot;mediaUploadId&quot;:&quot;64be3565-2b5d-42c4-989a-f94dd8b98c08&quot;,&quot;duration&quot;:null}">
 </div>
@@ -53,7 +53,7 @@ I already mentioned the Dwarkesh Patel podcast in the previous fortnight. Below 
 The **Dwarkesh Patel** podcast:
 
 <div class="apple-podcast-container" data-component-name="ApplePodcastToDom">
-<iframe class="apple-podcast " data-attrs="{&quot;url&quot;:&quot;https://embed.podcasts.apple.com/es/podcast/dwarkesh-podcast/id1516093381?i=1000658672649&quot;,&quot;isEpisode&quot;:true,&quot;imageUrl&quot;:&quot;podcast-episode_1000658672649.jpg&quot;,&quot;title&quot;-&quot;Francois Chollet, Mike Knoop - LLMs won’t lead to AGI - $1,000,000 Prize to find true solution&quot;,&quot;podcastTitle&quot;:&quot;Dwarkesh Podcast&quot;,&quot;podcastByline&quot;:&quot;&quot;,&quot;duration&quot;:5633000,&quot;numEpisodes&quot;:&quot;&quot;,&quot;targetUrl&quot;:&quot;https://podcasts.apple.com/es/podcast/francois-chollet-mike-knoop-llms-wont-lead-to-agi-%241/id1516093381?i=1000658672649&amp;uo=4&quot;,&quot;releaseDate&quot;:&quot;2024-06-11T17:03:59Z&quot;}" src="https://embed.podcasts.apple.com/es/podcast/dwarkesh-podcast/id1516093381?i=1000658672649" frameborder="0" allow="autoplay *; encrypted-media *;" allowfullscreen="true">
+<iframe class="apple-podcast " data-attrs="{&quot;url&quot;:&quot;https://embed.podcasts.apple.com/es/podcast/dwarkesh-podcast/id1516093381?i=1000658672649&quot;,&quot;isEpisode&quot;:true,&quot;imageUrl&quot;:&quot;podcast-episode_1000658672649.jpg&quot;,&quot;title&quot;-&quot;Francois Chollet, Mike Knoop - LLMs won’t lead to AGI - USD 1,000,000 Prize to find true solution&quot;,&quot;podcastTitle&quot;:&quot;Dwarkesh Podcast&quot;,&quot;podcastByline&quot;:&quot;&quot;,&quot;duration&quot;:5633000,&quot;numEpisodes&quot;:&quot;&quot;,&quot;targetUrl&quot;:&quot;https://podcasts.apple.com/es/podcast/francois-chollet-mike-knoop-llms-wont-lead-to-agi-%241/id1516093381?i=1000658672649&amp;uo=4&quot;,&quot;releaseDate&quot;:&quot;2024-06-11T17:03:59Z&quot;}" src="https://embed.podcasts.apple.com/es/podcast/dwarkesh-podcast/id1516093381?i=1000658672649" frameborder="0" allow="autoplay *; encrypted-media *;" allowfullscreen="true">
 </iframe>
 </div>
 

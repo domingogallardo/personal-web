@@ -7,9 +7,9 @@ tags:
   - "ARC-AGI"
 ---
 
-Hace un año publiqué una [lista de 7 preguntas para 2025](/posts/7-preguntas-para-2025/) sobre LLMs. La idea era apartarme un poco del ciclo de anuncios de los laboratorios y de la inmediatez de las redes sociales y obligarme a evaluar el progreso con un criterio más estable y objetivo, alejado de sensaciones. 
+Hace un año publiqué una [lista de 7 preguntas para 2025](/posts/7-preguntas-para-2025/) sobre LLMs. La idea era apartarme un poco del ciclo de anuncios de los laboratorios y de la inmediatez de las redes sociales y obligarme a evaluar el progreso con un criterio más estable y objetivo, alejado de sensaciones.
 
-Me pareció también una buena forma de mostrar los aspectos que me parecían más relevantes en ese momento, los que podían dar alguna indicación sobre la posible evolución futura de estas tecnologías. 
+Me pareció también una buena forma de mostrar los aspectos que me parecían más relevantes en ese momento, los que podían dar alguna indicación sobre la posible evolución futura de estas tecnologías.
 
 La primera de las siete preguntas era: ¿hemos llegado en 2025 a un "muro"? Es decir, ¿se ha frenado la mejora de los LLMs por falta de datos de aprendizaje? ¿se ha llegado al final de la curva logarítmica de mejora? ¿se ha frenado el escalado?
 
@@ -25,7 +25,7 @@ Escribo esto a finales de enero de 2026, con la perspectiva y los datos de todo 
 
 Durante años, la historia “oficial” del progreso en LLMs era bastante simple: **si aumentas escala (modelo + datos + cómputo), el rendimiento mejora de forma predecible**. No en saltos, sino como una curva suave con _rendimientos decrecientes_: cada vez cuesta más conseguir la misma mejora.
 
-Por ejemplo, los papers de **Jared Kaplan et al. (2020)**, [_Scaling Laws for Neural Language Models_ (OpenAI)](https://arxiv.org/abs/2001.08361?utm_source=chatgpt.com) y de **Hoffmann et al. (2022)**, [_Training Compute-Optimal Large Language Models_ (“Chinchilla”, DeepMind)](https://arxiv.org/abs/2203.15556?utm_source=chatgpt.com) habían establecido con claridad las leyes de escalado en el entrenamiento de LLMs, mostrando que para conseguir mejoras similares en los nuevos modelos hay que aumentar un orden de magnitud el tamaño de los mismos. 
+Por ejemplo, los papers de **Jared Kaplan et al. (2020)**, [_Scaling Laws for Neural Language Models_ (OpenAI)](https://arxiv.org/abs/2001.08361?utm_source=chatgpt.com) y de **Hoffmann et al. (2022)**, [_Training Compute-Optimal Large Language Models_ (“Chinchilla”, DeepMind)](https://arxiv.org/abs/2203.15556?utm_source=chatgpt.com) habían establecido con claridad las leyes de escalado en el entrenamiento de LLMs, mostrando que para conseguir mejoras similares en los nuevos modelos hay que aumentar un orden de magnitud el tamaño de los mismos.
 
 La idea importante es esta: **si quieres mantener el ritmo de mejora constante**, acabas necesitando incrementos enormes de escala (del estilo _multiplicar por 10_), porque la ganancia marginal se va estrechando. Un ejemplo simplificado, basado en las leyes de escalado discutidas en los dos papers anteriores, lo ilustra bien:
 
@@ -43,22 +43,22 @@ Durante 2025 se han seguido publicando nuevas versiones de los modelos principal
 
 A finales de 2024, los **principales modelos comerciales** existentes eran los siguientes. Entre paréntesis se muestra el **precio de output** de 1M de tokens, también a finales de 2024.
 
-- **OpenAI**: o1, GPT-4o ($15.00), GPT-4o mini ($2.00)
-- **Anthropic**: Claude 3 Opus, 3.5 Sonnet ($15.00), 3.5 Haiku ($4.00)
-- **Google**: Gemini 1.5 Pro ($10.00), 2.0 Flash ($0.40)
-- **xAI**: Grok-2 ($10.00), Grok-2 mini
+- **OpenAI**: o1, GPT-4o (USD 15.00), GPT-4o mini (USD 2.00)
+- **Anthropic**: Claude 3 Opus, 3.5 Sonnet (USD 15.00), 3.5 Haiku (USD 4.00)
+- **Google**: Gemini 1.5 Pro (USD 10.00), 2.0 Flash (USD 0.40)
+- **xAI**: Grok-2 (USD 10.00), Grok-2 mini
 
 Un año después, a finales de 2025:
 
-- **OpenAI**: GPT-5.2 ($14), GPT-5.2 Pro ($168.00), GPT-5.2-codex ($10.00), GPT-5-mini ($2.00), GPT-5-nano ($0.40)
-- **Anthropic**: Claude 4.5 Opus ($25.00), 4.5 Sonnet ($15.00), 4.5 Haiku ($5.00)
-- **Google**: Gemini 3 Pro ($12.00), 3.0 Flash ($3.00)
-- **xAI**: Grok 4 ($15.00), 4.1 Fast ($0.50)
-- **Alibaba**: Qwen3-Max ($6.00) 
+- **OpenAI**: GPT-5.2 (USD 14), GPT-5.2 Pro (USD 168.00), GPT-5.2-codex (USD 10.00), GPT-5-mini (USD 2.00), GPT-5-nano (USD 0.40)
+- **Anthropic**: Claude 4.5 Opus (USD 25.00), 4.5 Sonnet (USD 15.00), 4.5 Haiku (USD 5.00)
+- **Google**: Gemini 3 Pro (USD 12.00), 3.0 Flash (USD 3.00)
+- **xAI**: Grok 4 (USD 15.00), 4.1 Fast (USD 0.50)
+- **Alibaba**: Qwen3-Max (USD 6.00)
 
 La mayoría de empresas ha subido en una unidad el número mayor de versión. Por ejemplo, OpenAI ha pasado de GPT-4o a GPT-5.2. Google de Gemini 2.0 Flash a Gemini 3.0 Flash.
 
-Los **precios por token** no se han modificado demasiado, aunque se ha fragmentado más, lo que indica un mercado más maduro y especializado. A finales de 2024 se podían diferenciar dos capas, la alta, de unos $10 o $15 por millón de tokens de salida y baja, de unos $2 o $4. Un año después, estas dos capas se mantienen, pero han aparecido una capa por encima, los $168 de OpenAI con su GPT-5.2 Pro y otra de modelos muy baratos de ejecución, los $0.40/$0.50 de GPT-5 nano, Grok 4.1 Fast o Gemini 3.0 Flash.
+Los **precios por token** no se han modificado demasiado, aunque se ha fragmentado más, lo que indica un mercado más maduro y especializado. A finales de 2024 se podían diferenciar dos capas, la alta, de unos USD 10 o USD 15 por millón de tokens de salida y baja, de unos USD 2 o USD 4. Un año después, estas dos capas se mantienen, pero han aparecido una capa por encima, los USD 168 de OpenAI con su GPT-5.2 Pro y otra de modelos muy baratos de ejecución, los USD 0.40/USD 0.50 de GPT-5 nano, Grok 4.1 Fast o Gemini 3.0 Flash.
 ### Capacidades de los modelos comerciales
 
 Hasta aquí hemos hablado de _inputs_ (versiones, precios, segmentación). Para pasar a _outputs_ (capacidad medida), voy a usar como **indicador agregado** (un “proxy”): una medida resumida que **condensa varios benchmarks** en un único número para tener una primera lectura global antes de entrar en pruebas concretas. En concreto, el **_Intelligence Index_** de **Artificial Analysis (AA)**, una plataforma independiente que publica metodología y, sobre todo, **ejecuta las evaluaciones por su cuenta** (en lugar de depender de números auto-reportados por los laboratorios).
@@ -73,7 +73,7 @@ El **Intelligence Index v4.0** agrega 10 evaluaciones y devuelve una puntuación
 Pie de figura: _Artificial Analysis Intelligence Index (v4.0)_: comparación de puntuaciones para modelos comerciales destacados en **diciembre 2024** y **diciembre 2025**. El índice sintetiza resultados de **10 benchmarks** en una escala 0–100; se observa un desplazamiento al alza de la capacidad medida (la mejor puntuación pasa de ~31 a ~51, y el grupo líder sube de forma consistente).
 ### Modelos abiertos
 
-¿Y qué ha pasado con los modelos abiertos? A diferencia de los modelos comerciales, en ellos sí que podemos analizar cómo ha cambiado su número de parámetros durante 2025. 
+¿Y qué ha pasado con los modelos abiertos? A diferencia de los modelos comerciales, en ellos sí que podemos analizar cómo ha cambiado su número de parámetros durante 2025.
 
 Hay que hacer notar que en 2025 se han popularizado las arquitecturas tipo **MoE** (mixture-of-experts) que permiten activar solo un subconjunto pequeño de los parámetros del modelo, de modo que el cómputo por token se mantiene relativamente bajo aunque el número total de parámetros del modelo sea mucho mayor. Lo que mostramos entre paréntesis son los números totales aproximados de parámetros, que son los usados en entrenamiento y determinan la capacidad del modelo.
 
@@ -114,7 +114,7 @@ Hemos visto que la capacidad medida sube. Antes de entrar en benchmarks concreto
 
 **Modelos comerciales: falta de datos y estimaciones razonables**
 
-En cuanto a los modelos comerciales no hay forma de saberlo directamente, porque hace mucho tiempo que los laboratorios no publican este dato en sus _system cards_. Algunas filtraciones hablaban de ~1.8T (1.800B) para GPT-4o, ~10x el número de parámetros de GPT-3 en 2020 (175B). Una especulación razonable es hablar de un orden de magnitud de ~1T (1.000B, un billón español) para el tamaño de los modelos frontera a finales de 2024. 
+En cuanto a los modelos comerciales no hay forma de saberlo directamente, porque hace mucho tiempo que los laboratorios no publican este dato en sus _system cards_. Algunas filtraciones hablaban de ~1.8T (1.800B) para GPT-4o, ~10x el número de parámetros de GPT-3 en 2020 (175B). Una especulación razonable es hablar de un orden de magnitud de ~1T (1.000B, un billón español) para el tamaño de los modelos frontera a finales de 2024.
 
 ¿Y a finales de 2025? Solo podemos especular. Podemos partir de declaraciones del propio Elon Musk comentando que [Grok 4 tiene 3T parámetros](https://x.com/scaling01/status/1989457860728647928?s=20). Estaríamos entonces en unos ~3x el tamaño de los modelos de un año antes, compatible con el ritmo de mejora de los modelos abiertos (el doble), pero muy lejos de los 10x de las leyes de potencia.
 
@@ -130,21 +130,21 @@ Como conclusión de todas las evidencias que hemos presentado, **no parece un a�
 
 Empecemos por [ARC-AGI](https://arcprize.org/leaderboard), el test propuesto por Françoise Chollet que ya hemos comentado en esta newsletter, en el que el sistema debe inferir reglas/patrones a partir de rejillas de colores. (ARC publica resultados para dos variantes: **ARC-AGI-1** y **ARC-AGI-2**, siendo esta última sustancialmente más exigente.)
 
-**Foto (marzo 2025).** En el leaderboard del 24/03/2025 (recuperado vía [archive.is](https://archive.is/https://arcprize.org/leaderboard)) se observa que, entre modelos ampliamente desplegados y con costes razonables, la mayoría se mueve en torno a ~30% o menos en ARC-AGI-1. En esa fecha aparece también un sistema experimental de OpenAI, **o3 (low)**, con **75.7%** en ARC-AGI-1 pero a un coste de **$200 por tarea**, mientras que el modelo público más capaz de la tabla, **o1 (high)**, marca **32.0%** en ARC-AGI-1 y **3.0%** en ARC-AGI-2 con un coste de **$4.45** por tarea.
+**Foto (marzo 2025).** En el leaderboard del 24/03/2025 (recuperado vía [archive.is](https://archive.is/https://arcprize.org/leaderboard)) se observa que, entre modelos ampliamente desplegados y con costes razonables, la mayoría se mueve en torno a ~30% o menos en ARC-AGI-1. En esa fecha aparece también un sistema experimental de OpenAI, **o3 (low)**, con **75.7%** en ARC-AGI-1 pero a un coste de **USD 200 por tarea**, mientras que el modelo público más capaz de la tabla, **o1 (high)**, marca **32.0%** en ARC-AGI-1 y **3.0%** en ARC-AGI-2 con un coste de **USD 4.45** por tarea.
 
-![](<Captura de pantalla 2026-01-27 a las 11.08.01.png>)  
+![](<Captura de pantalla 2026-01-27 a las 11.08.01.png>)
 
-**Foto (enero 2026 / cierre de 2025).** Un año después, la situación cambia de forma sustancial. En la tabla actual, varios modelos frontera se sitúan en la franja alta de ARC-AGI-1, y el coste por tarea cae en órdenes de magnitud. Por ejemplo, **GPT-5.2 (Medium)** obtiene **72.7%** en ARC-AGI-1 por **$0.759** por tarea: rendimiento comparable al de o3 (low) en 2025, con un coste ~**263×** menor.
+**Foto (enero 2026 / cierre de 2025).** Un año después, la situación cambia de forma sustancial. En la tabla actual, varios modelos frontera se sitúan en la franja alta de ARC-AGI-1, y el coste por tarea cae en órdenes de magnitud. Por ejemplo, **GPT-5.2 (Medium)** obtiene **72.7%** en ARC-AGI-1 por **USD 0.759** por tarea: rendimiento comparable al de o3 (low) en 2025, con un coste ~**263×** menor.
 
-![](<Captura de pantalla 2026-01-27 a las 11.25.21.png>)  
+![](<Captura de pantalla 2026-01-27 a las 11.25.21.png>)
 
-En **ARC-AGI-2** el salto es todavía más claro: o3 (low) aparece con **4.0%** en 2025, mientras que en la tabla reciente **GPT-5.2 Pro (High)** alcanza **54.2%** con un coste de **$15.72** por tarea.
+En **ARC-AGI-2** el salto es todavía más claro: o3 (low) aparece con **4.0%** en 2025, mientras que en la tabla reciente **GPT-5.2 Pro (High)** alcanza **54.2%** con un coste de **USD 15.72** por tarea.
 
-Si fijamos un presupuesto por tarea del orden de **$1–$2**, el cambio también se ve con claridad: en 2025 esa zona estaba asociada a resultados alrededor de ~25% en ARC-AGI-1, mientras que en 2026 se observan resultados en torno a ~70–80% con costes similares. 
+Si fijamos un presupuesto por tarea del orden de **USD 1–USD 2**, el cambio también se ve con claridad: en 2025 esa zona estaba asociada a resultados alrededor de ~25% en ARC-AGI-1, mientras que en 2026 se observan resultados en torno a ~70–80% con costes similares.
 
 La organización de la prueba presenta los resultados actuales de ARC-AGI-1 y 2 de una forma visual muy brillante, que permite comprobar de un vistazo el rendimiento-coste e identificar fronteras eficientes (qué modelos dominan para un presupuesto dado). Para comprobar el progreso que ha habido en el último año podemos jugar a buscar en estas figuras las posiciones de modelos de finales de 2024 (GPT-4.5 o Cluade 3.7) y compararlos con los modelos frontera actuales de su mismo precio (subir en vertical).
 
-![](<arc-prize-leaderboard.png>)  
+![](<arc-prize-leaderboard.png>)
 
 ![](<arc-prize-leaderboard (2).png>)
 **Pie de figura (ARC-AGI Leaderboard):** Dispersión de **score (%)** frente a **coste por tarea (USD)** en **escala logarítmica**. Cada punto representa una configuración evaluada (modelo y modo/ajustes), y las líneas discontinuas agrupan variantes relacionadas. A la izquierda ARC-AGI-1 y a la derecha ARC-AGI-2.

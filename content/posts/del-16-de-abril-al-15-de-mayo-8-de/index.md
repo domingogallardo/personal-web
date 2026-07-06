@@ -191,7 +191,7 @@ tags:
 
 </blockquote>
 
-<p>Mark Zuckerberg, CEO de Meta, es algo más cauto en la entrevista realizada en el podcast de Dwarkesh Patel [<a href="https://www.dwarkeshpatel.com/p/mark-zuckerberg">Mark Zuckerberg - Llama 3, Open Sourcing $10b Models, &amp; Caesar Augustus - dwarkeshpatel.com</a>]</p>
+<p>Mark Zuckerberg, CEO de Meta, es algo más cauto en la entrevista realizada en el podcast de Dwarkesh Patel [<a href="https://www.dwarkeshpatel.com/p/mark-zuckerberg">Mark Zuckerberg - Llama 3, Open Sourcing USD 10b Models, &amp; Caesar Augustus - dwarkeshpatel.com</a>]</p>
 
 <div id="youtube2-bc6uFV9CJGg" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;bc6uFV9CJGg&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}" data-component-name="Youtube2ToDOM">
 <div class="youtube-inner">

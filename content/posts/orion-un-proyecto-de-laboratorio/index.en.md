@@ -5,7 +5,7 @@ draft: false
 tags:
   - "newsletter"
 ---
-<p>This fortnight I am bringing another single-topic article. This time it is about Meta's Orion project, augmented reality glasses that project holograms onto the real world, that cost more than $10,000, that have captivated part of the tech press, and that we will probably never see on the market.</p>
+<p>This fortnight I am bringing another single-topic article. This time it is about Meta's Orion project, augmented reality glasses that project holograms onto the real world, that cost more than USD 10,000, that have captivated part of the tech press, and that we will probably never see on the market.</p>
 
 <p>Thank you for reading me!</p>
 
@@ -31,7 +31,7 @@ tags:
 
 </blockquote>
 
-<p>In fact, the prototype still has many shortcomings and, if it were a real product, it would cost around $10,000. There are many things left to refine, and <strong>Zuckerberg</strong> himself says in <a href="https://www.theverge.com/24253908/meta-orion-ar-glasses-demo-mark-zuckerberg-interview"><strong>his interview with Alex Heath of The Verge</strong></a> that:</p>
+<p>In fact, the prototype still has many shortcomings and, if it were a real product, it would cost around USD 10,000. There are many things left to refine, and <strong>Zuckerberg</strong> himself says in <a href="https://www.theverge.com/24253908/meta-orion-ar-glasses-demo-mark-zuckerberg-interview"><strong>his interview with Alex Heath of The Verge</strong></a> that:</p>
 
 <blockquote>
 <p>We still want it to be a little bit smaller, a little bit brighter, a little bit higher resolution, and much more affordable before we launch it as a product.</p>

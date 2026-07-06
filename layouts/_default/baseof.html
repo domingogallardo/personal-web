@@ -35,6 +35,9 @@
     {{ end }}
   {{ end }}
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}{{ if hugo.IsServer }}?v={{ now.Unix }}{{ end }}">
+  {{- if .Param "math" }}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css">
+  {{- end }}
   {{ if .IsHome }}
     {{ $sameAs := slice }}
     {{ range site.Params.profile_links }}

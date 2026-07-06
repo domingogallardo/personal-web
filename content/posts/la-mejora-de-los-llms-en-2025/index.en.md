@@ -44,22 +44,22 @@ During 2025, new versions of the main models kept being released. Companies were
 
 At the end of 2024, the **main commercial models** in existence were the following. In parentheses I include the **output price** for 1M tokens, also at the end of 2024.
 
-- **OpenAI**: o1, GPT-4o ($15.00), GPT-4o mini ($2.00)
-- **Anthropic**: Claude 3 Opus, 3.5 Sonnet ($15.00), 3.5 Haiku ($4.00)
-- **Google**: Gemini 1.5 Pro ($10.00), 2.0 Flash ($0.40)
-- **xAI**: Grok-2 ($10.00), Grok-2 mini
+- **OpenAI**: o1, GPT-4o (USD 15.00), GPT-4o mini (USD 2.00)
+- **Anthropic**: Claude 3 Opus, 3.5 Sonnet (USD 15.00), 3.5 Haiku (USD 4.00)
+- **Google**: Gemini 1.5 Pro (USD 10.00), 2.0 Flash (USD 0.40)
+- **xAI**: Grok-2 (USD 10.00), Grok-2 mini
 
 A year later, at the end of 2025:
 
-- **OpenAI**: GPT-5.2 ($14), GPT-5.2 Pro ($168.00), GPT-5.2-codex ($10.00), GPT-5-mini ($2.00), GPT-5-nano ($0.40)
-- **Anthropic**: Claude 4.5 Opus ($25.00), 4.5 Sonnet ($15.00), 4.5 Haiku ($5.00)
-- **Google**: Gemini 3 Pro ($12.00), 3.0 Flash ($3.00)
-- **xAI**: Grok 4 ($15.00), 4.1 Fast ($0.50)
-- **Alibaba**: Qwen3-Max ($6.00)
+- **OpenAI**: GPT-5.2 (USD 14), GPT-5.2 Pro (USD 168.00), GPT-5.2-codex (USD 10.00), GPT-5-mini (USD 2.00), GPT-5-nano (USD 0.40)
+- **Anthropic**: Claude 4.5 Opus (USD 25.00), 4.5 Sonnet (USD 15.00), 4.5 Haiku (USD 5.00)
+- **Google**: Gemini 3 Pro (USD 12.00), 3.0 Flash (USD 3.00)
+- **xAI**: Grok 4 (USD 15.00), 4.1 Fast (USD 0.50)
+- **Alibaba**: Qwen3-Max (USD 6.00)
 
 Most companies increased the main version number by one step. For example, OpenAI went from GPT-4o to GPT-5.2. Google went from Gemini 2.0 Flash to Gemini 3.0 Flash.
 
-**Token prices** did not change all that much, although the market became more fragmented, which suggests a more mature and specialized landscape. At the end of 2024 it was easy to distinguish two layers: a high tier at around $10 or $15 per million output tokens and a lower tier around $2 or $4. A year later, those two layers remain, but a new tier has appeared above them, OpenAI's $168 GPT-5.2 Pro, and another tier of very cheap execution models, the $0.40/$0.50 zone of GPT-5 nano, Grok 4.1 Fast, or Gemini 3.0 Flash.
+**Token prices** did not change all that much, although the market became more fragmented, which suggests a more mature and specialized landscape. At the end of 2024 it was easy to distinguish two layers: a high tier at around USD 10 or USD 15 per million output tokens and a lower tier around USD 2 or USD 4. A year later, those two layers remain, but a new tier has appeared above them, OpenAI's USD 168 GPT-5.2 Pro, and another tier of very cheap execution models, the USD 0.40/USD 0.50 zone of GPT-5 nano, Grok 4.1 Fast, or Gemini 3.0 Flash.
 
 ### Capabilities of commercial models
 
@@ -135,17 +135,17 @@ As a conclusion from all the evidence presented so far, **2025 does not look lik
 
 Let us begin with [ARC-AGI](https://arcprize.org/leaderboard), the test proposed by François Chollet that we have already discussed in this newsletter, in which the system must infer rules and patterns from colored grids. ARC publishes results for two variants, **ARC-AGI-1** and **ARC-AGI-2**, the latter being substantially more demanding.
 
-**Snapshot, March 2025.** In the leaderboard from 03/24/2025, recovered through [archive.is](https://archive.is/https://arcprize.org/leaderboard), we can see that among widely deployed models with reasonable costs, most of them sit around ~30% or less on ARC-AGI-1. On that date an experimental OpenAI system also appears, **o3 (low)**, with **75.7%** on ARC-AGI-1 but at a cost of **$200 per task**, while the most capable public model in the table, **o1 (high)**, scores **32.0%** on ARC-AGI-1 and **3.0%** on ARC-AGI-2 at a cost of **$4.45** per task.
+**Snapshot, March 2025.** In the leaderboard from 03/24/2025, recovered through [archive.is](https://archive.is/https://arcprize.org/leaderboard), we can see that among widely deployed models with reasonable costs, most of them sit around ~30% or less on ARC-AGI-1. On that date an experimental OpenAI system also appears, **o3 (low)**, with **75.7%** on ARC-AGI-1 but at a cost of **USD 200 per task**, while the most capable public model in the table, **o1 (high)**, scores **32.0%** on ARC-AGI-1 and **3.0%** on ARC-AGI-2 at a cost of **USD 4.45** per task.
 
 ![](/posts/la-mejora-de-los-llms-en-2025/Captura%20de%20pantalla%202026-01-27%20a%20las%2011.08.01.png)
 
-**Snapshot, January 2026 / end of 2025.** A year later, the situation has changed substantially. In the current table, several frontier models sit in the upper range of ARC-AGI-1, and cost per task has fallen by orders of magnitude. For example, **GPT-5.2 (Medium)** obtains **72.7%** on ARC-AGI-1 for **$0.759** per task: performance comparable to o3 (low) in 2025, but at a cost about **263x** lower.
+**Snapshot, January 2026 / end of 2025.** A year later, the situation has changed substantially. In the current table, several frontier models sit in the upper range of ARC-AGI-1, and cost per task has fallen by orders of magnitude. For example, **GPT-5.2 (Medium)** obtains **72.7%** on ARC-AGI-1 for **USD 0.759** per task: performance comparable to o3 (low) in 2025, but at a cost about **263x** lower.
 
 ![](/posts/la-mejora-de-los-llms-en-2025/Captura%20de%20pantalla%202026-01-27%20a%20las%2011.25.21.png)
 
-On **ARC-AGI-2** the jump is even clearer: o3 (low) appears with **4.0%** in 2025, while in the recent table **GPT-5.2 Pro (High)** reaches **54.2%** at a cost of **$15.72** per task.
+On **ARC-AGI-2** the jump is even clearer: o3 (low) appears with **4.0%** in 2025, while in the recent table **GPT-5.2 Pro (High)** reaches **54.2%** at a cost of **USD 15.72** per task.
 
-If we fix a budget per task on the order of **$1-$2**, the change is also easy to see: in 2025 that zone was associated with results around ~25% on ARC-AGI-1, whereas in 2026 we see results around ~70-80% at similar costs.
+If we fix a budget per task on the order of **USD 1-USD 2**, the change is also easy to see: in 2025 that zone was associated with results around ~25% on ARC-AGI-1, whereas in 2026 we see results around ~70-80% at similar costs.
 
 The ARC organization presents current ARC-AGI-1 and ARC-AGI-2 results in a visually brilliant way that lets us inspect the performance-cost tradeoff at a glance and identify efficient frontiers, that is, which models dominate for a given budget. To verify the progress made in the last year, we can play a simple game: find the positions of late-2024 models, GPT-4.5 or Claude 3.7, in those figures and compare them with current frontier models at the same price point, moving upward vertically.
 

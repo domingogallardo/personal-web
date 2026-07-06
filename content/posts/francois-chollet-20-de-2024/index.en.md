@@ -198,7 +198,7 @@ To solve an [ARC](/en/posts/del-1-al-15-de-junio-11-de-2024/) task, we must buil
 >
 > Humans, however, do not face this problem in the same way. When you tackle an ARC task, you execute only a small number of candidate programs step by step, mainly to check whether they are correct. This process relies on an extremely powerful form of **intuition** that dramatically reduces the search space. That intuition is not fully reliable, which is why you still need verification, but it is directionally correct. It steers you toward promising possibilities in what would otherwise be an overwhelming space of options.
 
-The week of December 10 to 15, at **NeurIPS 2024**, the winners of this year's competition will be officially presented and the prizes will be awarded: $50k to the best 5 teams and $75k to the 3 best conceptual papers. A paper summarizing the best advances and the source code of the most important contributions will also be released. The competition has already closed and nobody reached the $600k prize for solving 85% of the tests, but there has been real progress and **the two best teams achieved 55.5% and 53.5%**. We will talk more about that here.
+The week of December 10 to 15, at **NeurIPS 2024**, the winners of this year's competition will be officially presented and the prizes will be awarded: USD 50k to the best 5 teams and USD 75k to the 3 best conceptual papers. A paper summarizing the best advances and the source code of the most important contributions will also be released. The competition has already closed and nobody reached the USD 600k prize for solving 85% of the tests, but there has been real progress and **the two best teams achieved 55.5% and 53.5%**. We will talk more about that here.
 
 ### AGI
 

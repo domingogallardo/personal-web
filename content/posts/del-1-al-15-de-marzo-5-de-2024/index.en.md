@@ -24,7 +24,7 @@ tags:
 
 <p>1️⃣ Let us begin with <a href="https://www.spacex.com/launches/mission/?missionId=starship-flight-3">Starship's test flight</a> from two days ago, March 14. In this third test, SpaceX successfully managed to <strong>put Starship into orbit</strong>.</p>
 
-<p>Starship is SpaceX's next-generation reusable launch vehicle, designed to carry humans and payloads to Earth orbit, the Moon, and Mars. It promises to revolutionize access to space, reducing the cost per kilogram to low Earth orbit from around $3,000 to something like $100 or even $10. Starship can carry a payload of 100 to 150 tons, multiplying by more than five the payload of the Falcon 9, the rocket SpaceX currently uses.</p>
+<p>Starship is SpaceX's next-generation reusable launch vehicle, designed to carry humans and payloads to Earth orbit, the Moon, and Mars. It promises to revolutionize access to space, reducing the cost per kilogram to low Earth orbit from around USD 3,000 to something like USD 100 or even USD 10. Starship can carry a payload of 100 to 150 tons, multiplying by more than five the payload of the Falcon 9, the rocket SpaceX currently uses.</p>
 
 <p>
 <img src="/posts/del-1-al-15-de-marzo-5-de-2024/6701fe6f-5def-4d7a-ace3-851da4254ca6_3121x2160.jpeg" alt="">
