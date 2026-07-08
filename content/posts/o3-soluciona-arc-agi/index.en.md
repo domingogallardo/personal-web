@@ -5,6 +5,7 @@ draft: false
 tags:
   - "newsletter"
   - "ARC-AGI"
+  - "LLMs"
 ---
 
 When I sent out my last article earlier this week, I thought it would be the last one of the year. I wanted to end the year talking about [the dogma of](/en/posts/el-dogma-del-deep-learning/) [*deep learning*](/en/posts/el-dogma-del-deep-learning/), opening the way for a future follow-up on **consciousness**. I also wanted to leave the newsletter alone for a few weeks and work slowly and calmly on that new piece.

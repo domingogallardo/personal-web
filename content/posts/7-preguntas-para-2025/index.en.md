@@ -5,6 +5,7 @@ draft: false
 tags:
   - "newsletter"
   - "ARC-AGI"
+  - "LLMs"
 ---
 
 The beginning of the year is an ideal time to pause and reflect. **Sam Altman** has just done so in [a post](https://blog.samaltman.com/reflections) in which he argues that **OpenAI's** future is not just about delivering AGI to all of humanity, but about going a step further and reaching **superintelligence**. After [o3 managed to solve ARC-AGI](/en/posts/o3-soluciona-arc-agi/), Altman is still pressing the accelerator and now wants to move the discussion into an even more speculative scenario: that of superintelligence and the **singularity**.

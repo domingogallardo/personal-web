@@ -4,6 +4,7 @@ date: 2024-07-05
 draft: false
 tags:
   - "newsletter"
+  - "LLMs"
 ---
 <p>Un viernes más comentando lo sucedido en la quincena pasada, del 16 al 30 de junio. Una quincena con muchas novedades y reflexiones sobre los LLMs. Muchas novedades, y también muchas incertidumbres.</p>
 

@@ -5,6 +5,7 @@ draft: false
 tags:
   - "newsletter"
   - "ARC-AGI"
+  - "LLMs"
 ---
 
 <p>Let's go over what happened in the last fortnight, from June 1 to 15. This issue is very focused on Apple and its developer conference.</p>

@@ -4,6 +4,7 @@ date: 2026-04-01
 draft: false
 tags:
   - "ARC-AGI"
+  - "LLMs"
 ---
 
 El lanzamiento de ARC-AGI-3 nos ha traído un debate muy interesante sobre el uso de _harnesses_. ¿Se debe permitir su uso en la evaluación de LLMs en ARC-AGI-3? François Chollet y su equipo han decidido que no, que no van verificar soluciones que contengan LLMs con _harnesses_ avanzados. Todos los modelos que se incluyan en la clasificación oficial denominada ["Verified"](https://arcprize.org/leaderboard), la que realizan con LLMs y modelos grandes fuera de la competición Kaggle, deben ejecutarse con un _harness_ mínimo. Solo deben tener el _prompt_ básico que les permita la ejecución de la prueba, tal y como se define en el [informe técnico de ARC-AGI-3](https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf)

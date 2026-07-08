@@ -4,6 +4,7 @@ date: 2025-03-25
 draft: false
 tags:
   - "newsletter"
+  - "LLMs"
 ---
 
 It has now been **two months** since the [launch of DeepSeek-R1](https://api-docs.deepseek.com/news/news250120), which dominated headlines in the media and on social networks, and even made its way into neighbors' elevator conversations. DeepSeek, the Chinese AI that shook mighty **Nvidia** and put executives at **Meta** and **OpenAI** on alert.

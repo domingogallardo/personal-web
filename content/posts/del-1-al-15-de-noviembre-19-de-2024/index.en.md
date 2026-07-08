@@ -4,6 +4,7 @@ date: 2024-11-19
 draft: false
 tags:
   - "newsletter"
+  - "LLMs"
 ---
 
 ![](95db515b-87eb-4649-a29b-ab5c0262ebfc_980x653.jpeg)

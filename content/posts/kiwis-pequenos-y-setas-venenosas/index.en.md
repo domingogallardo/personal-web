@@ -4,6 +4,7 @@ date: 2024-11-01
 draft: false
 tags:
   - "newsletter"
+  - "LLMs"
 ---
 <p>Let us continue with <a href="/en/posts/donde-dije-sentido-comun-digo-razonamiento/">last week's article</a>. I really liked the trick used in the Apple paper we mentioned to demonstrate the problems language models face with reasoning, and I have been modifying it and <strong>testing it with different models</strong>. However, my goal is not to investigate reasoning itself, but to explore the other aspect we mentioned: understanding.</p>
 

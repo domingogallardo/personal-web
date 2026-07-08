@@ -5,6 +5,7 @@ draft: false
 tags:
   - "newsletter"
   - "ARC-AGI"
+  - "LLMs"
 ---
 
 Hace un año publiqué una [lista de 7 preguntas para 2025](/posts/7-preguntas-para-2025/) sobre LLMs. La idea era apartarme un poco del ciclo de anuncios de los laboratorios y de la inmediatez de las redes sociales y obligarme a evaluar el progreso con un criterio más estable y objetivo, alejado de sensaciones.

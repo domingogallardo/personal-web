@@ -4,6 +4,7 @@ date: 2024-10-25
 draft: false
 tags:
   - "newsletter"
+  - "LLMs"
 ---
 <p>Today's article is almost an opinion piece. We are going to reflect on how, in the debate about artificial intelligence, we have gone from talking about “common sense” to focusing on “reasoning.” We will explore that shift and discuss how current language models are challenging traditional notions of understanding and thought.</p>
 

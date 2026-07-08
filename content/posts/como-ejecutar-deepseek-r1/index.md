@@ -4,6 +4,7 @@ date: 2025-03-31
 draft: false
 tags:
   - "newsletter"
+  - "LLMs"
 ---
 
 Tal y como prometimos en el [artículo anterior](/posts/exploramos-el-razonamiento-de-deepseek-r1/), vamos con la explicación de cómo podemos usar el modelo abierto DeepSeek-r1, sin usar la web oficial de la empresa china, sino nuestro ordenador, o un proveedor que ejecute el modelo.

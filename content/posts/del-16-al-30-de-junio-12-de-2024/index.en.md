@@ -4,6 +4,7 @@ date: 2024-07-05
 draft: false
 tags:
   - "newsletter"
+  - "LLMs"
 ---
 
 Another Friday, commenting on what happened in the previous fortnight, from June 16 to 30. It was a fortnight full of news and reflections about LLMs. Many developments, and also many uncertainties.

@@ -5,6 +5,7 @@ draft: false
 tags:
   - "newsletter"
   - "ARC-AGI"
+  - "LLMs"
 ---
 <p>Cuando a principios de la semana envié el último artículo, pensaba que iba a ser el último del año. Quería terminar el año hablando <a href="/posts/el-dogma-del-deep-learning/">del dogma del </a>
 <em>

@@ -4,6 +4,7 @@ date: 2024-11-01
 draft: false
 tags:
   - "newsletter"
+  - "LLMs"
 ---
 <p>Vamos con una continuación del <a href="/posts/donde-dije-sentido-comun-digo-razonamiento/">artículo de la semana pasada</a>. Me gustó mucho el engaño utilizado en el artículo que mencionamos de Apple para demostrar los problemas a los que se enfrentan los modelos de lenguaje con el razonamiento, y he estado modificándolo y <strong>probándolo con distintos modelos</strong>. Sin embargo, mi objetivo no es investigar el tema del razonamiento, sino explorar el otro aspecto que mencionamos: el de la comprensión.</p>
 

@@ -4,6 +4,7 @@ date: 2025-09-14
 draft: false
 tags:
   - "podcast_clips"
+  - "LLMs"
 ---
 
 - Podcast: [Release Notes](https://google-ai-release-notes.simplecast.com/episodes/demis-hassabis-on-shipping-momentum-better-evals-and-world-models-AkZcL0Oe) 

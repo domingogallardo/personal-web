@@ -4,6 +4,7 @@ date: 2025-10-07
 draft: false
 tags:
   - "newsletter"
+  - "LLMs"
 ---
 
 ![](327-reptielen.webp)

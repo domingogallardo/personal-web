@@ -4,6 +4,7 @@ date: 2025-09-25
 draft: false
 tags:
   - "newsletter"
+  - "LLMs"
 ---
 
 [Post en esta web](/posts/hofstadter-penrose-y-el-sentimiento-de-conciencia-consciente/)

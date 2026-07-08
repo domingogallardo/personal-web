@@ -4,6 +4,7 @@ date: 2024-09-13
 draft: false
 tags:
   - "newsletter"
+  - "LLMs"
 ---
 <p>After a summer break, this week I am bringing you another special article in which, instead of reviewing what happened over the last fortnight, I comment on a single topic. But do not worry, this one will be quite a bit shorter than the one I did at the end of May on <a href="/en/posts/los-papiros-de-herculano-9-de-2024/">the Herculaneum papyri</a> 😄.</p>
 

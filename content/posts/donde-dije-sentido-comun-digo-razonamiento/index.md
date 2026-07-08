@@ -4,6 +4,7 @@ date: 2024-10-25
 draft: false
 tags:
   - "newsletter"
+  - "LLMs"
 ---
 <p>Hoy toca un artículo casi de opinión. Vamos a reflexionar sobre cómo, en el debate sobre la inteligencia artificial, hemos pasado de hablar de “sentido común” a centrarnos en el “razonamiento”. Exploraremos esta evolución y discutiremos cómo los modelos de lenguaje actuales están desafiando las nociones tradicionales de comprensión y pensamiento.</p>
 

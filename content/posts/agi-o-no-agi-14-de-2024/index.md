@@ -4,6 +4,7 @@ date: 2024-09-13
 draft: false
 tags:
   - "newsletter"
+  - "LLMs"
 ---
 <p>Después de un descanso veraniego, esta semana os traigo otro artículo especial, en el que, en lugar de repasar lo sucedido en la última quincena, comento un único tema. Pero no os asustéis, esta vez va a ser bastante más corto que aquel que hice a finales de mayo sobre <a href="/posts/los-papiros-de-herculano-9-de-2024/">los papiros de Herculano</a> 😄.</p>
 

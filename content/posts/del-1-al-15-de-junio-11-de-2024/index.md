@@ -5,6 +5,7 @@ draft: false
 tags:
   - "newsletter"
   - "ARC-AGI"
+  - "LLMs"
 ---
 <p>Vamos con lo sucedido en la quincena pasada, del 1 al 15 de junio. Tenemos esta quincena un número muy centrado en Apple y en su conferencia de desarrolladores.</p>
 

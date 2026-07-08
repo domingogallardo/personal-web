@@ -4,6 +4,7 @@ date: 2025-03-25
 draft: false
 tags:
   - "newsletter"
+  - "LLMs"
 ---
 
 Han transcurrido ya dos meses desde el [lanzamiento de DeepSeek-R1](https://api-docs.deepseek.com/news/news250120), que dominó los titulares en medios de comunicación y redes sociales, e incluso se coló en las conversaciones de vecinos en el ascensor. DeepSeek, la IA china que hizo temblar a la mismísima Nvidia y puso en alerta a los directivos de Meta y OpenAI.

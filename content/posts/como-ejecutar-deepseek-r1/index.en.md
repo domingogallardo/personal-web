@@ -4,6 +4,7 @@ date: 2025-03-31
 draft: false
 tags:
   - "newsletter"
+  - "LLMs"
 ---
 
 As promised in the [previous article](/en/posts/exploramos-el-razonamiento-de-deepseek-r1/), let us now look at how we can use the open model DeepSeek-R1 without relying on the Chinese company's official website, but instead on our own computer or on a provider that runs the model for us.

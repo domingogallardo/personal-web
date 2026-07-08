@@ -4,6 +4,7 @@ date: 2024-12-18
 draft: false
 tags:
   - "newsletter"
+  - "LLMs"
 ---
 
 ![](Pasted%20image%2020241215092155.png)
