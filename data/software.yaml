@@ -4,6 +4,11 @@
   github: "https://github.com/domingogallardo/ClipTimer"
   appstore: "https://apps.apple.com/us/app/cliptimer/id6746253223"
 
+- name: "FreeMyChats"
+  desc: "Aplicación nativa para macOS que extrae, guarda y permite consultar chats de WhatsApp desde copias de seguridad de iPhone."
+  desc_en: "Native macOS app to extract, archive, and browse WhatsApp chats from iPhone backups."
+  github: "https://github.com/domingogallardo/FreeMyChats"
+
 - name: "docflow"
   desc: "Pipeline personal para procesar, priorizar y publicar documentación."
   desc_en: "Personal pipeline to process, prioritize, and publish documentation."
