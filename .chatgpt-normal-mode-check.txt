@@ -1,0 +1,4 @@
+Prueba realizada desde un chat normal de ChatGPT.
+Fecha: 2026-07-30
+
+Este archivo confirma que el chat normal puede crear un commit mediante el conector de GitHub.
