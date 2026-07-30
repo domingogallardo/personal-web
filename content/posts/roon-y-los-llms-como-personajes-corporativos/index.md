@@ -55,7 +55,7 @@ El contexto inmediato era el [choque entre el Pentágono y Anthropic](https://ww
 
 Por eso me interesa la evolución de Roon. En el post del 3 de mayo hablaba de herramientas frente a personajes morales. Dos meses después, parece haberse acercado más a la idea del **personaje**, aunque ya no sea necesariamente un personaje moral, sino una IP: un Mickey Mouse superinteligente.
 
-Pero me da la sensación de que Roon no ha dejado de ver los modelos como herramientas; está empezando a pensar que esa categoría ya no basta para describir todo lo que están llegando a ser.
+Me da la sensación de que Roon no ha dejado de ver los modelos como herramientas; está empezando a pensar que esa categoría ya no basta para describir todo lo que están llegando a ser.
 
 Los LLMs siguen siendo herramientas. Uso Codex a diario para escribir código, crear utilidades o gestionar proyectos con Obsidian. Su inteligencia me permite hacer cosas que antes me parecían imposibles o pesadas.
 
