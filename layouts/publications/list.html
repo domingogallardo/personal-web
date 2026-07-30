@@ -30,9 +30,12 @@
     {{ end }}
     <li>
       {{ with $citation }}
-        {{ . }}
+        {{ $escapedCitation := . | htmlEscape }}
+        {{ $escapedTitle := $title | htmlEscape }}
+        {{ $italicTitle := printf "<em>%s</em>" $escapedTitle }}
+        {{ replace $escapedCitation $escapedTitle $italicTitle | safeHTML }}
       {{ else }}
-        {{ $title }}. {{ $authors }}. <em>{{ $venue }}</em>, {{ .year }}.
+        <em>{{ $title }}</em>. {{ $authors }}. {{ $venue }}, {{ .year }}.
       {{ end }}
       <span class="pub-links">
         {{ with .links.pdf }}[<a href="{{ . }}">pdf</a>]{{ end }}
