@@ -1,3 +1,14 @@
+
+- title: "Sampling-Based Bayesian Tracking of Topological Features for Mobile Robot Navigation"
+  authors: "Domingo Gallardo, Francisco Escolano, Ramón Rizo, Otto Colomina, Miguel A. Cazorla"
+  venue: ""
+  year: 2026
+  citation: ""
+  summary: "Manuscrito retrospectivo preparado por GPT-6 Astra a partir del artículo de 1998 en la Conferencia Catalana de IA y a partir de la tesis doctoral de 1999."
+  summary_en: "Retrospective manuscript prepared by GPT-6 Astra from the 1998 CCIA article and the 1999 doctoral thesis."
+  links:
+    pdf: "/papers/gallardo-2026-retrospective-manuscript.pdf"
+
 - title: "Comportamientos coordinados en formaciones de robots usando percepción visual y comunicación punto a punto"
   title_en: "Coordinated behaviors in robot formations using visual perception and point-to-point communication"
   authors: "Antonio Botía, Domingo Gallardo, María I. Alfonso"
