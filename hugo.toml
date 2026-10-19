@@ -69,17 +69,17 @@ tecnología y ciencia, intentando aportar contexto y detalle más allá del titu
     url = "https://scholar.google.com/citations?user=qi7V9nUAAAAJ&hl=en"
 
   [[languages.es.menu.main]]
-    name = "About"
+    name = "Sobre mi"
     pageRef = "/"
     weight = 5
 
   [[languages.es.menu.main]]
-    name = "Posts"
+    name = "Artículos"
     pageRef = "/posts"
     weight = 10
 
   [[languages.es.menu.main]]
-    name = "Research"
+    name = "Publicaciones"
     pageRef = "/publications"
     weight = 20
 
@@ -94,7 +94,7 @@ tecnología y ciencia, intentando aportar contexto y detalle más allá del titu
     weight = 35
 
   [[languages.es.menu.main]]
-    name = "Contact"
+    name = "Contacto"
     pageRef = "/contact"
     weight = 40
 
